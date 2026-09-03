@@ -1,0 +1,553 @@
+{
+    "Valencia - Real Betis": [
+        {
+            "home": "Valencia",
+            "away": "Real Betis",
+            "market": "less than 10.5 corners",
+            "score": 159.86,
+            "confidence": 84.61,
+            "prediction": 135.26,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "Less than 10.5 corners",
+                    "value": "7/7",
+                    "team": "home"
+                },
+                {
+                    "section": "general",
+                    "name": "Less than 10.5 corners",
+                    "value": "8/9",
+                    "team": "away"
+                },
+                {
+                    "section": "head2head",
+                    "name": "Less than 10.5 corners",
+                    "value": "9/10",
+                    "team": "both"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [
+                "general + H2H agreement (+21.0)",
+                "home + away agreement (+13.4)"
+            ],
+            "penalties": [],
+            "rank": 1
+        },
+        {
+            "home": "Valencia",
+            "away": "Real Betis",
+            "market": "less than 4.5 cards",
+            "score": 90.5,
+            "confidence": 77.27,
+            "prediction": 69.93,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "Less than 4.5 cards",
+                    "value": "8/9",
+                    "team": "home"
+                },
+                {
+                    "section": "head2head",
+                    "name": "Less than 4.5 cards",
+                    "value": "7/9",
+                    "team": "both"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [
+                "general + H2H agreement (+16.8)"
+            ],
+            "penalties": [],
+            "rank": 3
+        },
+        {
+            "home": "Valencia",
+            "away": "Real Betis",
+            "market": "both teams scoring",
+            "score": 62.15,
+            "confidence": 85.71,
+            "prediction": 53.27,
+            "evidence": [
+                {
+                    "section": "head2head",
+                    "name": "Both teams scoring",
+                    "value": "5/5",
+                    "team": "both"
+                }
+            ],
+            "supporting_evidence": [
+                {
+                    "section": "head2head",
+                    "name": "Without clean sheet",
+                    "value": "7",
+                    "team": "home"
+                },
+                {
+                    "section": "head2head",
+                    "name": "Without clean sheet",
+                    "value": "5",
+                    "team": "away"
+                }
+            ],
+            "bonuses": [
+                "both teams no clean sheet \u2192 BTTS (+23.4)"
+            ],
+            "penalties": [],
+            "rank": 6
+        },
+        {
+            "home": "Valencia",
+            "away": "Real Betis",
+            "market": "Valencia no clean sheet",
+            "score": 50.12,
+            "confidence": 85.14,
+            "prediction": 42.67,
+            "evidence": [
+                {
+                    "section": "head2head",
+                    "name": "Without clean sheet",
+                    "value": "7",
+                    "team": "home"
+                }
+            ],
+            "supporting_evidence": [
+                {
+                    "section": "head2head",
+                    "name": "First to score",
+                    "value": "5/7",
+                    "team": "away"
+                }
+            ],
+            "bonuses": [
+                "opponent first to score supports no clean sheet (+9.4)"
+            ],
+            "penalties": [],
+            "rank": 9
+        },
+        {
+            "home": "Valencia",
+            "away": "Real Betis",
+            "market": "Real Betis no clean sheet",
+            "score": 35.11,
+            "confidence": 80.28,
+            "prediction": 28.19,
+            "evidence": [
+                {
+                    "section": "head2head",
+                    "name": "Without clean sheet",
+                    "value": "5",
+                    "team": "away"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [],
+            "penalties": [],
+            "rank": 16
+        },
+        {
+            "home": "Valencia",
+            "away": "Real Betis",
+            "market": "Real Betis first to score",
+            "score": 37.62,
+            "confidence": 66.67,
+            "prediction": 25.08,
+            "evidence": [
+                {
+                    "section": "head2head",
+                    "name": "First to score",
+                    "value": "5/7",
+                    "team": "away"
+                }
+            ],
+            "supporting_evidence": [
+                {
+                    "section": "head2head",
+                    "name": "Without clean sheet",
+                    "value": "7",
+                    "team": "home"
+                }
+            ],
+            "bonuses": [
+                "opponent no clean sheet supports scoring first (+9.4)"
+            ],
+            "penalties": [],
+            "rank": 20
+        }
+    ],
+    "LASK - Celtic": [
+        {
+            "home": "LASK",
+            "away": "Celtic",
+            "market": "less than 4.5 cards",
+            "score": 100.42,
+            "confidence": 86.36,
+            "prediction": 86.73,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "Less than 4.5 cards",
+                    "value": "8/9",
+                    "team": "home"
+                },
+                {
+                    "section": "general",
+                    "name": "Less than 4.5 cards",
+                    "value": "9/9",
+                    "team": "away"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [
+                "home + away agreement (+13.4)"
+            ],
+            "penalties": [],
+            "rank": 2
+        },
+        {
+            "home": "LASK",
+            "away": "Celtic",
+            "market": "Celtic first to score",
+            "score": 48.56,
+            "confidence": 85.71,
+            "prediction": 41.62,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "First to score",
+                    "value": "5/5",
+                    "team": "away"
+                }
+            ],
+            "supporting_evidence": [
+                {
+                    "section": "general",
+                    "name": "First half winner",
+                    "value": "4/5",
+                    "team": "away"
+                }
+            ],
+            "bonuses": [
+                "first to score + first-half winner (+9.8)"
+            ],
+            "penalties": [],
+            "rank": 10
+        },
+        {
+            "home": "LASK",
+            "away": "Celtic",
+            "market": "Celtic no losses",
+            "score": 43.39,
+            "confidence": 82.95,
+            "prediction": 35.99,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "No losses",
+                    "value": "6",
+                    "team": "away"
+                }
+            ],
+            "supporting_evidence": [
+                {
+                    "section": "general",
+                    "name": "Wins",
+                    "value": "4",
+                    "team": "away"
+                }
+            ],
+            "bonuses": [
+                "no losses + wins (+5.3)"
+            ],
+            "penalties": [],
+            "rank": 12
+        },
+        {
+            "home": "LASK",
+            "away": "Celtic",
+            "market": "Celtic wins",
+            "score": 36.99,
+            "confidence": 77.03,
+            "prediction": 28.49,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "Wins",
+                    "value": "4",
+                    "team": "away"
+                }
+            ],
+            "supporting_evidence": [
+                {
+                    "section": "general",
+                    "name": "No losses",
+                    "value": "6",
+                    "team": "away"
+                }
+            ],
+            "bonuses": [
+                "win + no losses (+5.3)"
+            ],
+            "penalties": [],
+            "rank": 15
+        },
+        {
+            "home": "LASK",
+            "away": "Celtic",
+            "market": "Celtic first half winner",
+            "score": 39.29,
+            "confidence": 71.43,
+            "prediction": 28.06,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "First half winner",
+                    "value": "4/5",
+                    "team": "away"
+                }
+            ],
+            "supporting_evidence": [
+                {
+                    "section": "general",
+                    "name": "First to score",
+                    "value": "5/5",
+                    "team": "away"
+                }
+            ],
+            "bonuses": [
+                "first-half winner + first to score (+9.8)"
+            ],
+            "penalties": [],
+            "rank": 17
+        }
+    ],
+    "Bod\u00f8/Glimt - NEC Nijmegen": [
+        {
+            "home": "Bod\u00f8/Glimt",
+            "away": "NEC Nijmegen",
+            "market": "Bod\u00f8/Glimt first to score",
+            "score": 60.37,
+            "confidence": 91.67,
+            "prediction": 55.34,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "First to score",
+                    "value": "10/10",
+                    "team": "home"
+                }
+            ],
+            "supporting_evidence": [
+                {
+                    "section": "general",
+                    "name": "First half winner",
+                    "value": "8/10",
+                    "team": "home"
+                }
+            ],
+            "bonuses": [
+                "first to score + first-half winner (+11.9)"
+            ],
+            "penalties": [],
+            "rank": 4
+        },
+        {
+            "home": "Bod\u00f8/Glimt",
+            "away": "NEC Nijmegen",
+            "market": "Bod\u00f8/Glimt no losses",
+            "score": 58.54,
+            "confidence": 93.37,
+            "prediction": 54.66,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "No losses",
+                    "value": "16",
+                    "team": "home"
+                }
+            ],
+            "supporting_evidence": [
+                {
+                    "section": "general",
+                    "name": "Wins",
+                    "value": "3",
+                    "team": "home"
+                }
+            ],
+            "bonuses": [
+                "no losses + wins (+4.6)"
+            ],
+            "penalties": [],
+            "rank": 5
+        },
+        {
+            "home": "Bod\u00f8/Glimt",
+            "away": "NEC Nijmegen",
+            "market": "both teams scoring",
+            "score": 72.05,
+            "confidence": 73.24,
+            "prediction": 52.77,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "Both teams scoring",
+                    "value": "4/5",
+                    "team": "home"
+                },
+                {
+                    "section": "general",
+                    "name": "Both teams scoring",
+                    "value": "5/6",
+                    "team": "away"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [
+                "home + away agreement (+9.8)"
+            ],
+            "penalties": [],
+            "rank": 7
+        },
+        {
+            "home": "Bod\u00f8/Glimt",
+            "away": "NEC Nijmegen",
+            "market": "less than 4.5 cards",
+            "score": 67.09,
+            "confidence": 68.98,
+            "prediction": 46.27,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "Less than 4.5 cards",
+                    "value": "5/7",
+                    "team": "home"
+                },
+                {
+                    "section": "general",
+                    "name": "Less than 4.5 cards",
+                    "value": "4/5",
+                    "team": "away"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [
+                "home + away agreement (+9.4)"
+            ],
+            "penalties": [],
+            "rank": 8
+        },
+        {
+            "home": "Bod\u00f8/Glimt",
+            "away": "NEC Nijmegen",
+            "market": "more than 2.5 goals",
+            "score": 43.44,
+            "confidence": 88.89,
+            "prediction": 38.61,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "More than 2.5 goals",
+                    "value": "7/7",
+                    "team": "home"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [],
+            "penalties": [],
+            "rank": 11
+        },
+        {
+            "home": "Bod\u00f8/Glimt",
+            "away": "NEC Nijmegen",
+            "market": "Bod\u00f8/Glimt first half winner",
+            "score": 47.79,
+            "confidence": 75.0,
+            "prediction": 35.84,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "First half winner",
+                    "value": "8/10",
+                    "team": "home"
+                }
+            ],
+            "supporting_evidence": [
+                {
+                    "section": "general",
+                    "name": "First to score",
+                    "value": "10/10",
+                    "team": "home"
+                }
+            ],
+            "bonuses": [
+                "first-half winner + first to score (+11.9)"
+            ],
+            "penalties": [],
+            "rank": 13
+        },
+        {
+            "home": "Bod\u00f8/Glimt",
+            "away": "NEC Nijmegen",
+            "market": "less than 10.5 corners",
+            "score": 35.55,
+            "confidence": 77.78,
+            "prediction": 27.65,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "Less than 10.5 corners",
+                    "value": "6/7",
+                    "team": "away"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [],
+            "penalties": [],
+            "rank": 19
+        }
+    ],
+    "Sabah FK - Hapoel Be'er Sheva": [
+        {
+            "home": "Sabah FK",
+            "away": "Hapoel Be'er Sheva",
+            "market": "Sabah FK first to score",
+            "score": 37.97,
+            "confidence": 80.0,
+            "prediction": 30.38,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "First to score",
+                    "value": "7/8",
+                    "team": "home"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [],
+            "penalties": [],
+            "rank": 14
+        },
+        {
+            "home": "Sabah FK",
+            "away": "Hapoel Be'er Sheva",
+            "market": "less than 4.5 cards",
+            "score": 35.55,
+            "confidence": 77.78,
+            "prediction": 27.65,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "Less than 4.5 cards",
+                    "value": "6/7",
+                    "team": "home"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [],
+            "penalties": [],
+            "rank": 18
+        }
+    ]
+}

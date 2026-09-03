@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102a43">
+  <meta name="description" content="Daily football match analysis reports.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css?v=2">
+  <title>Betman Reports</title>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./"><span class="brand-mark">B</span><span>Betman reports</span></a>
+    <button id="install-button" class="install-button" type="button" hidden>Install app</button>
+  </header>
+  <main class="app-shell">
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow">Match intelligence archive</p>
+      <h1 id="page-title">Pick a matchday.<br><em>Read the signal.</em></h1>
+      <p class="lede">A calm, searchable home for the daily analysis reports.</p>
+    </section>
+    <section class="workspace" aria-label="Report archive">
+      <div class="calendar-panel">
+        <div class="panel-heading">
+          <div><p class="eyebrow">Archive</p><h2 id="month-label">Reports</h2></div>
+          <div class="calendar-actions"><button id="previous-month" class="icon-button" type="button" aria-label="Previous month">&#8592;</button><button id="next-month" class="icon-button" type="button" aria-label="Next month">&#8594;</button></div>
+        </div>
+        <div class="weekdays" aria-hidden="true"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div>
+        <div id="calendar" class="calendar" aria-label="Report calendar"></div>
+        <div class="legend"><span class="legend-dot"></span><span>Report available</span></div>
+      </div>
+      <article class="report-panel" aria-live="polite" hidden>
+        <div id="report-loading" class="placeholder" hidden><p>Loading report...</p></div>
+        <div id="report-error" class="placeholder" hidden><p>That report is not available right now.</p></div>
+        <div id="report-content" hidden>
+          <div class="report-toolbar"><div><p class="eyebrow">Selected report</p><h2 id="report-heading"></h2></div></div>
+          <div id="report-body" class="report-body"></div>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer><span>Generated daily from the Game Analyst pipeline.</span><span id="offline-status"></span></footer>
+  <script src="app.js?v=10"></script>
+</body>
+</html>

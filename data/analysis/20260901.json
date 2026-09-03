@@ -1,0 +1,501 @@
+{
+    "Instituto Cordoba - San Lorenzo": [
+        {
+            "home": "Instituto Cordoba",
+            "away": "San Lorenzo",
+            "market": "less than 2.5 goals",
+            "score": 155.07,
+            "confidence": 87.22,
+            "prediction": 135.25,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "Less than 2.5 goals",
+                    "value": "5/5",
+                    "team": "home"
+                },
+                {
+                    "section": "general",
+                    "name": "Less than 2.5 goals",
+                    "value": "8/8",
+                    "team": "away"
+                },
+                {
+                    "section": "head2head",
+                    "name": "Less than 2.5 goals",
+                    "value": "5/5",
+                    "team": "both"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [
+                "general + H2H agreement (+19.4)",
+                "home + away agreement (+12.9)"
+            ],
+            "penalties": [],
+            "rank": 1
+        },
+        {
+            "home": "Instituto Cordoba",
+            "away": "San Lorenzo",
+            "market": "less than 10.5 corners",
+            "score": 85.48,
+            "confidence": 79.6,
+            "prediction": 68.04,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "Less than 10.5 corners",
+                    "value": "6/6",
+                    "team": "away"
+                },
+                {
+                    "section": "head2head",
+                    "name": "Less than 10.5 corners",
+                    "value": "4/5",
+                    "team": "both"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [
+                "general + H2H agreement (+14.7)"
+            ],
+            "penalties": [],
+            "rank": 5
+        },
+        {
+            "home": "Instituto Cordoba",
+            "away": "San Lorenzo",
+            "market": "Instituto Cordoba first to score",
+            "score": 32.76,
+            "confidence": 75.0,
+            "prediction": 24.57,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "First to score",
+                    "value": "5/6",
+                    "team": "home"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [],
+            "penalties": [],
+            "rank": 11
+        },
+        {
+            "home": "Instituto Cordoba",
+            "away": "San Lorenzo",
+            "market": "San Lorenzo no losses",
+            "score": 27.82,
+            "confidence": 73.05,
+            "prediction": 20.32,
+            "evidence": [
+                {
+                    "section": "head2head",
+                    "name": "No losses",
+                    "value": "3",
+                    "team": "away"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [],
+            "penalties": [],
+            "rank": 16
+        },
+        {
+            "home": "Instituto Cordoba",
+            "away": "San Lorenzo",
+            "market": "Instituto Cordoba no clean sheet",
+            "score": 27.82,
+            "confidence": 73.05,
+            "prediction": 20.32,
+            "evidence": [
+                {
+                    "section": "head2head",
+                    "name": "Without clean sheet",
+                    "value": "3",
+                    "team": "home"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [],
+            "penalties": [],
+            "rank": 17
+        }
+    ],
+    "Tigre - Barracas Central": [
+        {
+            "home": "Tigre",
+            "away": "Barracas Central",
+            "market": "less than 10.5 corners",
+            "score": 145.25,
+            "confidence": 80.52,
+            "prediction": 116.95,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "Less than 10.5 corners",
+                    "value": "9/10",
+                    "team": "home"
+                },
+                {
+                    "section": "general",
+                    "name": "Less than 10.5 corners",
+                    "value": "9/9",
+                    "team": "away"
+                },
+                {
+                    "section": "head2head",
+                    "name": "Less than 10.5 corners",
+                    "value": "5/7",
+                    "team": "both"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [
+                "general + H2H agreement (+14.1)",
+                "home + away agreement (+14.0)"
+            ],
+            "penalties": [],
+            "rank": 2
+        },
+        {
+            "home": "Tigre",
+            "away": "Barracas Central",
+            "market": "less than 2.5 goals",
+            "score": 51.0,
+            "confidence": 70.0,
+            "prediction": 35.7,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "Less than 2.5 goals",
+                    "value": "6/8",
+                    "team": "away"
+                },
+                {
+                    "section": "head2head",
+                    "name": "Less than 2.5 goals",
+                    "value": "6/8",
+                    "team": "both"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [
+                "general + H2H agreement (+15.5)"
+            ],
+            "penalties": [
+                "general underlying-event conflict: Without clean sheet 4 (away) (-21.1)",
+                "head2head underlying-event conflict: Without clean sheet 3 (home) (-5.6)"
+            ],
+            "rank": 8
+        },
+        {
+            "home": "Tigre",
+            "away": "Barracas Central",
+            "market": "Barracas Central no clean sheet",
+            "score": 31.7,
+            "confidence": 77.03,
+            "prediction": 24.42,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "Without clean sheet",
+                    "value": "4",
+                    "team": "away"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [],
+            "penalties": [],
+            "rank": 12
+        },
+        {
+            "home": "Tigre",
+            "away": "Barracas Central",
+            "market": "Tigre no clean sheet",
+            "score": 27.82,
+            "confidence": 73.05,
+            "prediction": 20.32,
+            "evidence": [
+                {
+                    "section": "head2head",
+                    "name": "Without clean sheet",
+                    "value": "3",
+                    "team": "home"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [],
+            "penalties": [],
+            "rank": 18
+        }
+    ],
+    "HEBC - Borussia Dortmund": [
+        {
+            "home": "HEBC",
+            "away": "Borussia Dortmund",
+            "market": "less than 4.5 cards",
+            "score": 111.04,
+            "confidence": 91.29,
+            "prediction": 101.37,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "Less than 4.5 cards",
+                    "value": "9/9",
+                    "team": "home"
+                },
+                {
+                    "section": "general",
+                    "name": "Less than 4.5 cards",
+                    "value": "10/10",
+                    "team": "away"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [
+                "home + away agreement (+15.7)"
+            ],
+            "penalties": [],
+            "rank": 3
+        },
+        {
+            "home": "HEBC",
+            "away": "Borussia Dortmund",
+            "market": "HEBC no clean sheet",
+            "score": 31.7,
+            "confidence": 77.03,
+            "prediction": 24.42,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "Without clean sheet",
+                    "value": "4",
+                    "team": "home"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [],
+            "penalties": [],
+            "rank": 14
+        }
+    ],
+    "Parma - Cremonese": [
+        {
+            "home": "Parma",
+            "away": "Cremonese",
+            "market": "less than 10.5 corners",
+            "score": 92.07,
+            "confidence": 81.63,
+            "prediction": 75.15,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "Less than 10.5 corners",
+                    "value": "6/7",
+                    "team": "home"
+                },
+                {
+                    "section": "head2head",
+                    "name": "Less than 10.5 corners",
+                    "value": "5/5",
+                    "team": "both"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [
+                "general + H2H agreement (+17.8)"
+            ],
+            "penalties": [],
+            "rank": 4
+        },
+        {
+            "home": "Parma",
+            "away": "Cremonese",
+            "market": "less than 4.5 cards",
+            "score": 81.27,
+            "confidence": 77.75,
+            "prediction": 63.18,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "Less than 4.5 cards",
+                    "value": "4/5",
+                    "team": "home"
+                },
+                {
+                    "section": "general",
+                    "name": "Less than 4.5 cards",
+                    "value": "9/10",
+                    "team": "away"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [
+                "home + away agreement (+9.8)"
+            ],
+            "penalties": [],
+            "rank": 6
+        },
+        {
+            "home": "Parma",
+            "away": "Cremonese",
+            "market": "Cremonese no wins",
+            "score": 58.31,
+            "confidence": 93.01,
+            "prediction": 54.23,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "No wins",
+                    "value": "15",
+                    "team": "away"
+                }
+            ],
+            "supporting_evidence": [
+                {
+                    "section": "general",
+                    "name": "Losses",
+                    "value": "4",
+                    "team": "away"
+                }
+            ],
+            "bonuses": [
+                "no wins + losses (+5.3)"
+            ],
+            "penalties": [],
+            "rank": 7
+        },
+        {
+            "home": "Parma",
+            "away": "Cremonese",
+            "market": "Cremonese first to concede",
+            "score": 37.97,
+            "confidence": 80.0,
+            "prediction": 30.38,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "First to concede",
+                    "value": "7/8",
+                    "team": "away"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [],
+            "penalties": [],
+            "rank": 9
+        },
+        {
+            "home": "Parma",
+            "away": "Cremonese",
+            "market": "Cremonese losses",
+            "score": 36.99,
+            "confidence": 77.03,
+            "prediction": 28.49,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "Losses",
+                    "value": "4",
+                    "team": "away"
+                }
+            ],
+            "supporting_evidence": [
+                {
+                    "section": "general",
+                    "name": "No wins",
+                    "value": "15",
+                    "team": "away"
+                }
+            ],
+            "bonuses": [
+                "losses + no wins (+5.3)"
+            ],
+            "penalties": [],
+            "rank": 10
+        },
+        {
+            "home": "Parma",
+            "away": "Cremonese",
+            "market": "Cremonese no clean sheet",
+            "score": 31.7,
+            "confidence": 77.03,
+            "prediction": 24.42,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "Without clean sheet",
+                    "value": "4",
+                    "team": "away"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [],
+            "penalties": [],
+            "rank": 13
+        },
+        {
+            "home": "Parma",
+            "away": "Cremonese",
+            "market": "both teams scoring",
+            "score": 29.47,
+            "confidence": 71.43,
+            "prediction": 21.05,
+            "evidence": [
+                {
+                    "section": "head2head",
+                    "name": "Both teams scoring",
+                    "value": "4/5",
+                    "team": "both"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [],
+            "penalties": [],
+            "rank": 15
+        },
+        {
+            "home": "Parma",
+            "away": "Cremonese",
+            "market": "Parma no wins",
+            "score": 27.82,
+            "confidence": 73.05,
+            "prediction": 20.32,
+            "evidence": [
+                {
+                    "section": "general",
+                    "name": "No wins",
+                    "value": "3",
+                    "team": "home"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [],
+            "penalties": [],
+            "rank": 19
+        },
+        {
+            "home": "Parma",
+            "away": "Cremonese",
+            "market": "Parma no losses",
+            "score": 27.82,
+            "confidence": 73.05,
+            "prediction": 20.32,
+            "evidence": [
+                {
+                    "section": "head2head",
+                    "name": "No losses",
+                    "value": "3",
+                    "team": "home"
+                }
+            ],
+            "supporting_evidence": [],
+            "bonuses": [],
+            "penalties": [],
+            "rank": 20
+        }
+    ]
+}
