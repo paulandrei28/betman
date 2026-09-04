@@ -1,632 +1,542 @@
 {
   "date": "20260824",
-  "predictions": {
-    "Osasuna - Levante UD": [
-      {
-        "home": "Osasuna",
-        "away": "Levante UD",
-        "market": "less than 4.5 cards",
-        "score": 148.19,
-        "confidence": 82.47,
-        "prediction": 122.21,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "7/8",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "10/10",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Less than 4.5 cards",
-            "value": "5/6",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+16.4)",
-          "home + away agreement (+12.7)"
-        ],
-        "penalties": [],
-        "rank": 1
-      },
-      {
-        "home": "Osasuna",
-        "away": "Levante UD",
-        "market": "less than 10.5 corners",
-        "score": 94.61,
-        "confidence": 82.57,
-        "prediction": 78.12,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 10.5 corners",
-            "value": "6/6",
-            "team": "home"
-          },
-          {
-            "section": "head2head",
-            "name": "Less than 10.5 corners",
-            "value": "6/7",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+17.8)"
-        ],
-        "penalties": [],
-        "rank": 8
-      },
-      {
-        "home": "Osasuna",
-        "away": "Levante UD",
-        "market": "Levante UD no clean sheet",
-        "score": 84.0,
-        "confidence": 75.09,
-        "prediction": 63.07,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Without clean sheet",
-            "value": "4",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Without clean sheet",
-            "value": "3",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [
-          {
-            "section": "head2head",
-            "name": "First to score",
-            "value": "6/7",
-            "team": "home"
-          }
-        ],
-        "bonuses": [
-          "general + H2H agreement (+13.9)",
-          "opponent first to score supports no clean sheet (+10.6)"
-        ],
-        "penalties": [],
-        "rank": 16
+  "predictions": [
+    {
+      "home": "Osasuna",
+      "away": "Levante UD",
+      "market": "less than 4.5 cards",
+      "score": 148.19,
+      "confidence": 82.47,
+      "prediction": 122.21,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "5/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+16.4)",
+        "home + away agreement (+12.7)"
+      ],
+      "penalties": [],
+      "rank": 1,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "Bologna - Lazio": [
-      {
-        "home": "Bologna",
-        "away": "Lazio",
-        "market": "less than 10.5 corners",
-        "score": 139.37,
-        "confidence": 80.18,
-        "prediction": 111.74,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 10.5 corners",
-            "value": "7/8",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 10.5 corners",
-            "value": "5/6",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Less than 10.5 corners",
-            "value": "5/5",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+19.0)",
-          "home + away agreement (+10.9)"
-        ],
-        "penalties": [],
-        "rank": 2
-      },
-      {
-        "home": "Bologna",
-        "away": "Lazio",
-        "market": "Bologna no clean sheet",
-        "score": 69.54,
-        "confidence": 73.05,
-        "prediction": 50.8,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Without clean sheet",
-            "value": "3",
-            "team": "home"
-          },
-          {
-            "section": "head2head",
-            "name": "Without clean sheet",
-            "value": "3",
-            "team": "home"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+13.9)"
-        ],
-        "penalties": [],
-        "rank": 18
+    },
+    {
+      "home": "Bologna",
+      "away": "Lazio",
+      "market": "less than 10.5 corners",
+      "score": 139.37,
+      "confidence": 80.18,
+      "prediction": 111.74,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "7/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/6",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "5/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+19.0)",
+        "home + away agreement (+10.9)"
+      ],
+      "penalties": [],
+      "rank": 2,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "Málaga CF - Deportivo de A Coruña": [
-      {
-        "home": "Málaga CF",
-        "away": "Deportivo de A Coruña",
-        "market": "less than 10.5 corners",
-        "score": 103.46,
-        "confidence": 89.68,
-        "prediction": 92.78,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 10.5 corners",
-            "value": "6/6",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 10.5 corners",
-            "value": "10/10",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "home + away agreement (+13.8)"
-        ],
-        "penalties": [],
-        "rank": 3
-      },
-      {
-        "home": "Málaga CF",
-        "away": "Deportivo de A Coruña",
-        "market": "less than 4.5 cards",
-        "score": 90.64,
-        "confidence": 83.24,
-        "prediction": 75.44,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "5/6",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "9/9",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "home + away agreement (+10.9)"
-        ],
-        "penalties": [],
-        "rank": 10
+    },
+    {
+      "home": "Fulham",
+      "away": "Chelsea",
+      "market": "less than 10.5 corners",
+      "score": 103.92,
+      "confidence": 85.51,
+      "prediction": 88.86,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "9/9",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "7/8",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+19.0)"
+      ],
+      "penalties": [],
+      "rank": 3,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "VSG Altglienicke - VfL Wolfsburg": [
-      {
-        "home": "VSG Altglienicke",
-        "away": "VfL Wolfsburg",
-        "market": "less than 4.5 cards",
-        "score": 102.0,
-        "confidence": 89.27,
-        "prediction": 91.05,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "9/9",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "6/6",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "home + away agreement (+13.8)"
-        ],
-        "penalties": [],
-        "rank": 4
+    },
+    {
+      "home": "Málaga CF",
+      "away": "Deportivo de A Coruña",
+      "market": "less than 10.5 corners",
+      "score": 103.46,
+      "confidence": 89.68,
+      "prediction": 92.78,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "10/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+13.8)"
+      ],
+      "penalties": [],
+      "rank": 4,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "Fulham - Chelsea": [
-      {
-        "home": "Fulham",
-        "away": "Chelsea",
-        "market": "less than 10.5 corners",
-        "score": 103.92,
-        "confidence": 85.51,
-        "prediction": 88.86,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 10.5 corners",
-            "value": "9/9",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Less than 10.5 corners",
-            "value": "7/8",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+19.0)"
-        ],
-        "penalties": [],
-        "rank": 5
-      },
-      {
-        "home": "Fulham",
-        "away": "Chelsea",
-        "market": "both teams scoring",
-        "score": 70.37,
-        "confidence": 70.68,
-        "prediction": 49.74,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Both teams scoring",
-            "value": "4/5",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Both teams scoring",
-            "value": "6/8",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "home + away agreement (+9.8)"
-        ],
-        "penalties": [],
-        "rank": 19
+    },
+    {
+      "home": "VSG Altglienicke",
+      "away": "VfL Wolfsburg",
+      "market": "less than 4.5 cards",
+      "score": 102.0,
+      "confidence": 89.27,
+      "prediction": 91.05,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "6/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+13.8)"
+      ],
+      "penalties": [],
+      "rank": 5,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "FC Würzburger Kickers - 1. FC Köln": [
-      {
-        "home": "FC Würzburger Kickers",
-        "away": "1. FC Köln",
-        "market": "less than 4.5 cards",
-        "score": 99.41,
-        "confidence": 86.02,
-        "prediction": 85.51,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "9/10",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "7/7",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "home + away agreement (+14.0)"
-        ],
-        "penalties": [],
-        "rank": 6
-      },
-      {
-        "home": "FC Würzburger Kickers",
-        "away": "1. FC Köln",
-        "market": "more than 2.5 goals",
-        "score": 46.96,
-        "confidence": 90.91,
-        "prediction": 42.69,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "More than 2.5 goals",
-            "value": "9/9",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [],
-        "penalties": [],
-        "rank": 20
+    },
+    {
+      "home": "FC Würzburger Kickers",
+      "away": "1. FC Köln",
+      "market": "less than 4.5 cards",
+      "score": 99.41,
+      "confidence": 86.02,
+      "prediction": 85.51,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+14.0)"
+      ],
+      "penalties": [],
+      "rank": 6,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "Hallescher FC - FC Schalke 04": [
-      {
-        "home": "Hallescher FC",
-        "away": "FC Schalke 04",
-        "market": "less than 4.5 cards",
-        "score": 98.77,
-        "confidence": 85.87,
-        "prediction": 84.81,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "8/8",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "8/9",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "home + away agreement (+13.4)"
-        ],
-        "penalties": [],
-        "rank": 7
+    },
+    {
+      "home": "Hallescher FC",
+      "away": "FC Schalke 04",
+      "market": "less than 4.5 cards",
+      "score": 98.77,
+      "confidence": 85.87,
+      "prediction": 84.81,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/9",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+13.4)"
+      ],
+      "penalties": [],
+      "rank": 7,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "AS Roma - Fiorentina": [
-      {
-        "home": "AS Roma",
-        "away": "Fiorentina",
-        "market": "Fiorentina no clean sheet",
-        "score": 96.68,
-        "confidence": 80.59,
-        "prediction": 77.92,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Without clean sheet",
-            "value": "3",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Without clean sheet",
-            "value": "8",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [
-          {
-            "section": "general",
-            "name": "First to score",
-            "value": "8/10",
-            "team": "home"
-          }
-        ],
-        "bonuses": [
-          "general + H2H agreement (+13.9)",
-          "opponent first to score supports no clean sheet (+11.9)"
-        ],
-        "penalties": [],
-        "rank": 9
-      },
-      {
-        "home": "AS Roma",
-        "away": "Fiorentina",
-        "market": "more than 2.5 goals",
-        "score": 91.13,
-        "confidence": 78.57,
-        "prediction": 71.6,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "More than 2.5 goals",
-            "value": "5/5",
-            "team": "home"
-          },
-          {
-            "section": "head2head",
-            "name": "More than 2.5 goals",
-            "value": "4/5",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [
-          {
-            "section": "general",
-            "name": "Without clean sheet",
-            "value": "5",
-            "team": "home"
-          },
-          {
-            "section": "head2head",
-            "name": "Without clean sheet",
-            "value": "8",
-            "team": "away"
-          }
-        ],
-        "bonuses": [
-          "general + H2H agreement (+14.7)",
-          "both teams no-clean-sheet tendencies → over goals (+8.2)"
-        ],
-        "penalties": [],
-        "rank": 11
-      },
-      {
-        "home": "AS Roma",
-        "away": "Fiorentina",
-        "market": "less than 10.5 corners",
-        "score": 87.87,
-        "confidence": 80.27,
-        "prediction": 70.53,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 10.5 corners",
-            "value": "5/5",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Less than 10.5 corners",
-            "value": "5/6",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+16.4)"
-        ],
-        "penalties": [],
-        "rank": 12
-      },
-      {
-        "home": "AS Roma",
-        "away": "Fiorentina",
-        "market": "both teams scoring",
-        "score": 95.2,
-        "confidence": 68.98,
-        "prediction": 65.67,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Both teams scoring",
-            "value": "4/5",
-            "team": "both"
-          },
-          {
-            "section": "head2head",
-            "name": "Both teams scoring",
-            "value": "5/7",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [
-          {
-            "section": "general",
-            "name": "Without clean sheet",
-            "value": "5",
-            "team": "home"
-          },
-          {
-            "section": "head2head",
-            "name": "Without clean sheet",
-            "value": "8",
-            "team": "away"
-          }
-        ],
-        "bonuses": [
-          "general + H2H agreement (+14.1)",
-          "both teams no clean sheet → BTTS (+23.4)"
-        ],
-        "penalties": [],
-        "rank": 15
+    },
+    {
+      "home": "AS Roma",
+      "away": "Fiorentina",
+      "market": "Fiorentina no clean sheet",
+      "score": 96.68,
+      "confidence": 80.59,
+      "prediction": 77.92,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "8",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "8/10",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+13.9)",
+        "opponent first to score supports no clean sheet (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 8,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "SC Verl - Hamburger SV": [
-      {
-        "home": "SC Verl",
-        "away": "Hamburger SV",
-        "market": "less than 4.5 cards",
-        "score": 87.5,
-        "confidence": 79.84,
-        "prediction": 69.86,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "8/9",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "6/7",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "home + away agreement (+11.9)"
-        ],
-        "penalties": [],
-        "rank": 13
-      },
-      {
-        "home": "SC Verl",
-        "away": "Hamburger SV",
-        "market": "both teams scoring",
-        "score": 71.84,
-        "confidence": 91.67,
-        "prediction": 65.85,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Both teams scoring",
-            "value": "10/10",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [
-          {
-            "section": "general",
-            "name": "Without clean sheet",
-            "value": "5",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Without clean sheet",
-            "value": "19",
-            "team": "away"
-          }
-        ],
-        "bonuses": [
-          "both teams no clean sheet → BTTS (+23.4)"
-        ],
-        "penalties": [],
-        "rank": 14
-      },
-      {
-        "home": "SC Verl",
-        "away": "Hamburger SV",
-        "market": "Hamburger SV no clean sheet",
-        "score": 56.1,
-        "confidence": 94.11,
-        "prediction": 52.79,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Without clean sheet",
-            "value": "19",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [],
-        "penalties": [],
-        "rank": 17
+    },
+    {
+      "home": "AS Roma",
+      "away": "Fiorentina",
+      "market": "both teams scoring",
+      "score": 95.2,
+      "confidence": 68.98,
+      "prediction": 65.67,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "4/5",
+          "team": "both"
+        },
+        {
+          "section": "head2head",
+          "name": "Both teams scoring",
+          "value": "5/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "8",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+14.1)",
+        "both teams no clean sheet → BTTS (+23.4)"
+      ],
+      "penalties": [],
+      "rank": 9,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ]
-  }
+    },
+    {
+      "home": "Osasuna",
+      "away": "Levante UD",
+      "market": "less than 10.5 corners",
+      "score": 94.61,
+      "confidence": 82.57,
+      "prediction": 78.12,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/6",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "6/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+17.8)"
+      ],
+      "penalties": [],
+      "rank": 10,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "AS Roma",
+      "away": "Fiorentina",
+      "market": "more than 2.5 goals",
+      "score": 91.13,
+      "confidence": 78.57,
+      "prediction": 71.6,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "5/5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 2.5 goals",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "8",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "both teams no-clean-sheet tendencies → over goals (+8.2)"
+      ],
+      "penalties": [],
+      "rank": 11,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Málaga CF",
+      "away": "Deportivo de A Coruña",
+      "market": "less than 4.5 cards",
+      "score": 90.64,
+      "confidence": 83.24,
+      "prediction": 75.44,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/9",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)"
+      ],
+      "penalties": [],
+      "rank": 12,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "AS Roma",
+      "away": "Fiorentina",
+      "market": "less than 10.5 corners",
+      "score": 87.87,
+      "confidence": 80.27,
+      "prediction": 70.53,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "5/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+16.4)"
+      ],
+      "penalties": [],
+      "rank": 13,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "SC Verl",
+      "away": "Hamburger SV",
+      "market": "less than 4.5 cards",
+      "score": 87.5,
+      "confidence": 79.84,
+      "prediction": 69.86,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "6/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 14,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "SC Verl",
+      "away": "Hamburger SV",
+      "market": "both teams scoring",
+      "score": 71.84,
+      "confidence": 91.67,
+      "prediction": 65.85,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "10/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "19",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "both teams no clean sheet → BTTS (+23.4)"
+      ],
+      "penalties": [],
+      "rank": 15,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    }
+  ]
 }

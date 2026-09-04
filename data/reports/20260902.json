@@ -1,680 +1,566 @@
 {
   "date": "20260902",
-  "predictions": {
-    "Celtic - Aberdeen": [
-      {
-        "home": "Celtic",
-        "away": "Aberdeen",
-        "market": "Celtic first to score",
-        "score": 134.87,
-        "confidence": 89.92,
-        "prediction": 121.28,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "First to score",
-            "value": "7/7",
-            "team": "home"
-          },
-          {
-            "section": "head2head",
-            "name": "First to score",
-            "value": "9/9",
-            "team": "home"
-          }
-        ],
-        "supporting_evidence": [
-          {
-            "section": "head2head",
-            "name": "Without clean sheet",
-            "value": "20",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "First half winner",
-            "value": "5/6",
-            "team": "home"
-          }
-        ],
-        "bonuses": [
-          "general + H2H agreement (+21.7)",
-          "opponent no clean sheet supports scoring first (+15.7)",
-          "first to score + first-half winner (+7.1)"
-        ],
-        "penalties": [],
-        "rank": 1
-      },
-      {
-        "home": "Celtic",
-        "away": "Aberdeen",
-        "market": "less than 4.5 cards",
-        "score": 138.23,
-        "confidence": 77.44,
-        "prediction": 107.04,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "8/9",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "7/9",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Less than 4.5 cards",
-            "value": "6/7",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+17.8)",
-          "home + away agreement (+11.2)"
-        ],
-        "penalties": [],
-        "rank": 3
-      },
-      {
-        "home": "Celtic",
-        "away": "Aberdeen",
-        "market": "Aberdeen no clean sheet",
-        "score": 72.37,
-        "confidence": 94.27,
-        "prediction": 68.22,
-        "evidence": [
-          {
-            "section": "head2head",
-            "name": "Without clean sheet",
-            "value": "20",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [
-          {
-            "section": "head2head",
-            "name": "First to score",
-            "value": "9/9",
-            "team": "home"
-          }
-        ],
-        "bonuses": [
-          "opponent first to score supports no clean sheet (+15.7)"
-        ],
-        "penalties": [],
-        "rank": 15
-      },
-      {
-        "home": "Celtic",
-        "away": "Aberdeen",
-        "market": "Celtic first half winner",
-        "score": 87.88,
-        "confidence": 73.24,
-        "prediction": 64.36,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "First half winner",
-            "value": "4/5",
-            "team": "home"
-          },
-          {
-            "section": "head2head",
-            "name": "First half winner",
-            "value": "5/6",
-            "team": "home"
-          }
-        ],
-        "supporting_evidence": [
-          {
-            "section": "head2head",
-            "name": "First to score",
-            "value": "9/9",
-            "team": "home"
-          }
-        ],
-        "bonuses": [
-          "general + H2H agreement (+14.7)",
-          "first-half winner + first to score (+10.9)"
-        ],
-        "penalties": [],
-        "rank": 16
-      },
-      {
-        "home": "Celtic",
-        "away": "Aberdeen",
-        "market": "more than 2.5 goals",
-        "score": 76.36,
-        "confidence": 75.9,
-        "prediction": 57.96,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "More than 2.5 goals",
-            "value": "5/5",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "More than 2.5 goals",
-            "value": "5/7",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "home + away agreement (+9.4)"
-        ],
-        "penalties": [],
-        "rank": 18
+  "predictions": [
+    {
+      "home": "Falkirk",
+      "away": "Rangers",
+      "market": "less than 4.5 cards",
+      "score": 138.66,
+      "confidence": 76.51,
+      "prediction": 106.08,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/9",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "8/10",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+17.9)",
+        "home + away agreement (+11.2)"
+      ],
+      "penalties": [],
+      "rank": 1,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "Sassuolo - Frosinone": [
-      {
-        "home": "Sassuolo",
-        "away": "Frosinone",
-        "market": "Frosinone no clean sheet",
-        "score": 122.24,
-        "confidence": 90.97,
-        "prediction": 111.21,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Without clean sheet",
-            "value": "12",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Without clean sheet",
-            "value": "11",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+24.2)"
-        ],
-        "penalties": [],
-        "rank": 2
-      },
-      {
-        "home": "Sassuolo",
-        "away": "Frosinone",
-        "market": "both teams scoring",
-        "score": 112.19,
-        "confidence": 73.84,
-        "prediction": 82.84,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Both teams scoring",
-            "value": "6/7",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Both teams scoring",
-            "value": "6/8",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [
-          {
-            "section": "general",
-            "name": "Without clean sheet",
-            "value": "9",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Without clean sheet",
-            "value": "12",
-            "team": "away"
-          }
-        ],
-        "bonuses": [
-          "general + H2H agreement (+15.5)",
-          "both teams no clean sheet → BTTS (+30.0)"
-        ],
-        "penalties": [],
-        "rank": 9
-      },
-      {
-        "home": "Sassuolo",
-        "away": "Frosinone",
-        "market": "more than 2.5 goals",
-        "score": 96.75,
-        "confidence": 73.87,
-        "prediction": 71.47,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "More than 2.5 goals",
-            "value": "8/10",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "More than 2.5 goals",
-            "value": "7/9",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [
-          {
-            "section": "general",
-            "name": "Without clean sheet",
-            "value": "9",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Without clean sheet",
-            "value": "12",
-            "team": "away"
-          }
-        ],
-        "bonuses": [
-          "general + H2H agreement (+16.8)",
-          "both teams no-clean-sheet tendencies → over goals (+10.5)"
-        ],
-        "penalties": [],
-        "rank": 12
+    },
+    {
+      "home": "Celtic",
+      "away": "Aberdeen",
+      "market": "less than 4.5 cards",
+      "score": 138.23,
+      "confidence": 77.44,
+      "prediction": 107.04,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/9",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "6/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+17.8)",
+        "home + away agreement (+11.2)"
+      ],
+      "penalties": [],
+      "rank": 2,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "Falkirk - Rangers": [
-      {
-        "home": "Falkirk",
-        "away": "Rangers",
-        "market": "less than 4.5 cards",
-        "score": 138.66,
-        "confidence": 76.51,
-        "prediction": 106.08,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "8/9",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "7/9",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Less than 4.5 cards",
-            "value": "8/10",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+17.9)",
-          "home + away agreement (+11.2)"
-        ],
-        "penalties": [],
-        "rank": 4
-      },
-      {
-        "home": "Falkirk",
-        "away": "Rangers",
-        "market": "Rangers first to score",
-        "score": 84.69,
-        "confidence": 70.68,
-        "prediction": 59.86,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "First to score",
-            "value": "4/5",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "First to score",
-            "value": "6/8",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [
-          {
-            "section": "head2head",
-            "name": "First half winner",
-            "value": "5/7",
-            "team": "away"
-          }
-        ],
-        "bonuses": [
-          "general + H2H agreement (+14.7)",
-          "first to score + first-half winner (+9.4)"
-        ],
-        "penalties": [],
-        "rank": 17
+    },
+    {
+      "home": "Celtic",
+      "away": "Aberdeen",
+      "market": "Celtic first to score",
+      "score": 134.87,
+      "confidence": 89.92,
+      "prediction": 121.28,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "7/7",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "9/9",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "20",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "First half winner",
+          "value": "5/6",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+21.7)",
+        "opponent no clean sheet supports scoring first (+15.7)",
+        "first to score + first-half winner (+7.1)"
+      ],
+      "penalties": [],
+      "rank": 3,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "Kilmarnock - ST Mirren": [
-      {
-        "home": "Kilmarnock",
-        "away": "ST Mirren",
-        "market": "less than 4.5 cards",
-        "score": 132.72,
-        "confidence": 77.19,
-        "prediction": 102.44,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "8/9",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "4/5",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Less than 4.5 cards",
-            "value": "6/7",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+17.8)",
-          "home + away agreement (+9.8)"
-        ],
-        "penalties": [],
-        "rank": 5
+    },
+    {
+      "home": "Kilmarnock",
+      "away": "ST Mirren",
+      "market": "less than 4.5 cards",
+      "score": 132.72,
+      "confidence": 77.19,
+      "prediction": 102.44,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "4/5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "6/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+17.8)",
+        "home + away agreement (+9.8)"
+      ],
+      "penalties": [],
+      "rank": 4,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "Udinese - Venezia": [
-      {
-        "home": "Udinese",
-        "away": "Venezia",
-        "market": "Venezia no clean sheet",
-        "score": 106.25,
-        "confidence": 84.91,
-        "prediction": 90.22,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Without clean sheet",
-            "value": "17",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Without clean sheet",
-            "value": "3",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [
-          {
-            "section": "head2head",
-            "name": "First to score",
-            "value": "4/5",
-            "team": "home"
-          }
-        ],
-        "bonuses": [
-          "general + H2H agreement (+13.9)",
-          "opponent first to score supports no clean sheet (+9.8)"
-        ],
-        "penalties": [],
-        "rank": 6
-      },
-      {
-        "home": "Udinese",
-        "away": "Venezia",
-        "market": "less than 4.5 cards",
-        "score": 93.85,
-        "confidence": 78.38,
-        "prediction": 73.56,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "8/9",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Less than 4.5 cards",
-            "value": "8/10",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+17.9)"
-        ],
-        "penalties": [],
-        "rank": 11
+    },
+    {
+      "home": "Sassuolo",
+      "away": "Frosinone",
+      "market": "Frosinone no clean sheet",
+      "score": 122.24,
+      "confidence": 90.97,
+      "prediction": 111.21,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "12",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "11",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+24.2)"
+      ],
+      "penalties": [],
+      "rank": 5,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "VfL Osnabrück - Bayern München": [
-      {
-        "home": "VfL Osnabrück",
-        "away": "Bayern München",
-        "market": "less than 4.5 cards",
-        "score": 101.89,
-        "confidence": 86.79,
-        "prediction": 88.42,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "8/9",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "10/10",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "home + away agreement (+13.4)"
-        ],
-        "penalties": [],
-        "rank": 7
+    },
+    {
+      "home": "Sassuolo",
+      "away": "Frosinone",
+      "market": "both teams scoring",
+      "score": 112.19,
+      "confidence": 73.84,
+      "prediction": 82.84,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "6/7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Both teams scoring",
+          "value": "6/8",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "12",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+15.5)",
+        "both teams no clean sheet → BTTS (+30.0)"
+      ],
+      "penalties": [],
+      "rank": 6,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "Dundee - ST Johnstone": [
-      {
-        "home": "Dundee",
-        "away": "ST Johnstone",
-        "market": "ST Johnstone no clean sheet",
-        "score": 105.5,
-        "confidence": 83.74,
-        "prediction": 88.35,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Without clean sheet",
-            "value": "5",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Without clean sheet",
-            "value": "8",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [
-          {
-            "section": "head2head",
-            "name": "First to score",
-            "value": "4/5",
-            "team": "home"
-          }
-        ],
-        "bonuses": [
-          "general + H2H agreement (+17.6)",
-          "opponent first to score supports no clean sheet (+9.8)"
-        ],
-        "penalties": [],
-        "rank": 8
-      },
-      {
-        "home": "Dundee",
-        "away": "ST Johnstone",
-        "market": "less than 4.5 cards",
-        "score": 90.64,
-        "confidence": 83.24,
-        "prediction": 75.44,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "5/6",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "9/9",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "home + away agreement (+10.9)"
-        ],
-        "penalties": [],
-        "rank": 10
+    },
+    {
+      "home": "Udinese",
+      "away": "Venezia",
+      "market": "Venezia no clean sheet",
+      "score": 106.25,
+      "confidence": 84.91,
+      "prediction": 90.22,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "17",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+13.9)",
+        "opponent first to score supports no clean sheet (+9.8)"
+      ],
+      "penalties": [],
+      "rank": 7,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "St. Truiden - Union St. Gilloise": [
-      {
-        "home": "St. Truiden",
-        "away": "Union St. Gilloise",
-        "market": "less than 4.5 cards",
-        "score": 89.76,
-        "confidence": 79.17,
-        "prediction": 71.06,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "9/10",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "8/10",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "home + away agreement (+11.9)"
-        ],
-        "penalties": [],
-        "rank": 13
-      },
-      {
-        "home": "St. Truiden",
-        "away": "Union St. Gilloise",
-        "market": "both teams scoring",
-        "score": 75.13,
-        "confidence": 73.32,
-        "prediction": 55.09,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Both teams scoring",
-            "value": "4/5",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Both teams scoring",
-            "value": "8/10",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "home + away agreement (+9.8)"
-        ],
-        "penalties": [],
-        "rank": 19
-      },
-      {
-        "home": "St. Truiden",
-        "away": "Union St. Gilloise",
-        "market": "less than 10.5 corners",
-        "score": 70.38,
-        "confidence": 70.78,
-        "prediction": 49.81,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 10.5 corners",
-            "value": "5/7",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 10.5 corners",
-            "value": "5/6",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "home + away agreement (+9.4)"
-        ],
-        "penalties": [],
-        "rank": 20
+    },
+    {
+      "home": "Dundee",
+      "away": "ST Johnstone",
+      "market": "ST Johnstone no clean sheet",
+      "score": 105.5,
+      "confidence": 83.74,
+      "prediction": 88.35,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "8",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+17.6)",
+        "opponent first to score supports no clean sheet (+9.8)"
+      ],
+      "penalties": [],
+      "rank": 8,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "Motherwell - Dundee Utd": [
-      {
-        "home": "Motherwell",
-        "away": "Dundee Utd",
-        "market": "less than 10.5 corners",
-        "score": 87.87,
-        "confidence": 80.27,
-        "prediction": 70.53,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 10.5 corners",
-            "value": "5/6",
-            "team": "home"
-          },
-          {
-            "section": "head2head",
-            "name": "Less than 10.5 corners",
-            "value": "5/5",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+16.4)"
-        ],
-        "penalties": [],
-        "rank": 14
+    },
+    {
+      "home": "VfL Osnabrück",
+      "away": "Bayern München",
+      "market": "less than 4.5 cards",
+      "score": 101.89,
+      "confidence": 86.79,
+      "prediction": 88.42,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+13.4)"
+      ],
+      "penalties": [],
+      "rank": 9,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ]
-  }
+    },
+    {
+      "home": "Sassuolo",
+      "away": "Frosinone",
+      "market": "more than 2.5 goals",
+      "score": 96.75,
+      "confidence": 73.87,
+      "prediction": 71.47,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "8/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 2.5 goals",
+          "value": "7/9",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "12",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+16.8)",
+        "both teams no-clean-sheet tendencies → over goals (+10.5)"
+      ],
+      "penalties": [],
+      "rank": 10,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Udinese",
+      "away": "Venezia",
+      "market": "less than 4.5 cards",
+      "score": 93.85,
+      "confidence": 78.38,
+      "prediction": 73.56,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/9",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "8/10",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+17.9)"
+      ],
+      "penalties": [],
+      "rank": 11,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Dundee",
+      "away": "ST Johnstone",
+      "market": "less than 4.5 cards",
+      "score": 90.64,
+      "confidence": 83.24,
+      "prediction": 75.44,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/9",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)"
+      ],
+      "penalties": [],
+      "rank": 12,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "St. Truiden",
+      "away": "Union St. Gilloise",
+      "market": "less than 4.5 cards",
+      "score": 89.76,
+      "confidence": 79.17,
+      "prediction": 71.06,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 13,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Motherwell",
+      "away": "Dundee Utd",
+      "market": "less than 10.5 corners",
+      "score": 87.87,
+      "confidence": 80.27,
+      "prediction": 70.53,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "5/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+16.4)"
+      ],
+      "penalties": [],
+      "rank": 14,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Celtic",
+      "away": "Aberdeen",
+      "market": "Aberdeen no clean sheet",
+      "score": 72.37,
+      "confidence": 94.27,
+      "prediction": 68.22,
+      "evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "20",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "9/9",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "opponent first to score supports no clean sheet (+15.7)"
+      ],
+      "penalties": [],
+      "rank": 15,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    }
+  ]
 }

@@ -7,7 +7,7 @@
   <meta name="description" content="Daily football match analysis reports.">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=4">
+  <link rel="stylesheet" href="styles.css?v=5">
   <title>Betman</title>
 </head>
 <body>
@@ -33,14 +33,14 @@
         <div id="report-loading" class="placeholder" hidden><p data-i18n="loading">Loading report...</p></div>
         <div id="report-error" class="placeholder" hidden><p data-i18n="reportUnavailable">That report is not available right now.</p></div>
         <div id="report-content" hidden>
-          <div class="report-toolbar"><div><p class="eyebrow" data-i18n="selectedReport">Selected report</p><h2 id="report-heading"></h2></div></div>
-          <div id="report-tabs" class="report-tabs" role="tablist" aria-label="Report view"><button class="report-tab active" type="button" role="tab" data-report-view="games" aria-selected="true" data-i18n="byGame">By game</button><button class="report-tab" type="button" role="tab" data-report-view="prediction" aria-selected="false" data-i18n="byPrediction">By prediction</button></div>
+          <div class="report-toolbar"><div><p class="eyebrow" data-i18n="selectedReport">Selected report</p><h2 id="report-heading"></h2></div><div class="report-controls"><div class="report-filters"><label><span data-i18n="minScore">Min. score</span><input id="prediction-threshold" type="number" min="0" step="5" value="0"></label></div></div></div>
+          <div id="report-tabs" class="report-tabs" role="tablist" aria-label="Report view"><button class="report-tab active" type="button" role="tab" data-report-view="top" aria-selected="true" data-i18n="top20">Top 20</button><button class="report-tab" type="button" role="tab" data-report-view="games" aria-selected="false" data-i18n="byGame">By game</button><button class="report-tab" type="button" role="tab" data-report-view="prediction" aria-selected="false" data-i18n="byPrediction">By prediction</button></div>
           <div id="report-body" class="report-body"></div>
         </div>
       </article>
     </section>
   </main>
   <footer><span data-i18n="disclaimer">For informational purposes only. Bet responsibly.</span><span id="offline-status"></span></footer>
-  <script src="app.js?v=12"></script>
+  <script src="app.js?v=13"></script>
 </body>
 </html>

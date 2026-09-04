@@ -1,768 +1,2027 @@
 {
   "date": "20260822",
-  "predictions": {
-    "Valencia - Celta Vigo": [
-      {
-        "home": "Valencia",
-        "away": "Celta Vigo",
-        "market": "less than 4.5 cards",
-        "score": 170.76,
-        "confidence": 89.78,
-        "prediction": 153.32,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "8/8",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "10/10",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Less than 4.5 cards",
-            "value": "6/6",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+20.6)",
-          "home + away agreement (+15.1)"
-        ],
-        "penalties": [],
-        "rank": 1
-      },
-      {
-        "home": "Valencia",
-        "away": "Celta Vigo",
-        "market": "both teams scoring",
-        "score": 159.26,
-        "confidence": 77.95,
-        "prediction": 124.15,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Both teams scoring",
-            "value": "8/10",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Both teams scoring",
-            "value": "4/5",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Both teams scoring",
-            "value": "6/6",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [
-          {
-            "section": "general",
-            "name": "Without clean sheet",
-            "value": "5",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Without clean sheet",
-            "value": "3",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "First to score",
-            "value": "4/5",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "First to score",
-            "value": "9/10",
-            "team": "away"
-          }
-        ],
-        "bonuses": [
-          "general + H2H agreement (+17.9)",
-          "home + away agreement (+9.8)",
-          "both teams no clean sheet → BTTS (+18.5)",
-          "both teams first to score patterns → BTTS (+6.4)"
-        ],
-        "penalties": [],
-        "rank": 9
-      },
-      {
-        "home": "Valencia",
-        "away": "Celta Vigo",
-        "market": "less than 10.5 corners",
-        "score": 146.2,
-        "confidence": 83.59,
-        "prediction": 122.21,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 10.5 corners",
-            "value": "6/6",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 10.5 corners",
-            "value": "9/9",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Less than 10.5 corners",
-            "value": "4/5",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+14.7)",
-          "home + away agreement (+13.8)"
-        ],
-        "penalties": [],
-        "rank": 10
+  "predictions": [
+    {
+      "home": "PSV Eindhoven",
+      "away": "FC Groningen",
+      "market": "less than 4.5 cards",
+      "score": 170.9,
+      "confidence": 88.04,
+      "prediction": 150.45,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/8",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "9/9",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+22.7)",
+        "home + away agreement (+14.0)"
+      ],
+      "penalties": [],
+      "rank": 1,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "PSV Eindhoven - FC Groningen": [
-      {
-        "home": "PSV Eindhoven",
-        "away": "FC Groningen",
-        "market": "less than 4.5 cards",
-        "score": 170.9,
-        "confidence": 88.04,
-        "prediction": 150.45,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "9/10",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "8/8",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Less than 4.5 cards",
-            "value": "9/9",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+22.7)",
-          "home + away agreement (+14.0)"
-        ],
-        "penalties": [],
-        "rank": 2
-      },
-      {
-        "home": "PSV Eindhoven",
-        "away": "FC Groningen",
-        "market": "more than 2.5 goals",
-        "score": 158.27,
-        "confidence": 81.98,
-        "prediction": 129.76,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "More than 2.5 goals",
-            "value": "7/7",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "More than 2.5 goals",
-            "value": "6/8",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "More than 2.5 goals",
-            "value": "6/6",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [
-          {
-            "section": "head2head",
-            "name": "First to score",
-            "value": "8/10",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "First to score",
-            "value": "6/8",
-            "team": "away"
-          },
-          {
-            "section": "general",
-            "name": "Without clean sheet",
-            "value": "3",
-            "team": "home"
-          },
-          {
-            "section": "head2head",
-            "name": "Without clean sheet",
-            "value": "14",
-            "team": "away"
-          }
-        ],
-        "bonuses": [
-          "general + H2H agreement (+20.6)",
-          "home + away agreement (+10.4)",
-          "both teams first-score tendencies → over goals (+7.3)",
-          "both teams no-clean-sheet tendencies → over goals (+4.2)"
-        ],
-        "penalties": [],
-        "rank": 6
+    },
+    {
+      "home": "Valencia",
+      "away": "Celta Vigo",
+      "market": "less than 4.5 cards",
+      "score": 170.76,
+      "confidence": 89.78,
+      "prediction": 153.32,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "6/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+20.6)",
+        "home + away agreement (+15.1)"
+      ],
+      "penalties": [],
+      "rank": 2,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "Manchester City - Bournemouth": [
-      {
-        "home": "Manchester City",
-        "away": "Bournemouth",
-        "market": "both teams scoring",
-        "score": 170.62,
-        "confidence": 83.23,
-        "prediction": 142.0,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Both teams scoring",
-            "value": "5/6",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Both teams scoring",
-            "value": "7/7",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Both teams scoring",
-            "value": "5/5",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [
-          {
-            "section": "general",
-            "name": "Without clean sheet",
-            "value": "6",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Without clean sheet",
-            "value": "7",
-            "team": "away"
-          }
-        ],
-        "bonuses": [
-          "general + H2H agreement (+19.4)",
-          "home + away agreement (+10.9)",
-          "both teams no clean sheet → BTTS (+25.4)"
-        ],
-        "penalties": [],
-        "rank": 3
-      },
-      {
-        "home": "Manchester City",
-        "away": "Bournemouth",
-        "market": "more than 2.5 goals",
-        "score": 140.68,
-        "confidence": 77.28,
-        "prediction": 108.72,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "More than 2.5 goals",
-            "value": "4/5",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "More than 2.5 goals",
-            "value": "5/5",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "More than 2.5 goals",
-            "value": "8/10",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [
-          {
-            "section": "general",
-            "name": "Without clean sheet",
-            "value": "6",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Without clean sheet",
-            "value": "7",
-            "team": "away"
-          }
-        ],
-        "bonuses": [
-          "general + H2H agreement (+17.9)",
-          "home + away agreement (+9.8)",
-          "both teams no-clean-sheet tendencies → over goals (+8.9)"
-        ],
-        "penalties": [],
-        "rank": 13
-      },
-      {
-        "home": "Manchester City",
-        "away": "Bournemouth",
-        "market": "Bournemouth no clean sheet",
-        "score": 117.79,
-        "confidence": 90.11,
-        "prediction": 106.14,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Without clean sheet",
-            "value": "7",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Without clean sheet",
-            "value": "20",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+20.4)"
-        ],
-        "penalties": [],
-        "rank": 14
+    },
+    {
+      "home": "Manchester City",
+      "away": "Bournemouth",
+      "market": "both teams scoring",
+      "score": 170.62,
+      "confidence": 83.23,
+      "prediction": 142.0,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "7/7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Both teams scoring",
+          "value": "5/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+19.4)",
+        "home + away agreement (+10.9)",
+        "both teams no clean sheet → BTTS (+25.4)"
+      ],
+      "penalties": [],
+      "rank": 3,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "Sparta Rotterdam - FC Utrecht": [
-      {
-        "home": "Sparta Rotterdam",
-        "away": "FC Utrecht",
-        "market": "less than 4.5 cards",
-        "score": 163.67,
-        "confidence": 85.14,
-        "prediction": 139.35,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "10/10",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "7/9",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Less than 4.5 cards",
-            "value": "9/9",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+23.5)",
-          "home + away agreement (+11.2)"
-        ],
-        "penalties": [],
-        "rank": 4
+    },
+    {
+      "home": "Sparta Rotterdam",
+      "away": "FC Utrecht",
+      "market": "less than 4.5 cards",
+      "score": 163.67,
+      "confidence": 85.14,
+      "prediction": 139.35,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/9",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "9/9",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+23.5)",
+        "home + away agreement (+11.2)"
+      ],
+      "penalties": [],
+      "rank": 4,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "Nice - Lorient": [
-      {
-        "home": "Nice",
-        "away": "Lorient",
-        "market": "less than 10.5 corners",
-        "score": 151.03,
-        "confidence": 86.32,
-        "prediction": 130.37,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 10.5 corners",
-            "value": "6/6",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 10.5 corners",
-            "value": "5/5",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Less than 10.5 corners",
-            "value": "5/5",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+19.4)",
-          "home + away agreement (+12.9)"
-        ],
-        "penalties": [],
-        "rank": 5
+    },
+    {
+      "home": "Valencia",
+      "away": "Celta Vigo",
+      "market": "both teams scoring",
+      "score": 159.26,
+      "confidence": 77.95,
+      "prediction": 124.15,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "8/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "4/5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Both teams scoring",
+          "value": "6/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "9/10",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+17.9)",
+        "home + away agreement (+9.8)",
+        "both teams no clean sheet → BTTS (+18.5)",
+        "both teams first to score patterns → BTTS (+6.4)"
+      ],
+      "penalties": [],
+      "rank": 5,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "Royal Antwerp FC - KRC Genk": [
-      {
-        "home": "Royal Antwerp FC",
-        "away": "KRC Genk",
-        "market": "less than 4.5 cards",
-        "score": 156.35,
-        "confidence": 82.83,
-        "prediction": 129.52,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "8/9",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "8/10",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Less than 4.5 cards",
-            "value": "10/10",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+20.0)",
-          "home + away agreement (+11.9)"
-        ],
-        "penalties": [],
-        "rank": 7
+    },
+    {
+      "home": "PSV Eindhoven",
+      "away": "FC Groningen",
+      "market": "more than 2.5 goals",
+      "score": 158.27,
+      "confidence": 81.98,
+      "prediction": 129.76,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "7/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "6/8",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 2.5 goals",
+          "value": "6/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "8/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "6/8",
+          "team": "away"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "14",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+20.6)",
+        "home + away agreement (+10.4)",
+        "both teams first-score tendencies → over goals (+7.3)",
+        "both teams no-clean-sheet tendencies → over goals (+4.2)"
+      ],
+      "penalties": [],
+      "rank": 6,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "Inter - Monza": [
-      {
-        "home": "Inter",
-        "away": "Monza",
-        "market": "less than 4.5 cards",
-        "score": 152.05,
-        "confidence": 84.81,
-        "prediction": 128.96,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "7/7",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "5/5",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Less than 4.5 cards",
-            "value": "7/8",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+19.0)",
-          "home + away agreement (+12.9)"
-        ],
-        "penalties": [],
-        "rank": 8
+    },
+    {
+      "home": "Royal Antwerp FC",
+      "away": "KRC Genk",
+      "market": "less than 4.5 cards",
+      "score": 156.35,
+      "confidence": 82.83,
+      "prediction": 129.52,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+20.0)",
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 7,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "RC Sporting Charleroi - KV Mechelen": [
-      {
-        "home": "RC Sporting Charleroi",
-        "away": "KV Mechelen",
-        "market": "less than 4.5 cards",
-        "score": 148.13,
-        "confidence": 81.24,
-        "prediction": 120.34,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "6/7",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "9/9",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Less than 4.5 cards",
-            "value": "8/10",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+17.9)",
-          "home + away agreement (+11.9)"
-        ],
-        "penalties": [],
-        "rank": 11
+    },
+    {
+      "home": "Inter",
+      "away": "Monza",
+      "market": "less than 4.5 cards",
+      "score": 152.05,
+      "confidence": 84.81,
+      "prediction": 128.96,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "7/8",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+19.0)",
+        "home + away agreement (+12.9)"
+      ],
+      "penalties": [],
+      "rank": 8,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "SC Heerenveen - PEC Zwolle": [
-      {
-        "home": "SC Heerenveen",
-        "away": "PEC Zwolle",
-        "market": "less than 4.5 cards",
-        "score": 121.07,
-        "confidence": 91.67,
-        "prediction": 110.98,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "10/10",
-            "team": "both"
-          },
-          {
-            "section": "head2head",
-            "name": "Less than 4.5 cards",
-            "value": "10/10",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+24.2)"
-        ],
-        "penalties": [],
-        "rank": 12
+    },
+    {
+      "home": "Nice",
+      "away": "Lorient",
+      "market": "less than 10.5 corners",
+      "score": 151.03,
+      "confidence": 86.32,
+      "prediction": 130.37,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "5/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+19.4)",
+        "home + away agreement (+12.9)"
+      ],
+      "penalties": [],
+      "rank": 9,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "Go Ahead Eagles - ADO Den Haag": [
-      {
-        "home": "Go Ahead Eagles",
-        "away": "ADO Den Haag",
-        "market": "less than 4.5 cards",
-        "score": 116.4,
-        "confidence": 90.85,
-        "prediction": 105.74,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "10/10",
-            "team": "both"
-          },
-          {
-            "section": "head2head",
-            "name": "Less than 4.5 cards",
-            "value": "8/8",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+22.7)"
-        ],
-        "penalties": [],
-        "rank": 15
+    },
+    {
+      "home": "RC Sporting Charleroi",
+      "away": "KV Mechelen",
+      "market": "less than 4.5 cards",
+      "score": 148.13,
+      "confidence": 81.24,
+      "prediction": 120.34,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "6/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/9",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "8/10",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+17.9)",
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 10,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "Fortuna Sittard - AZ Alkmaar": [
-      {
-        "home": "Fortuna Sittard",
-        "away": "AZ Alkmaar",
-        "market": "less than 4.5 cards",
-        "score": 111.04,
-        "confidence": 91.29,
-        "prediction": 101.37,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "9/9",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "10/10",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "home + away agreement (+15.7)"
-        ],
-        "penalties": [],
-        "rank": 16
+    },
+    {
+      "home": "Valencia",
+      "away": "Celta Vigo",
+      "market": "less than 10.5 corners",
+      "score": 146.2,
+      "confidence": 83.59,
+      "prediction": 122.21,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "9/9",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "home + away agreement (+13.8)"
+      ],
+      "penalties": [],
+      "rank": 11,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "Espanyol - Real Madrid": [
-      {
-        "home": "Espanyol",
-        "away": "Real Madrid",
-        "market": "less than 4.5 cards",
-        "score": 108.84,
-        "confidence": 90.85,
-        "prediction": 98.88,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "10/10",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "8/8",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "home + away agreement (+15.1)"
-        ],
-        "penalties": [],
-        "rank": 17
+    },
+    {
+      "home": "Manchester City",
+      "away": "Bournemouth",
+      "market": "more than 2.5 goals",
+      "score": 140.68,
+      "confidence": 77.28,
+      "prediction": 108.72,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "5/5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 2.5 goals",
+          "value": "8/10",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+17.9)",
+        "home + away agreement (+9.8)",
+        "both teams no-clean-sheet tendencies → over goals (+8.9)"
+      ],
+      "penalties": [],
+      "rank": 12,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "Parma - Cagliari": [
-      {
-        "home": "Parma",
-        "away": "Cagliari",
-        "market": "less than 10.5 corners",
-        "score": 128.47,
-        "confidence": 76.54,
-        "prediction": 98.33,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 10.5 corners",
-            "value": "5/5",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 10.5 corners",
-            "value": "6/7",
-            "team": "away"
-          },
-          {
-            "section": "head2head",
-            "name": "Less than 10.5 corners",
-            "value": "5/7",
-            "team": "both"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "general + H2H agreement (+14.1)",
-          "home + away agreement (+11.9)"
-        ],
-        "penalties": [],
-        "rank": 18
+    },
+    {
+      "home": "Parma",
+      "away": "Cagliari",
+      "market": "less than 10.5 corners",
+      "score": 128.47,
+      "confidence": 76.54,
+      "prediction": 98.33,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "5/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.1)",
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 13,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "Le Mans - Stade Brestois": [
-      {
-        "home": "Le Mans",
-        "away": "Stade Brestois",
-        "market": "less than 4.5 cards",
-        "score": 106.35,
-        "confidence": 90.32,
-        "prediction": 96.05,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "7/7",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "10/10",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "home + away agreement (+14.5)"
-        ],
-        "penalties": [],
-        "rank": 19
+    },
+    {
+      "home": "Inter",
+      "away": "Monza",
+      "market": "less than 10.5 corners",
+      "score": 124.73,
+      "confidence": 75.6,
+      "prediction": 94.3,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "5/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.1)",
+        "home + away agreement (+10.9)"
+      ],
+      "penalties": [],
+      "rank": 14,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ],
-    "Udinese - Como": [
-      {
-        "home": "Udinese",
-        "away": "Como",
-        "market": "less than 4.5 cards",
-        "score": 106.35,
-        "confidence": 90.32,
-        "prediction": 96.05,
-        "evidence": [
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "10/10",
-            "team": "home"
-          },
-          {
-            "section": "general",
-            "name": "Less than 4.5 cards",
-            "value": "7/7",
-            "team": "away"
-          }
-        ],
-        "supporting_evidence": [],
-        "bonuses": [
-          "home + away agreement (+14.5)"
-        ],
-        "penalties": [],
-        "rank": 20
+    },
+    {
+      "home": "Angers",
+      "away": "Lille",
+      "market": "less than 10.5 corners",
+      "score": 122.31,
+      "confidence": 73.13,
+      "prediction": 89.45,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "5/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+16.4)",
+        "home + away agreement (+9.4)"
+      ],
+      "penalties": [],
+      "rank": 15,
+      "league": {
+        "id": null,
+        "name": "Unknown"
       }
-    ]
-  }
+    },
+    {
+      "home": "Toulouse",
+      "away": "Olympique Lyonnais",
+      "market": "less than 4.5 cards",
+      "score": 122.23,
+      "confidence": 76.19,
+      "prediction": 93.13,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "home + away agreement (+9.8)"
+      ],
+      "penalties": [],
+      "rank": 16,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "RC Sporting Charleroi",
+      "away": "KV Mechelen",
+      "market": "less than 10.5 corners",
+      "score": 121.18,
+      "confidence": 73.84,
+      "prediction": 89.47,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/6",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "5/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+16.4)",
+        "home + away agreement (+9.8)"
+      ],
+      "penalties": [],
+      "rank": 17,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "SC Heerenveen",
+      "away": "PEC Zwolle",
+      "market": "less than 4.5 cards",
+      "score": 121.07,
+      "confidence": 91.67,
+      "prediction": 110.98,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "both"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+24.2)"
+      ],
+      "penalties": [],
+      "rank": 18,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Manchester City",
+      "away": "Bournemouth",
+      "market": "Bournemouth no clean sheet",
+      "score": 117.79,
+      "confidence": 90.11,
+      "prediction": 106.14,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "20",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+20.4)"
+      ],
+      "penalties": [],
+      "rank": 19,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Udinese",
+      "away": "Como",
+      "market": "less than 2.5 goals",
+      "score": 117.45,
+      "confidence": 71.11,
+      "prediction": 83.52,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 2.5 goals",
+          "value": "8/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 2.5 goals",
+          "value": "4/5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 2.5 goals",
+          "value": "5/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.1)",
+        "home + away agreement (+9.8)"
+      ],
+      "penalties": [],
+      "rank": 20,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Go Ahead Eagles",
+      "away": "ADO Den Haag",
+      "market": "less than 4.5 cards",
+      "score": 116.4,
+      "confidence": 90.85,
+      "prediction": 105.74,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "both"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "8/8",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+22.7)"
+      ],
+      "penalties": [],
+      "rank": 21,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Fortuna Sittard",
+      "away": "AZ Alkmaar",
+      "market": "less than 4.5 cards",
+      "score": 111.04,
+      "confidence": 91.29,
+      "prediction": 101.37,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+15.7)"
+      ],
+      "penalties": [],
+      "rank": 22,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Genoa",
+      "away": "SSC Napoli",
+      "market": "both teams scoring",
+      "score": 110.88,
+      "confidence": 79.6,
+      "prediction": 88.26,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "4/5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Both teams scoring",
+          "value": "6/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "11",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "both teams no clean sheet → BTTS (+25.4)"
+      ],
+      "penalties": [],
+      "rank": 23,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Espanyol",
+      "away": "Real Madrid",
+      "market": "less than 4.5 cards",
+      "score": 108.84,
+      "confidence": 90.85,
+      "prediction": 98.88,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/8",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+15.1)"
+      ],
+      "penalties": [],
+      "rank": 24,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Inter",
+      "away": "Monza",
+      "market": "Inter no losses",
+      "score": 107.38,
+      "confidence": 87.68,
+      "prediction": 94.15,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "No losses",
+          "value": "17",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "No losses",
+          "value": "5",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+17.6)"
+      ],
+      "penalties": [],
+      "rank": 25,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Angers",
+      "away": "Lille",
+      "market": "Angers no clean sheet",
+      "score": 106.82,
+      "confidence": 84.4,
+      "prediction": 90.16,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "11",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+15.9)",
+        "opponent first to score supports no clean sheet (+10.9)"
+      ],
+      "penalties": [],
+      "rank": 26,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Le Mans",
+      "away": "Stade Brestois",
+      "market": "less than 4.5 cards",
+      "score": 106.35,
+      "confidence": 90.32,
+      "prediction": 96.05,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+14.5)"
+      ],
+      "penalties": [],
+      "rank": 27,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Udinese",
+      "away": "Como",
+      "market": "less than 4.5 cards",
+      "score": 106.35,
+      "confidence": 90.32,
+      "prediction": 96.05,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+14.5)"
+      ],
+      "penalties": [],
+      "rank": 28,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Troyes",
+      "away": "Paris FC",
+      "market": "less than 4.5 cards",
+      "score": 105.46,
+      "confidence": 85.87,
+      "prediction": 90.55,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/8",
+          "team": "both"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "8/9",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+20.0)"
+      ],
+      "penalties": [],
+      "rank": 29,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Parma",
+      "away": "Cagliari",
+      "market": "less than 4.5 cards",
+      "score": 104.39,
+      "confidence": 87.5,
+      "prediction": 91.34,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+14.0)"
+      ],
+      "penalties": [],
+      "rank": 30,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Valencia",
+      "away": "Celta Vigo",
+      "market": "more than 2.5 goals",
+      "score": 102.78,
+      "confidence": 79.85,
+      "prediction": 82.07,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "7/9",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 2.5 goals",
+          "value": "6/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "9/10",
+          "team": "away"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+16.8)",
+        "both teams first-score tendencies → over goals (+6.9)",
+        "both teams no-clean-sheet tendencies → over goals (+4.2)"
+      ],
+      "penalties": [],
+      "rank": 31,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Troyes",
+      "away": "Paris FC",
+      "market": "Troyes no clean sheet",
+      "score": 102.37,
+      "confidence": 83.33,
+      "prediction": 85.3,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "12",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+13.9)",
+        "opponent first to score supports no clean sheet (+10.9)"
+      ],
+      "penalties": [],
+      "rank": 32,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Inter",
+      "away": "Monza",
+      "market": "both teams scoring",
+      "score": 100.89,
+      "confidence": 74.7,
+      "prediction": 75.37,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "6/7",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Both teams scoring",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "both teams no clean sheet → BTTS (+21.1)"
+      ],
+      "penalties": [],
+      "rank": 33,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Genoa",
+      "away": "SSC Napoli",
+      "market": "less than 10.5 corners",
+      "score": 100.42,
+      "confidence": 86.36,
+      "prediction": 86.73,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "8/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "9/9",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+13.4)"
+      ],
+      "penalties": [],
+      "rank": 34,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Brentford",
+      "away": "Tottenham Hotspur",
+      "market": "Tottenham Hotspur no losses",
+      "score": 100.16,
+      "confidence": 84.99,
+      "prediction": 85.13,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "No losses",
+          "value": "8",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "No losses",
+          "value": "6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+19.1)"
+      ],
+      "penalties": [],
+      "rank": 35,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Parma",
+      "away": "Cagliari",
+      "market": "Cagliari no losses",
+      "score": 97.87,
+      "confidence": 84.06,
+      "prediction": 82.27,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "No losses",
+          "value": "7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "No losses",
+          "value": "6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+19.1)"
+      ],
+      "penalties": [],
+      "rank": 36,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Troyes",
+      "away": "Paris FC",
+      "market": "both teams scoring",
+      "score": 97.06,
+      "confidence": 69.76,
+      "prediction": 67.71,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "5/7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Both teams scoring",
+          "value": "7/9",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "12",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+14.1)",
+        "both teams no clean sheet → BTTS (+21.1)"
+      ],
+      "penalties": [],
+      "rank": 37,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Nice",
+      "away": "Lorient",
+      "market": "less than 4.5 cards",
+      "score": 95.05,
+      "confidence": 81.04,
+      "prediction": 77.03,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "both"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "6/8",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+15.5)"
+      ],
+      "penalties": [],
+      "rank": 38,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Sparta Rotterdam",
+      "away": "FC Utrecht",
+      "market": "FC Utrecht no clean sheet",
+      "score": 93.36,
+      "confidence": 79.55,
+      "prediction": 74.27,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "5/6",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+13.9)",
+        "opponent first to score supports no clean sheet (+10.9)"
+      ],
+      "penalties": [],
+      "rank": 39,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Troyes",
+      "away": "Paris FC",
+      "market": "less than 10.5 corners",
+      "score": 91.31,
+      "confidence": 78.9,
+      "prediction": 72.04,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "7/8",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+17.8)"
+      ],
+      "penalties": [],
+      "rank": 40,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Angers",
+      "away": "Lille",
+      "market": "both teams scoring",
+      "score": 90.99,
+      "confidence": 81.1,
+      "prediction": 73.79,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "8/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "4/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "11",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "away"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+9.8)",
+        "both teams no clean sheet → BTTS (+21.1)",
+        "both teams first to score patterns → BTTS (+6.4)"
+      ],
+      "penalties": [
+        "head2head underlying-event conflict: No goals conceded 4 (away) (-21.1)"
+      ],
+      "rank": 41,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Manchester City",
+      "away": "Bournemouth",
+      "market": "Manchester City no clean sheet",
+      "score": 90.77,
+      "confidence": 81.64,
+      "prediction": 74.11,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+17.6)"
+      ],
+      "penalties": [],
+      "rank": 42,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Genoa",
+      "away": "SSC Napoli",
+      "market": "SSC Napoli no losses",
+      "score": 90.57,
+      "confidence": 82.28,
+      "prediction": 74.52,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "No losses",
+          "value": "4",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "No losses",
+          "value": "8",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+15.9)"
+      ],
+      "penalties": [],
+      "rank": 43,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Troyes",
+      "away": "Paris FC",
+      "market": "more than 2.5 goals",
+      "score": 89.57,
+      "confidence": 75.89,
+      "prediction": 67.98,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "7/8",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 2.5 goals",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "12",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "both teams no-clean-sheet tendencies → over goals (+7.4)"
+      ],
+      "penalties": [],
+      "rank": 44,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Athletic Club",
+      "away": "Sevilla",
+      "market": "less than 10.5 corners",
+      "score": 86.78,
+      "confidence": 78.08,
+      "prediction": 67.75,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "7/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "9/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.2)"
+      ],
+      "penalties": [],
+      "rank": 45,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Go Ahead Eagles",
+      "away": "ADO Den Haag",
+      "market": "more than 2.5 goals",
+      "score": 86.78,
+      "confidence": 78.08,
+      "prediction": 67.75,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "9/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "7/9",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.2)"
+      ],
+      "penalties": [],
+      "rank": 46,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "PSV Eindhoven",
+      "away": "FC Groningen",
+      "market": "less than 10.5 corners",
+      "score": 86.75,
+      "confidence": 80.0,
+      "prediction": 69.4,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "8/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/8",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.4)"
+      ],
+      "penalties": [],
+      "rank": 47,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Espanyol",
+      "away": "Real Madrid",
+      "market": "more than 2.5 goals",
+      "score": 85.81,
+      "confidence": 76.41,
+      "prediction": 65.57,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "6/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "5/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "8/8",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+10.9)",
+        "both teams first-score tendencies → over goals (+6.6)"
+      ],
+      "penalties": [],
+      "rank": 48,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Angers",
+      "away": "Lille",
+      "market": "less than 4.5 cards",
+      "score": 85.48,
+      "confidence": 79.6,
+      "prediction": 68.04,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "6/6",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)"
+      ],
+      "penalties": [],
+      "rank": 49,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "RC Lens",
+      "away": "Auxerre",
+      "market": "less than 10.5 corners",
+      "score": 82.94,
+      "confidence": 78.57,
+      "prediction": 65.17,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "5/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)"
+      ],
+      "penalties": [],
+      "rank": 50,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Parma",
+      "away": "Cagliari",
+      "market": "less than 2.5 goals",
+      "score": 82.73,
+      "confidence": 80.42,
+      "prediction": 66.53,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 2.5 goals",
+          "value": "7/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 2.5 goals",
+          "value": "4/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+9.8)"
+      ],
+      "penalties": [],
+      "rank": 51,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Manchester City",
+      "away": "Bournemouth",
+      "market": "less than 4.5 cards",
+      "score": 82.41,
+      "confidence": 80.27,
+      "prediction": 66.15,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)"
+      ],
+      "penalties": [],
+      "rank": 52,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    }
+  ]
 }
