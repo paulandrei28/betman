@@ -7,39 +7,40 @@
   <meta name="description" content="Daily football match analysis reports.">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=4">
   <title>Betman</title>
 </head>
 <body>
   <header class="topbar">
     <a class="brand" href="./"><span class="brand-mark">B</span><span>Betman</span></a>
-    <button id="install-button" class="install-button" type="button" hidden>Install app</button>
+    <div class="topbar-actions"><button id="language-toggle" class="language-toggle" type="button" aria-label="Switch to Romanian" title="Change language"><span class="language-flag" aria-hidden="true">🇷🇴</span><span class="language-code" aria-hidden="true">RO</span></button><button id="install-button" class="install-button" type="button" hidden data-i18n="install">Install app</button></div>
   </header>
   <main class="app-shell">
     <section class="intro" aria-labelledby="page-title">
-      <h1 id="page-title"><span>Pick a</span> <span>matchday.</span><em>Read the signal.</em></h1>
+      <h1 id="page-title"><span data-i18n="introPick">Pick a</span> <span data-i18n="introMatchday">matchday.</span><em data-i18n="introSignal">Read the signal.</em></h1>
     </section>
     <section class="workspace" aria-label="Report archive">
       <div class="calendar-panel">
         <div class="panel-heading">
-          <div><p class="eyebrow">Archive</p><h2 id="month-label">Reports</h2></div>
+          <div><p class="eyebrow" data-i18n="archive">Archive</p><h2 id="month-label">Reports</h2></div>
             <div class="calendar-actions"><button id="previous-month" class="icon-button" type="button" aria-label="Previous month"><span class="chevron chevron-left" aria-hidden="true"></span></button><button id="next-month" class="icon-button" type="button" aria-label="Next month"><span class="chevron chevron-right" aria-hidden="true"></span></button></div>
         </div>
-        <div class="weekdays" aria-hidden="true"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div>
+        <div class="weekdays" aria-hidden="true"><span data-weekday="1">Mon</span><span data-weekday="2">Tue</span><span data-weekday="3">Wed</span><span data-weekday="4">Thu</span><span data-weekday="5">Fri</span><span data-weekday="6">Sat</span><span data-weekday="0">Sun</span></div>
         <div id="calendar" class="calendar" aria-label="Report calendar"></div>
-        <div class="legend"><span class="legend-dot"></span><span>Report available</span></div>
+        <div class="legend"><span class="legend-dot"></span><span data-i18n="reportAvailable">Report available</span></div>
       </div>
       <article class="report-panel" aria-live="polite" hidden>
-        <div id="report-loading" class="placeholder" hidden><p>Loading report...</p></div>
-        <div id="report-error" class="placeholder" hidden><p>That report is not available right now.</p></div>
+        <div id="report-loading" class="placeholder" hidden><p data-i18n="loading">Loading report...</p></div>
+        <div id="report-error" class="placeholder" hidden><p data-i18n="reportUnavailable">That report is not available right now.</p></div>
         <div id="report-content" hidden>
-          <div class="report-toolbar"><div><p class="eyebrow">Selected report</p><h2 id="report-heading"></h2></div></div>
+          <div class="report-toolbar"><div><p class="eyebrow" data-i18n="selectedReport">Selected report</p><h2 id="report-heading"></h2></div></div>
+          <div id="report-tabs" class="report-tabs" role="tablist" aria-label="Report view"><button class="report-tab active" type="button" role="tab" data-report-view="games" aria-selected="true" data-i18n="byGame">By game</button><button class="report-tab" type="button" role="tab" data-report-view="prediction" aria-selected="false" data-i18n="byPrediction">By prediction</button></div>
           <div id="report-body" class="report-body"></div>
         </div>
       </article>
     </section>
   </main>
-  <footer><span>For informational purposes only. Bet responsibly.</span><span id="offline-status"></span></footer>
-  <script src="app.js?v=11"></script>
+  <footer><span data-i18n="disclaimer">For informational purposes only. Bet responsibly.</span><span id="offline-status"></span></footer>
+  <script src="app.js?v=12"></script>
 </body>
 </html>
