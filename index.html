@@ -7,12 +7,12 @@
   <meta name="description" content="Daily football match analysis reports.">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css?v=2">
-  <title>Betman Reports</title>
+  <link rel="stylesheet" href="styles.css?v=3">
+  <title>Betman</title>
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="./"><span class="brand-mark">B</span><span>Betman reports</span></a>
+    <a class="brand" href="./"><span class="brand-mark">B</span><span>Betman</span></a>
     <button id="install-button" class="install-button" type="button" hidden>Install app</button>
   </header>
   <main class="app-shell">
@@ -25,7 +25,7 @@
       <div class="calendar-panel">
         <div class="panel-heading">
           <div><p class="eyebrow">Archive</p><h2 id="month-label">Reports</h2></div>
-          <div class="calendar-actions"><button id="previous-month" class="icon-button" type="button" aria-label="Previous month">&#8592;</button><button id="next-month" class="icon-button" type="button" aria-label="Next month">&#8594;</button></div>
+            <div class="calendar-actions"><button id="previous-month" class="icon-button" type="button" aria-label="Previous month"><span class="chevron chevron-left" aria-hidden="true"></span></button><button id="next-month" class="icon-button" type="button" aria-label="Next month"><span class="chevron chevron-right" aria-hidden="true"></span></button></div>
         </div>
         <div class="weekdays" aria-hidden="true"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div>
         <div id="calendar" class="calendar" aria-label="Report calendar"></div>
@@ -41,7 +41,7 @@
       </article>
     </section>
   </main>
-  <footer><span>Generated daily from the Game Analyst pipeline.</span><span id="offline-status"></span></footer>
-  <script src="app.js?v=10"></script>
+  <footer><span>For informational purposes only. Bet responsibly.</span><span id="offline-status"></span></footer>
+  <script src="app.js?v=11"></script>
 </body>
 </html>
