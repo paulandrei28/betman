@@ -1,4 +1,4 @@
-const CACHE = 'betman-shell-v14';
+const CACHE = 'betman-shell-v16';
 const SHELL = ['./', './index.html', './styles.css', './app.js', './manifest.webmanifest'];
 
 self.addEventListener('install', (event) => {

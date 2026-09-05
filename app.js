@@ -172,9 +172,9 @@ const translations = {
       'That report is not available right now.',
     selectedReport: 'Selected report',
 
-    top20: 'Top 20',
-    byGame: 'By game',
-    byPrediction: 'By prediction',
+    top20: 'Top picks',
+    byGame: 'By match',
+    byPrediction: 'By market',
 
     league: 'League',
     allLeagues: 'All leagues',
@@ -232,6 +232,7 @@ const translations = {
 
     filters: 'Filters',
     activeFilters: 'active',
+    selectAll: 'Select all',
 
     lastGames: 'Last games',
     headToHead: 'Head-to-head',
@@ -249,7 +250,7 @@ const translations = {
       'Raportul nu este disponibil momentan.',
     selectedReport: 'Raport selectat',
 
-    top20: 'Top 20',
+    top20: 'Top ponturi',
     byGame: 'Pe meci',
     byPrediction: 'Pe pronostic',
 
@@ -310,6 +311,7 @@ const translations = {
 
     filters: 'Filtre',
     activeFilters: 'active',
+    selectAll: 'Selectează tot',
 
     lastGames: 'Ultimele meciuri',
     headToHead: 'Confruntări directe',
@@ -317,6 +319,29 @@ const translations = {
     bothTeams: 'Ambele echipe',
   },
 };
+
+/*
+ * Only country names are translated;
+ * competitions and associations (UEFA, FIFA, Top 6, ...)
+ * stay in their original form.
+ */
+const countryGroupTranslations = {
+  England: 'Anglia',
+  Spain: 'Spania',
+  Italy: 'Italia',
+  Germany: 'Germania',
+  France: 'Franța',
+  Romania: 'România',
+  Netherlands: 'Olanda',
+  Portugal: 'Portugalia',
+  Belgium: 'Belgia',
+  Turkey: 'Turcia',
+};
+
+const translateLeagueGroup = (group) =>
+  state.lang === 'ro'
+    ? countryGroupTranslations[group] || group
+    : group;
 
 const marketTranslations = {
   'less than': 'sub',
@@ -326,6 +351,7 @@ const marketTranslations = {
   goals: 'goluri',
   'both teams scoring':
     'ambele echipe marchează',
+  'without clean sheet': 'primește gol',
   'no clean sheet': 'primește gol',
   'first to score': 'marchează prima',
   'first half winner':
@@ -1024,6 +1050,43 @@ function gameName(prediction) {
   );
 }
 
+function bestRank(items) {
+  return Math.min(
+    ...items.map(
+      (item) => Number(item.rank) || Infinity
+    )
+  );
+}
+
+function predictionSummary(prediction) {
+  return escapeHtml(
+    state.lang === 'ro'
+      ? translateMarket(prediction.market)
+      : prediction.market
+  );
+}
+
+function renderGameGroup(game, items) {
+  return `
+    <section class="match">
+
+      <h3>
+        ${escapeHtml(game)}
+      </h3>
+
+      ${items
+        .map((prediction) =>
+          renderPrediction(
+            prediction,
+            predictionSummary(prediction)
+          )
+        )
+        .join('')}
+
+    </section>
+  `;
+}
+
 /* =========================================================
    BY GAME
    ========================================================= */
@@ -1049,7 +1112,9 @@ function renderByGame(
 
       if (!leagues.has(key)) {
         leagues.set(key, {
-          league,
+          league:
+            LEAGUE_BY_ID.get(key) ||
+            league,
           games: new Map(),
         });
       }
@@ -1101,40 +1166,21 @@ function renderByGame(
             </h3>
 
             ${Array.from(
-              games,
-              (
-                [game, items]
-              ) => `
-                <section class="match">
-
-                  <h3>
-                    ${escapeHtml(
-                      game
-                    )}
-                  </h3>
-
-                  ${items
-                    .map(
-                      (
-                        prediction
-                      ) =>
-                        renderPrediction(
-                          prediction,
-                          `${escapeHtml(
-                            state.lang ===
-                              'ro'
-                              ? translateMarket(
-                                  prediction.market
-                                )
-                              : prediction.market
-                          )}`
-                        )
-                    )
-                    .join('')}
-
-                </section>
-              `
-            ).join('')}
+              games.entries()
+            )
+              .sort(
+                (left, right) =>
+                  bestRank(left[1]) -
+                  bestRank(right[1])
+              )
+              .map(
+                ([game, items]) =>
+                  renderGameGroup(
+                    game,
+                    items
+                  )
+              )
+              .join('')}
 
           </section>
         `
@@ -1226,63 +1272,11 @@ function renderByPrediction(
             games,
             (
               [game, predictions]
-            ) => `
-              <details
-                class="grouped-game"
-              >
-
-                <summary>
-                  <strong>
-                    ${escapeHtml(
-                      game
-                    )}
-                  </strong>
-
-                  <span>
-                    ${
-                      predictions.length
-                    }
-                    ${
-                      predictions.length ===
-                      1
-                        ? t(
-                            'prediction'
-                          )
-                        : t(
-                            'predictions'
-                          )
-                    }
-                  </span>
-                </summary>
-
-                <div
-                  class="grouped-game-body"
-                >
-                  ${predictions
-                    .map(
-                      (
-                        prediction
-                      ) =>
-                        renderPrediction(
-                          prediction,
-                          `#${escapeHtml(
-                            prediction.rank ??
-                              '-'
-                          )} - ${escapeHtml(
-                            state.lang ===
-                              'ro'
-                              ? translateMarket(
-                                  prediction.market
-                                )
-                              : prediction.market
-                          )}`
-                        )
-                    )
-                    .join('')}
-                </div>
-
-              </details>
-            `
+            ) =>
+              renderGameGroup(
+                game,
+                predictions
+              )
           ).join('')}
 
         </section>
@@ -1299,43 +1293,44 @@ function renderTop(
   predictions,
   count
 ) {
+  const games =
+    new Map();
+
+  predictions
+    .slice(0, 20)
+    .forEach((prediction) => {
+      const game =
+        gameName(prediction);
+
+      if (!games.has(game)) {
+        games.set(game, []);
+      }
+
+      games
+        .get(game)
+        .push(prediction);
+    });
+
   return `
     <p class="report-count">
       ${count}
       ${t('ranked')}
     </p>
 
-    ${predictions
-      .slice(0, 20)
+    ${Array.from(
+      games.entries()
+    )
+      .sort(
+        (left, right) =>
+          bestRank(left[1]) -
+          bestRank(right[1])
+      )
       .map(
-        (prediction) => `
-          <section
-            class="top-prediction"
-          >
-
-            <h3>
-              ${escapeHtml(
-                gameName(
-                  prediction
-                )
-              )}
-            </h3>
-
-            ${renderPrediction(
-              prediction,
-              `#${escapeHtml(
-                prediction.rank ?? '-'
-              )} - ${escapeHtml(
-                state.lang === 'ro'
-                  ? translateMarket(
-                      prediction.market
-                    )
-                  : prediction.market
-              )}`
-            )}
-
-          </section>
-        `
+        ([game, items]) =>
+          renderGameGroup(
+            game,
+            items
+          )
       )
       .join('')}
   `;
@@ -1379,7 +1374,7 @@ function renderReport(data) {
 
   return renderTop(
     predictions,
-    predictions.length
+    Math.min(predictions.length, 20)
   );
 }
 
@@ -1492,11 +1487,25 @@ function mountFilterMenu() {
         class="filter-section"
       >
 
-        <p
-          data-i18n="predictionFilter"
-        >
-          Markets
-        </p>
+        <div class="filter-section-heading">
+
+          <p
+            data-i18n="predictionFilter"
+          >
+            Markets
+          </p>
+
+          <label class="filter-select-all">
+            <input
+              type="checkbox"
+              id="select-all-markets"
+            >
+            <span data-i18n="selectAll">
+              Select all
+            </span>
+          </label>
+
+        </div>
 
         <div
           id="prediction-options"
@@ -1509,11 +1518,25 @@ function mountFilterMenu() {
         class="filter-section"
       >
 
-        <p
-          data-i18n="leagueConfig"
-        >
-          League selection
-        </p>
+        <div class="filter-section-heading">
+
+          <p
+            data-i18n="leagueConfig"
+          >
+            League selection
+          </p>
+
+          <label class="filter-select-all">
+            <input
+              type="checkbox"
+              id="select-all-leagues"
+            >
+            <span data-i18n="selectAll">
+              Select all
+            </span>
+          </label>
+
+        </div>
 
         <div
           id="league-options"
@@ -1585,6 +1608,38 @@ function updateFilterBadge() {
     badge.textContent =
       activeCount;
   }
+}
+
+function syncSelectAllCheckbox(
+  id,
+  container
+) {
+  const selectAll =
+    document.getElementById(id);
+
+  if (!selectAll || !container) {
+    return;
+  }
+
+  const options =
+    Array.from(
+      container.querySelectorAll(
+        'input[type="checkbox"]'
+      )
+    );
+
+  const checkedCount =
+    options.filter(
+      (option) => option.checked
+    ).length;
+
+  selectAll.checked =
+    options.length > 0 &&
+    checkedCount === options.length;
+
+  selectAll.indeterminate =
+    checkedCount > 0 &&
+    checkedCount < options.length;
 }
 
 function updateFilters() {
@@ -1734,7 +1789,9 @@ function updateFilters() {
           <div class="filter-league-group">
 
             <div class="filter-league-group-title">
-              ${escapeHtml(group)}
+              ${escapeHtml(
+                translateLeagueGroup(group)
+              )}
             </div>
 
             <div class="filter-league-group-options">
@@ -1791,6 +1848,21 @@ function updateFilters() {
     thresholdInput.value =
       state.threshold;
   }
+
+
+  /* =========================================================
+     SELECT ALL
+     ========================================================= */
+
+  syncSelectAllCheckbox(
+    'select-all-markets',
+    predictionOptions
+  );
+
+  syncSelectAllCheckbox(
+    'select-all-leagues',
+    leagueOptions
+  );
 
 
   /* =========================================================
@@ -1889,6 +1961,20 @@ function applyCurrentFilterSelection() {
   persistFilters();
 
   updateFilterBadge();
+
+  syncSelectAllCheckbox(
+    'select-all-markets',
+    document.getElementById(
+      'prediction-options'
+    )
+  );
+
+  syncSelectAllCheckbox(
+    'select-all-leagues',
+    document.getElementById(
+      'league-options'
+    )
+  );
 
   if (
     state.report
@@ -2508,6 +2594,8 @@ async function loadReports() {
    FILTER MENU
    ========================================================= */
 
+let filterMenuHistoryPushed = false;
+
 function toggleFilterMenu(
   open
 ) {
@@ -2521,6 +2609,10 @@ function toggleFilterMenu(
     return;
   }
 
+  if (open === !panel.hidden) {
+    return;
+  }
+
   panel.hidden =
     !open;
 
@@ -2528,6 +2620,25 @@ function toggleFilterMenu(
     'aria-expanded',
     String(open)
   );
+
+  /*
+   * Push a dummy history entry while open so the
+   * phone/browser back button closes the menu
+   * instead of leaving the page.
+   */
+  if (open) {
+    history.pushState(
+      { filterMenu: true },
+      '',
+      location.href
+    );
+
+    filterMenuHistoryPushed = true;
+  } else if (filterMenuHistoryPushed) {
+    filterMenuHistoryPushed = false;
+
+    history.back();
+  }
 }
 
 /* =========================================================
@@ -2706,6 +2817,38 @@ document.addEventListener(
     ) {
       applyCurrentFilterSelection();
     }
+
+    if (
+      event.target.id ===
+      'select-all-leagues'
+    ) {
+      document
+        .querySelectorAll(
+          '#league-options input[type="checkbox"]'
+        )
+        .forEach((option) => {
+          option.checked =
+            event.target.checked;
+        });
+
+      applyCurrentFilterSelection();
+    }
+
+    if (
+      event.target.id ===
+      'select-all-markets'
+    ) {
+      document
+        .querySelectorAll(
+          '#prediction-options input[type="checkbox"]'
+        )
+        .forEach((option) => {
+          option.checked =
+            event.target.checked;
+        });
+
+      applyCurrentFilterSelection();
+    }
   }
 );
 
@@ -2773,6 +2916,26 @@ document.addEventListener(
 window.addEventListener(
   'popstate',
   () => {
+    const panel =
+      $('#filter-menu-panel');
+
+    /*
+     * Back button while the filter menu is open:
+     * just close it, don't navigate away.
+     */
+    if (panel && !panel.hidden) {
+      filterMenuHistoryPushed = false;
+
+      panel.hidden = true;
+
+      $('#filter-menu-toggle')?.setAttribute(
+        'aria-expanded',
+        'false'
+      );
+
+      return;
+    }
+
     const hash =
       location.hash.slice(1);
 

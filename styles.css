@@ -496,11 +496,12 @@ body.report-focus {
 }
 
 /* =========================================================
-   BY GAME
+   GAME GROUPS (shared across Top 20 / By game / By prediction)
    ========================================================= */
 
 .match {
   padding-left: 4px;
+  margin-bottom: 16px;
   border-left: 3px solid var(--blue);
 }
 
@@ -547,62 +548,16 @@ body.report-focus {
   display: flex;
   justify-content: space-between;
   gap: 12px;
-  margin: 0 0 8px;
-  padding: 0 0 10px;
-  border-bottom: 1px solid var(--line);
-  font-size: 20px;
+  margin: 0 0 14px;
+  padding: 0 0 9px;
+  border-bottom: 2px solid var(--accent);
+  font-size: 22px;
 }
 
 .prediction-group > h3 span {
   color: var(--muted);
   font: 500 11px 'DM Mono', monospace;
   text-transform: uppercase;
-}
-
-.grouped-game {
-  margin-left: 13px;
-  border-bottom: 1px solid var(--line);
-  padding: 0;
-}
-
-.grouped-game > summary {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 14px 8px;
-}
-
-.grouped-game > summary span {
-  color: var(--muted);
-  font: 500 11px 'DM Mono', monospace;
-  white-space: nowrap;
-}
-
-.grouped-game-body {
-  padding-left: 18px;
-}
-
-.grouped-game-body details {
-  border-top: 1px solid var(--line);
-}
-
-/* =========================================================
-   TOP PREDICTIONS
-   ========================================================= */
-
-.top-prediction {
-  padding: 14px 0;
-  border-bottom: 1px solid var(--line);
-}
-
-.top-prediction h3 {
-  margin: 0 0 8px;
-  font-size: 16px;
-}
-
-.top-prediction details {
-  border: 0;
-  padding: 0;
 }
 
 /* =========================================================
@@ -851,6 +806,39 @@ body.report-focus {
 
 .filter-section > p {
   margin-bottom: 10px;
+}
+
+.filter-section-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.filter-section-heading > p {
+  margin: 0;
+}
+
+.filter-select-all {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--muted);
+  font: 500 10px 'DM Mono', monospace;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.filter-select-all input {
+  margin: 0;
+  accent-color: var(--accent);
+}
+
+.filter-select-all:hover {
+  color: var(--accent);
 }
 
 .filter-options {
