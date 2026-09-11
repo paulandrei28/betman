@@ -37,7 +37,7 @@ const SUPPORTED_LEAGUES = [
   { id: '11', name: 'Copa Sudamericana', group: 'CONMEBOL', priority: 17 },
 
   // ROMANIA
-  { id: '286', name: 'Cupa României', group: 'Romania', priority: 18 },
+  { id: '285', name: 'Cupa României', group: 'Romania', priority: 18 },
 
   // ENGLAND
   { id: '45', name: 'FA Cup', group: 'England', priority: 19 },

@@ -1,0 +1,9 @@
+# Caveman & agent skills
+.agents/
+skills-lock.json
+AGENTS.md
+.opencode/
+.clinerules/
+.cursor/
+.windsurf/
+.github/copilot-instructions.md
