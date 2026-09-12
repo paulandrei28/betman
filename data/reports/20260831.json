@@ -1,0 +1,846 @@
+{
+  "date": "20260831",
+  "predictions": [
+    {
+      "home": "Aston Villa",
+      "away": "Arsenal",
+      "market": "less than 10.5 corners",
+      "score": 143.88,
+      "confidence": 80.39,
+      "prediction": 115.67,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "9/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "8/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "5/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+16.4)",
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 1,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Defensa Y Justicia",
+      "away": "Platense",
+      "market": "less than 10.5 corners",
+      "score": 129.96,
+      "confidence": 75.58,
+      "prediction": 98.22,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "7/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "8/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 2,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Benfica",
+      "away": "Estoril",
+      "market": "less than 4.5 cards",
+      "score": 127.45,
+      "confidence": 74.81,
+      "prediction": 95.34,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "6/7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 3,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Estudiantes L.P.",
+      "away": "Newells Old Boys",
+      "market": "less than 10.5 corners",
+      "score": 125.47,
+      "confidence": 75.73,
+      "prediction": 95.01,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "9/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "4/5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "home + away agreement (+9.8)"
+      ],
+      "penalties": [],
+      "rank": 4,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Benfica",
+      "away": "Estoril",
+      "market": "Benfica first to score",
+      "score": 123.99,
+      "confidence": 82.74,
+      "prediction": 102.59,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "7/8",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "5/5",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to concede",
+          "value": "4/5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "First half winner",
+          "value": "5/5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "20",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+19.0)",
+        "first to score + opponent first to concede (+14.7)",
+        "first to score + first-half winner (+8.4)",
+        "opponent no clean sheet supports scoring first (+5.2)"
+      ],
+      "penalties": [],
+      "rank": 5,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Benfica",
+      "away": "Estoril",
+      "market": "Estoril no clean sheet",
+      "score": 117.19,
+      "confidence": 86.84,
+      "prediction": 101.76,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "20",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "5/5",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+15.9)",
+        "opponent first to score supports no clean sheet (+12.9)"
+      ],
+      "penalties": [],
+      "rank": 6,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Barcelona",
+      "away": "Rayo Vallecano",
+      "market": "Rayo Vallecano no clean sheet",
+      "score": 115.01,
+      "confidence": 86.04,
+      "prediction": 98.95,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "8",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "5/6",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+20.4)",
+        "opponent first to score supports no clean sheet (+10.9)"
+      ],
+      "penalties": [],
+      "rank": 7,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Benfica",
+      "away": "Estoril",
+      "market": "Benfica first half winner",
+      "score": 114.99,
+      "confidence": 82.74,
+      "prediction": 95.14,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "First half winner",
+          "value": "7/8",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "First half winner",
+          "value": "5/5",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "5/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "First to concede",
+          "value": "4/5",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+19.0)",
+        "first-half winner + first to score (+12.9)",
+        "first-half winner + opponent first to concede (+6.4)"
+      ],
+      "penalties": [],
+      "rank": 8,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Osasuna",
+      "away": "Getafe",
+      "market": "less than 10.5 corners",
+      "score": 105.39,
+      "confidence": 85.95,
+      "prediction": 90.58,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "7/8",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "10/10",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+19.0)"
+      ],
+      "penalties": [],
+      "rank": 9,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Lecce",
+      "away": "AS Roma",
+      "market": "less than 4.5 cards",
+      "score": 103.23,
+      "confidence": 89.45,
+      "prediction": 92.34,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+14.5)"
+      ],
+      "penalties": [],
+      "rank": 10,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Aston Villa",
+      "away": "Arsenal",
+      "market": "less than 4.5 cards",
+      "score": 102.93,
+      "confidence": 87.09,
+      "prediction": 89.64,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/9",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+14.0)"
+      ],
+      "penalties": [],
+      "rank": 11,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Aston Villa",
+      "away": "Arsenal",
+      "market": "Aston Villa no clean sheet",
+      "score": 102.51,
+      "confidence": 82.28,
+      "prediction": 84.35,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "8",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "8/10",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+15.9)",
+        "opponent first to score supports no clean sheet (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 12,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Benfica",
+      "away": "Estoril",
+      "market": "both teams scoring",
+      "score": 100.44,
+      "confidence": 75.0,
+      "prediction": 75.33,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Both teams scoring",
+          "value": "5/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+16.4)",
+        "both teams no clean sheet → BTTS (+18.5)"
+      ],
+      "penalties": [],
+      "rank": 13,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Aston Villa",
+      "away": "Arsenal",
+      "market": "more than 2.5 goals",
+      "score": 98.59,
+      "confidence": 83.71,
+      "prediction": 82.53,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "10/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "8",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+10.9)",
+        "both teams no-clean-sheet tendencies → over goals (+6.5)"
+      ],
+      "penalties": [],
+      "rank": 14,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Estudiantes L.P.",
+      "away": "Newells Old Boys",
+      "market": "Estudiantes L.P. first to score",
+      "score": 97.99,
+      "confidence": 74.7,
+      "prediction": 73.2,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "6/7",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "away"
+        },
+        {
+          "section": "general",
+          "name": "First half winner",
+          "value": "4/5",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "opponent no clean sheet supports scoring first (+11.9)",
+        "first to score + first-half winner (+6.4)"
+      ],
+      "penalties": [],
+      "rank": 15,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Aston Villa",
+      "away": "Arsenal",
+      "market": "both teams scoring",
+      "score": 97.96,
+      "confidence": 75.0,
+      "prediction": 73.47,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "7/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "6/8",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "8",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+10.4)",
+        "both teams no clean sheet → BTTS (+18.5)"
+      ],
+      "penalties": [],
+      "rank": 16,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Atalanta",
+      "away": "Bologna",
+      "market": "less than 4.5 cards",
+      "score": 95.44,
+      "confidence": 82.58,
+      "prediction": 78.81,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/9",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+13.4)"
+      ],
+      "penalties": [],
+      "rank": 17,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Barcelona",
+      "away": "Rayo Vallecano",
+      "market": "Barcelona first to score",
+      "score": 94.26,
+      "confidence": 73.24,
+      "prediction": 69.04,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "8",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "First half winner",
+          "value": "4/5",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "opponent no clean sheet supports scoring first (+10.9)",
+        "first to score + first-half winner (+6.4)"
+      ],
+      "penalties": [],
+      "rank": 18,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Lecce",
+      "away": "AS Roma",
+      "market": "AS Roma first to score",
+      "score": 90.61,
+      "confidence": 73.32,
+      "prediction": 66.44,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "8/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "opponent no clean sheet supports scoring first (+10.6)"
+      ],
+      "penalties": [],
+      "rank": 19,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "Beşiktaş",
+      "away": "Çorum FK",
+      "market": "less than 2.5 goals",
+      "score": 85.38,
+      "confidence": 78.9,
+      "prediction": 67.37,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 2.5 goals",
+          "value": "7/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 2.5 goals",
+          "value": "6/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 20,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    },
+    {
+      "home": "SC Braga",
+      "away": "Vitória SC",
+      "market": "less than 10.5 corners",
+      "score": 82.41,
+      "confidence": 80.27,
+      "prediction": 66.15,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)"
+      ],
+      "penalties": [],
+      "rank": 21,
+      "league": {
+        "id": null,
+        "name": "Unknown"
+      }
+    }
+  ]
+}
