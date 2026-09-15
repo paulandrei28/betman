@@ -1,0 +1,826 @@
+{
+  "date": "20260916",
+  "predictions": [
+    {
+      "home": "Deportivo La Coruna",
+      "away": "Sevilla",
+      "market": "less than 10.5 corners",
+      "score": 139.64,
+      "confidence": 79.02,
+      "prediction": 110.34,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "8/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/8",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "5/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+19.4)",
+        "home + away agreement (+10.4)"
+      ],
+      "penalties": [],
+      "rank": 1,
+      "league": {
+        "id": 140,
+        "name": "La Liga"
+      }
+    },
+    {
+      "home": "Barcelona",
+      "away": "Racing Santander",
+      "market": "Racing Santander no clean sheet",
+      "score": 138.57,
+      "confidence": 91.55,
+      "prediction": 126.86,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "16",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "7/7",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+23.4)",
+        "opponent first to score supports no clean sheet (+14.5)"
+      ],
+      "penalties": [],
+      "rank": 2,
+      "league": {
+        "id": 140,
+        "name": "La Liga"
+      }
+    },
+    {
+      "home": "Everton",
+      "away": "Wolves",
+      "market": "less than 4.5 cards",
+      "score": 126.98,
+      "confidence": 74.79,
+      "prediction": 94.97,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/8",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "home + away agreement (+11.2)"
+      ],
+      "penalties": [],
+      "rank": 3,
+      "league": {
+        "id": 48,
+        "name": "League Cup"
+      }
+    },
+    {
+      "home": "Barcelona",
+      "away": "Racing Santander",
+      "market": "Barcelona first to score",
+      "score": 124.29,
+      "confidence": 84.39,
+      "prediction": 104.89,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "7/8",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "7/7",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First half winner",
+          "value": "7/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "16",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+19.0)",
+        "first to score + first-half winner (+14.5)",
+        "opponent no clean sheet supports scoring first (+9.4)"
+      ],
+      "penalties": [],
+      "rank": 4,
+      "league": {
+        "id": 140,
+        "name": "La Liga"
+      }
+    },
+    {
+      "home": "Manchester United",
+      "away": "Brighton",
+      "market": "less than 4.5 cards",
+      "score": 122.96,
+      "confidence": 71.56,
+      "prediction": 87.99,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/9",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "5/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.1)",
+        "home + away agreement (+11.2)"
+      ],
+      "penalties": [],
+      "rank": 5,
+      "league": {
+        "id": 48,
+        "name": "League Cup"
+      }
+    },
+    {
+      "home": "Barcelona",
+      "away": "Racing Santander",
+      "market": "Barcelona wins",
+      "score": 114.69,
+      "confidence": 86.92,
+      "prediction": 99.7,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Wins",
+          "value": "8",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Wins",
+          "value": "8",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "No losses",
+          "value": "18",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+21.5)",
+        "win + no losses (+7.2)"
+      ],
+      "penalties": [],
+      "rank": 6,
+      "league": {
+        "id": 140,
+        "name": "La Liga"
+      }
+    },
+    {
+      "home": "Barcelona",
+      "away": "Racing Santander",
+      "market": "Barcelona first half winner",
+      "score": 111.25,
+      "confidence": 83.33,
+      "prediction": 92.71,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "First half winner",
+          "value": "7/7",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "First half winner",
+          "value": "6/7",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "7/7",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+17.8)",
+        "first-half winner + first to score (+14.5)"
+      ],
+      "penalties": [],
+      "rank": 7,
+      "league": {
+        "id": 140,
+        "name": "La Liga"
+      }
+    },
+    {
+      "home": "Anderlecht",
+      "away": "Lyon",
+      "market": "less than 4.5 cards",
+      "score": 106.53,
+      "confidence": 88.87,
+      "prediction": 94.68,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "5/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+19.4)"
+      ],
+      "penalties": [],
+      "rank": 8,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "Atletico Madrid",
+      "away": "Osasuna",
+      "market": "Atletico Madrid first to score",
+      "score": 101.77,
+      "confidence": 75.0,
+      "prediction": 76.33,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "8/10",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to concede",
+          "value": "7/9",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+16.4)",
+        "first to score + opponent first to concede (+16.8)"
+      ],
+      "penalties": [],
+      "rank": 9,
+      "league": {
+        "id": 140,
+        "name": "La Liga"
+      }
+    },
+    {
+      "home": "AC Milan",
+      "away": "Benfica",
+      "market": "less than 4.5 cards",
+      "score": 101.42,
+      "confidence": 84.56,
+      "prediction": 85.76,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/9",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "6/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+20.0)"
+      ],
+      "penalties": [],
+      "rank": 10,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "Barcelona",
+      "away": "Racing Santander",
+      "market": "more than 2.5 goals",
+      "score": 98.49,
+      "confidence": 73.87,
+      "prediction": 72.76,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "7/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "4/5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 2.5 goals",
+          "value": "6/8",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+15.5)",
+        "home + away agreement (+9.8)"
+      ],
+      "penalties": [
+        "head2head underlying-event conflict: No goals conceded 6 (home) (-25.4)"
+      ],
+      "rank": 11,
+      "league": {
+        "id": 140,
+        "name": "La Liga"
+      }
+    },
+    {
+      "home": "Levante",
+      "away": "Athletic Club",
+      "market": "Athletic Club no losses",
+      "score": 94.71,
+      "confidence": 82.81,
+      "prediction": 78.43,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "No losses",
+          "value": "3",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "No losses",
+          "value": "11",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Wins",
+          "value": "3",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+13.9)",
+        "no losses + wins (+4.6)"
+      ],
+      "penalties": [],
+      "rank": 12,
+      "league": {
+        "id": 140,
+        "name": "La Liga"
+      }
+    },
+    {
+      "home": "Manchester United",
+      "away": "Brighton",
+      "market": "less than 10.5 corners",
+      "score": 92.5,
+      "confidence": 80.03,
+      "prediction": 74.02,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "8/10",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "5/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+17.9)"
+      ],
+      "penalties": [],
+      "rank": 13,
+      "league": {
+        "id": 48,
+        "name": "League Cup"
+      }
+    },
+    {
+      "home": "Everton",
+      "away": "Wolves",
+      "market": "less than 10.5 corners",
+      "score": 90.75,
+      "confidence": 79.56,
+      "prediction": 72.2,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "10/10",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.1)"
+      ],
+      "penalties": [],
+      "rank": 14,
+      "league": {
+        "id": 48,
+        "name": "League Cup"
+      }
+    },
+    {
+      "home": "Fleetwood Town",
+      "away": "Sheffield Utd",
+      "market": "Fleetwood Town no losses",
+      "score": 90.57,
+      "confidence": 82.28,
+      "prediction": 74.52,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "No losses",
+          "value": "8",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "No losses",
+          "value": "4",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+15.9)"
+      ],
+      "penalties": [],
+      "rank": 15,
+      "league": {
+        "id": 48,
+        "name": "League Cup"
+      }
+    },
+    {
+      "home": "Levante",
+      "away": "Athletic Club",
+      "market": "less than 4.5 cards",
+      "score": 89.76,
+      "confidence": 79.17,
+      "prediction": 71.06,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 16,
+      "league": {
+        "id": 140,
+        "name": "La Liga"
+      }
+    },
+    {
+      "home": "AC Milan",
+      "away": "Benfica",
+      "market": "less than 10.5 corners",
+      "score": 87.72,
+      "confidence": 82.17,
+      "prediction": 72.07,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "10/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "4/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+9.8)"
+      ],
+      "penalties": [],
+      "rank": 17,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "Hapoel Beer Sheva",
+      "away": "Dinamo Zagreb",
+      "market": "more than 2.5 goals",
+      "score": 87.5,
+      "confidence": 79.84,
+      "prediction": 69.86,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "6/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "8/9",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 18,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "Deportivo La Coruna",
+      "away": "Sevilla",
+      "market": "less than 4.5 cards",
+      "score": 86.72,
+      "confidence": 75.97,
+      "prediction": 65.88,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/9",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "6/8",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+15.5)"
+      ],
+      "penalties": [],
+      "rank": 19,
+      "league": {
+        "id": 140,
+        "name": "La Liga"
+      }
+    },
+    {
+      "home": "LDU de Quito",
+      "away": "Palmeiras",
+      "market": "less than 2.5 goals",
+      "score": 86.52,
+      "confidence": 80.03,
+      "prediction": 69.24,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 2.5 goals",
+          "value": "8/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 2.5 goals",
+          "value": "5/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 20,
+      "league": {
+        "id": 13,
+        "name": "CONMEBOL Libertadores"
+      }
+    },
+    {
+      "home": "Fleetwood Town",
+      "away": "Sheffield Utd",
+      "market": "less than 4.5 cards",
+      "score": 86.18,
+      "confidence": 77.75,
+      "prediction": 67.0,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)"
+      ],
+      "penalties": [],
+      "rank": 21,
+      "league": {
+        "id": 48,
+        "name": "League Cup"
+      }
+    },
+    {
+      "home": "Bayer Leverkusen",
+      "away": "Celje",
+      "market": "less than 10.5 corners",
+      "score": 86.08,
+      "confidence": 79.85,
+      "prediction": 68.73,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "7/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.2)"
+      ],
+      "penalties": [],
+      "rank": 22,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "Manchester United",
+      "away": "Brighton",
+      "market": "more than 2.5 goals",
+      "score": 82.94,
+      "confidence": 78.57,
+      "prediction": 65.17,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "4/5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 2.5 goals",
+          "value": "5/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)"
+      ],
+      "penalties": [],
+      "rank": 23,
+      "league": {
+        "id": 48,
+        "name": "League Cup"
+      }
+    }
+  ]
+}
