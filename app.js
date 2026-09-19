@@ -8,12 +8,15 @@ const savedFilters = (() => {
   }
 })();
 
+const hasSavedFilters =
+  localStorage.getItem('betman-report-filters') !== null;
+
 /* =========================================================
    GLOBAL LEAGUES
    ========================================================= */
 
 const SUPPORTED_LEAGUES = [
-  // TOP 6
+  // Favourites
   { id: '39', name: 'Premier League', group: 'England', priority: 1 },
   { id: '140', name: 'LaLiga', group: 'Spain', priority: 2 },
   { id: '135', name: 'Serie A', group: 'Italy', priority: 3 },
@@ -95,9 +98,12 @@ const state = {
   selected: null,
   report: null,
   reportView: 'top',
+  topCount: 20,
 
-  selectedLeagueIds: Array.isArray(savedFilters.leagues)
-    ? new Set(savedFilters.leagues.map(String))
+  selectedLeagueIds: hasSavedFilters
+    ? (Array.isArray(savedFilters.leagues)
+        ? new Set(savedFilters.leagues.map(String))
+        : null)
     : new Set(
         SUPPORTED_LEAGUES
           .filter(
@@ -115,8 +121,8 @@ const state = {
     : null,
 
   threshold: Math.max(
-    0,
-    Number(savedFilters.threshold) || 0
+    65,
+    Number(savedFilters.threshold) || 65
   ),
 
   lang:
@@ -173,12 +179,13 @@ const translations = {
     selectedReport: 'Selected report',
 
     top20: 'Top picks',
-    byGame: 'By match',
+    byGame: 'By league',
     byPrediction: 'By market',
 
     league: 'League',
     allLeagues: 'All leagues',
     minimumPrediction: 'Min. prediction',
+    favourites: 'Favourites',
 
     ranked: 'ranked predictions',
     categories: 'categories',
@@ -238,6 +245,9 @@ const translations = {
     headToHead: 'Head-to-head',
     otherEvidence: 'Other evidence',
     bothTeams: 'Both teams',
+
+    topCountLabel: 'Show',
+    topCountAll: 'All',
   },
 
   ro: {
@@ -251,12 +261,13 @@ const translations = {
     selectedReport: 'Raport selectat',
 
     top20: 'Top ponturi',
-    byGame: 'Pe meci',
+    byGame: 'Pe ligă',
     byPrediction: 'Pe pronostic',
 
     league: 'Ligă',
     allLeagues: 'Toate ligile',
     minimumPrediction: 'Min. pronostic',
+    favourites: 'Favorite',
 
     ranked: 'pronosticuri clasate',
     categories: 'categorii',
@@ -317,6 +328,9 @@ const translations = {
     headToHead: 'Confruntări directe',
     otherEvidence: 'Alte dovezi',
     bothTeams: 'Ambele echipe',
+
+    topCountLabel: 'Arată',
+    topCountAll: 'Toate',
   },
 };
 
@@ -339,7 +353,9 @@ const countryGroupTranslations = {
 };
 
 const translateLeagueGroup = (group) =>
-  state.lang === 'ro'
+  group === 'Favourites'
+    ? t('favourites')
+    : state.lang === 'ro'
     ? countryGroupTranslations[group] || group
     : group;
 
@@ -1286,8 +1302,102 @@ function renderByPrediction(
 }
 
 /* =========================================================
-   TOP 20
+   TOP PICKS
    ========================================================= */
+
+/*
+ * Build the list of selectable "show N" options in steps of 5,
+ * up to the total available; the top of the range is "All".
+ */
+function topCountOptions(total) {
+  const options = [];
+
+  const maxMultiple =
+    Math.floor(total / 5) * 5;
+
+  for (
+    let value = 5;
+    value <= maxMultiple;
+    value += 5
+  ) {
+    options.push({
+      value,
+      label: String(value),
+    });
+  }
+
+  if (maxMultiple < total) {
+    options.push({
+      value: total,
+      label: t('topCountAll'),
+    });
+  }
+
+  if (!options.length) {
+    options.push({
+      value: total,
+      label: t('topCountAll'),
+    });
+  }
+
+  return options;
+}
+
+function topCountSelectMarkup(total) {
+  const options =
+    topCountOptions(total);
+
+  if (
+    !options.some(
+      (option) =>
+        option.value ===
+        state.topCount
+    )
+  ) {
+    const preferred =
+      options.find(
+        (option) =>
+          option.value === 20
+      );
+
+    state.topCount =
+      preferred
+        ? preferred.value
+        : options[
+            options.length - 1
+          ].value;
+  }
+
+  return `
+    <select
+      id="top-count-select"
+      class="top-count-select"
+      aria-label="${escapeHtml(
+        t('topCountLabel')
+      )}"
+    >
+      ${options
+        .map(
+          (option) => `
+            <option
+              value="${option.value}"
+              ${
+                option.value ===
+                state.topCount
+                  ? 'selected'
+                  : ''
+              }
+            >
+              ${escapeHtml(
+                option.label
+              )}
+            </option>
+          `
+        )
+        .join('')}
+    </select>
+  `;
+}
 
 function renderTop(
   predictions,
@@ -1297,7 +1407,7 @@ function renderTop(
     new Map();
 
   predictions
-    .slice(0, 20)
+    .slice(0, state.topCount)
     .forEach((prediction) => {
       const game =
         gameName(prediction);
@@ -1312,9 +1422,15 @@ function renderTop(
     });
 
   return `
-    <p class="report-count">
-      ${count}
-      ${t('ranked')}
+    <p class="report-count top-report-count">
+      <span>
+        ${count}
+        ${t('ranked')}
+      </span>
+
+      ${topCountSelectMarkup(
+        predictions.length
+      )}
     </p>
 
     ${Array.from(
@@ -1374,7 +1490,7 @@ function renderReport(data) {
 
   return renderTop(
     predictions,
-    Math.min(predictions.length, 20)
+    Math.min(predictions.length, state.topCount)
   );
 }
 
@@ -1475,9 +1591,9 @@ function mountFilterMenu() {
           <input
             id="prediction-threshold"
             type="number"
-            min="0"
+            min="65"
             step="5"
-            value="0"
+            value="65"
           >
         </label>
 
@@ -1589,7 +1705,7 @@ function updateFilterBadge() {
 
   const activeCount =
     Number(
-      state.threshold > 0
+      state.threshold > 65
     ) +
     Number(
       leagueFilterActive
@@ -1758,7 +1874,7 @@ function updateFilters() {
       league.priority >= 1 &&
       league.priority <= 6
     ) {
-      group = 'Top 6';
+      group = 'Favourites';
     } else {
       group =
         league.group ||
@@ -1892,7 +2008,7 @@ function updateFilters() {
     }
 
     if (
-      state.threshold > 0
+      state.threshold > 65
     ) {
       count++;
     }
@@ -1951,11 +2067,11 @@ function applyCurrentFilterSelection() {
 
   state.threshold =
     Math.max(
-      0,
+      65,
       Number(
         $('#prediction-threshold')
           .value
-      ) || 0
+      ) || 65
     );
 
   persistFilters();
@@ -2016,9 +2132,9 @@ function resetFilters() {
     null;
 
   /*
-   * No minimum score.
+   * Default minimum score.
    */
-  state.threshold = 0;
+  state.threshold = 65;
 
   /*
    * Save the default state.
@@ -2848,6 +2964,23 @@ document.addEventListener(
         });
 
       applyCurrentFilterSelection();
+    }
+
+    if (
+      event.target.id ===
+      'top-count-select'
+    ) {
+      state.topCount =
+        Number(
+          event.target.value
+        ) || 20;
+
+      if (state.report) {
+        $('#report-body').innerHTML =
+          renderReport(
+            state.report
+          );
+      }
     }
   }
 );
