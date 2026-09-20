@@ -1,0 +1,45 @@
+{
+  "date": "20260921",
+  "predictions": [
+    {
+      "home": "Petrolul Ploiesti",
+      "away": "Csikszereda",
+      "market": "Petrolul Ploiesti first to score",
+      "score": 98.27,
+      "confidence": 77.53,
+      "prediction": 76.19,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "6/8",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "5/5",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+15.5)",
+        "opponent no clean sheet supports scoring first (+12.9)"
+      ],
+      "penalties": [],
+      "rank": 1,
+      "league": {
+        "id": 283,
+        "name": "Liga I"
+      }
+    }
+  ]
+}
