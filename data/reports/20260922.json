@@ -1,0 +1,808 @@
+{
+  "date": "20260922",
+  "predictions": [
+    {
+      "home": "HHC",
+      "away": "Barendrecht",
+      "market": "both teams scoring",
+      "score": 184.29,
+      "confidence": 83.27,
+      "prediction": 153.46,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "9/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "9/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Both teams scoring",
+          "value": "5/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "11",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "18",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+16.4)",
+        "home + away agreement (+14.0)",
+        "both teams no clean sheet → BTTS (+32.2)"
+      ],
+      "penalties": [],
+      "rank": 1,
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker"
+      }
+    },
+    {
+      "home": "Wimborne Town",
+      "away": "Weston-super-Mare",
+      "market": "less than 4.5 cards",
+      "score": 157.26,
+      "confidence": 85.41,
+      "prediction": 134.32,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "7/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+21.7)",
+        "home + away agreement (+10.9)"
+      ],
+      "penalties": [],
+      "rank": 2,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "RKAV Volendam",
+      "away": "Spakenburg",
+      "market": "less than 4.5 cards",
+      "score": 144.88,
+      "confidence": 80.44,
+      "prediction": 116.54,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/9",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "5/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+19.4)",
+        "home + away agreement (+11.2)"
+      ],
+      "penalties": [],
+      "rank": 3,
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker"
+      }
+    },
+    {
+      "home": "HHC",
+      "away": "Barendrecht",
+      "market": "less than 4.5 cards",
+      "score": 139.89,
+      "confidence": 78.98,
+      "prediction": 110.49,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "7/8",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+19.0)",
+        "home + away agreement (+9.4)"
+      ],
+      "penalties": [],
+      "rank": 4,
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker"
+      }
+    },
+    {
+      "home": "HHC",
+      "away": "Barendrecht",
+      "market": "Barendrecht no clean sheet",
+      "score": 119.95,
+      "confidence": 90.66,
+      "prediction": 108.74,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "18",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "8",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+21.5)"
+      ],
+      "penalties": [],
+      "rank": 5,
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker"
+      }
+    },
+    {
+      "home": "Gainsborough Trinity",
+      "away": "Leamington",
+      "market": "less than 4.5 cards",
+      "score": 118.87,
+      "confidence": 91.29,
+      "prediction": 108.51,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "both"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "9/9",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+23.5)"
+      ],
+      "penalties": [],
+      "rank": 6,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "HHC",
+      "away": "Barendrecht",
+      "market": "more than 2.5 goals",
+      "score": 118.51,
+      "confidence": 88.78,
+      "prediction": 105.22,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "6/6",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 2.5 goals",
+          "value": "8/8",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "11",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "18",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+20.6)",
+        "both teams no-clean-sheet tendencies → over goals (+11.3)"
+      ],
+      "penalties": [],
+      "rank": 7,
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker"
+      }
+    },
+    {
+      "home": "Rijnvogels",
+      "away": "Vvsb",
+      "market": "less than 4.5 cards",
+      "score": 113.59,
+      "confidence": 90.32,
+      "prediction": 102.59,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "both"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "7/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+21.7)"
+      ],
+      "penalties": [],
+      "rank": 8,
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker"
+      }
+    },
+    {
+      "home": "Sportlust '46",
+      "away": "Excelsior Maassluis",
+      "market": "less than 4.5 cards",
+      "score": 111.04,
+      "confidence": 91.29,
+      "prediction": 101.37,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/9",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+15.7)"
+      ],
+      "penalties": [],
+      "rank": 9,
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker"
+      }
+    },
+    {
+      "home": "RKAV Volendam",
+      "away": "Spakenburg",
+      "market": "RKAV Volendam no clean sheet",
+      "score": 110.84,
+      "confidence": 85.78,
+      "prediction": 95.08,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "11",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+17.6)",
+        "opponent first to score supports no clean sheet (+9.8)"
+      ],
+      "penalties": [],
+      "rank": 10,
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker"
+      }
+    },
+    {
+      "home": "RKAV Volendam",
+      "away": "Spakenburg",
+      "market": "both teams scoring",
+      "score": 110.46,
+      "confidence": 78.57,
+      "prediction": 86.79,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "5/5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Both teams scoring",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "11",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "away"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "both teams no clean sheet → BTTS (+21.1)",
+        "both teams first to score patterns → BTTS (+6.4)"
+      ],
+      "penalties": [],
+      "rank": 11,
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker"
+      }
+    },
+    {
+      "home": "Staphorst",
+      "away": "SC Genemuiden",
+      "market": "less than 4.5 cards",
+      "score": 110.34,
+      "confidence": 89.68,
+      "prediction": 98.95,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "both"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "6/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+20.6)"
+      ],
+      "penalties": [],
+      "rank": 12,
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker"
+      }
+    },
+    {
+      "home": "Farnborough",
+      "away": "Uxbridge",
+      "market": "less than 4.5 cards",
+      "score": 106.35,
+      "confidence": 90.32,
+      "prediction": 96.05,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+14.5)"
+      ],
+      "penalties": [],
+      "rank": 13,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Truro City",
+      "away": "Merthyr Town",
+      "market": "less than 4.5 cards",
+      "score": 100.08,
+      "confidence": 84.45,
+      "prediction": 84.52,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "5/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+19.4)"
+      ],
+      "penalties": [],
+      "rank": 14,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Dagenham & Redbridge",
+      "away": "Waltham Abbey",
+      "market": "less than 4.5 cards",
+      "score": 96.96,
+      "confidence": 87.95,
+      "prediction": 85.27,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+12.9)"
+      ],
+      "penalties": [],
+      "rank": 15,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Braintree",
+      "away": "Needham Market",
+      "market": "less than 4.5 cards",
+      "score": 96.21,
+      "confidence": 83.33,
+      "prediction": 80.18,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 16,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Eemdijk",
+      "away": "Roosendaal",
+      "market": "more than 2.5 goals",
+      "score": 96.21,
+      "confidence": 83.33,
+      "prediction": 80.18,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "10/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "8/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 17,
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker"
+      }
+    },
+    {
+      "home": "Kloetinge",
+      "away": "Achilles Veen",
+      "market": "more than 2.5 goals",
+      "score": 96.21,
+      "confidence": 83.33,
+      "prediction": 80.18,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "8/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "10/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 18,
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker"
+      }
+    },
+    {
+      "home": "Groene Ster",
+      "away": "AFC Amsterdam",
+      "market": "less than 4.5 cards",
+      "score": 93.1,
+      "confidence": 82.35,
+      "prediction": 76.67,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 19,
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker"
+      }
+    },
+    {
+      "home": "Farnham Town",
+      "away": "Cirencester Town",
+      "market": "less than 4.5 cards",
+      "score": 92.1,
+      "confidence": 83.71,
+      "prediction": 77.1,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)"
+      ],
+      "penalties": [],
+      "rank": 20,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Staphorst",
+      "away": "SC Genemuiden",
+      "market": "Staphorst no clean sheet",
+      "score": 89.83,
+      "confidence": 77.03,
+      "prediction": 69.19,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "7/9",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+15.9)",
+        "opponent first to score supports no clean sheet (+10.6)"
+      ],
+      "penalties": [],
+      "rank": 21,
+      "league": {
+        "id": 90,
+        "name": "KNVB Beker"
+      }
+    },
+    {
+      "home": "Exmouth",
+      "away": "Thame United",
+      "market": "less than 4.5 cards",
+      "score": 87.72,
+      "confidence": 82.17,
+      "prediction": 72.07,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+9.8)"
+      ],
+      "penalties": [],
+      "rank": 22,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    }
+  ]
+}
