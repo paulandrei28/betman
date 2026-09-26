@@ -1,0 +1,554 @@
+{
+  "date": "20260926",
+  "predictions": [
+    {
+      "home": "Czechia",
+      "away": "Croatia",
+      "market": "both teams scoring",
+      "score": 137.27,
+      "confidence": 74.81,
+      "prediction": 102.69,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "6/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "8/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Both teams scoring",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "home + away agreement (+11.9)",
+        "both teams first to score patterns → BTTS (+9.8)"
+      ],
+      "penalties": [],
+      "rank": 1,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Tenerife",
+      "away": "Cadiz",
+      "market": "less than 10.5 corners",
+      "score": 133.58,
+      "confidence": 77.76,
+      "prediction": 103.87,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "9/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 2,
+      "league": {
+        "id": 141,
+        "name": "Segunda División"
+      }
+    },
+    {
+      "home": "England",
+      "away": "Spain",
+      "market": "both teams scoring",
+      "score": 104.07,
+      "confidence": 78.57,
+      "prediction": 81.77,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "5/5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Both teams scoring",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "both teams no clean sheet → BTTS (+21.1)"
+      ],
+      "penalties": [],
+      "rank": 3,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Czechia",
+      "away": "Croatia",
+      "market": "less than 4.5 cards",
+      "score": 103.42,
+      "confidence": 87.95,
+      "prediction": 90.95,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/8",
+          "team": "both"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "5/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+19.4)"
+      ],
+      "penalties": [],
+      "rank": 4,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "England",
+      "away": "Spain",
+      "market": "England no clean sheet",
+      "score": 99.49,
+      "confidence": 80.28,
+      "prediction": 79.88,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "7/7",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+17.6)",
+        "opponent first to score supports no clean sheet (+11.7)"
+      ],
+      "penalties": [],
+      "rank": 5,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Tenerife",
+      "away": "Cadiz",
+      "market": "Cadiz no clean sheet",
+      "score": 99.49,
+      "confidence": 80.28,
+      "prediction": 79.88,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "5/5",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+17.6)",
+        "opponent first to score supports no clean sheet (+11.7)"
+      ],
+      "penalties": [],
+      "rank": 6,
+      "league": {
+        "id": 141,
+        "name": "Segunda División"
+      }
+    },
+    {
+      "home": "Atletico Calatayud",
+      "away": "Baztán",
+      "market": "both teams scoring",
+      "score": 97.44,
+      "confidence": 76.94,
+      "prediction": 74.97,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "6/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "5/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+9.4)",
+        "both teams no clean sheet → BTTS (+18.5)"
+      ],
+      "penalties": [],
+      "rank": 7,
+      "league": {
+        "id": 143,
+        "name": "Copa del Rey"
+      }
+    },
+    {
+      "home": "Tenerife",
+      "away": "Cadiz",
+      "market": "both teams scoring",
+      "score": 92.21,
+      "confidence": 71.43,
+      "prediction": 65.87,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "4/5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Both teams scoring",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "both teams no clean sheet → BTTS (+18.5)"
+      ],
+      "penalties": [],
+      "rank": 8,
+      "league": {
+        "id": 141,
+        "name": "Segunda División"
+      }
+    },
+    {
+      "home": "Anaitasuna",
+      "away": "Tedeón",
+      "market": "more than 2.5 goals",
+      "score": 91.09,
+      "confidence": 81.1,
+      "prediction": 73.88,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "8/8",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "13",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+9.8)",
+        "both teams no-clean-sheet tendencies → over goals (+6.5)"
+      ],
+      "penalties": [],
+      "rank": 9,
+      "league": {
+        "id": 143,
+        "name": "Copa del Rey"
+      }
+    },
+    {
+      "home": "England",
+      "away": "Spain",
+      "market": "less than 4.5 cards",
+      "score": 89.76,
+      "confidence": 79.17,
+      "prediction": 71.06,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 10,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "England",
+      "away": "Spain",
+      "market": "less than 10.5 corners",
+      "score": 87.12,
+      "confidence": 82.04,
+      "prediction": 71.47,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "7/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)"
+      ],
+      "penalties": [],
+      "rank": 11,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Slovenia",
+      "away": "Scotland",
+      "market": "less than 4.5 cards",
+      "score": 85.76,
+      "confidence": 77.45,
+      "prediction": 66.42,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/8",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 12,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Slovenia",
+      "away": "Scotland",
+      "market": "Slovenia no clean sheet",
+      "score": 85.66,
+      "confidence": 80.1,
+      "prediction": 68.61,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+15.9)"
+      ],
+      "penalties": [],
+      "rank": 13,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Pinatar",
+      "away": "Atlético Melilla",
+      "market": "Atlético Melilla no wins",
+      "score": 71.29,
+      "confidence": 94.96,
+      "prediction": 67.69,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "No wins",
+          "value": "34",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Losses",
+          "value": "16",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "no wins + losses (+9.0)"
+      ],
+      "penalties": [],
+      "rank": 14,
+      "league": {
+        "id": 143,
+        "name": "Copa del Rey"
+      }
+    }
+  ]
+}
