@@ -1,0 +1,181 @@
+{
+  "date": "20260928",
+  "predictions": [
+    {
+      "home": "Sweden",
+      "away": "Poland",
+      "market": "Sweden no clean sheet",
+      "score": 95.63,
+      "confidence": 84.69,
+      "prediction": 80.99,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "16",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+13.9)"
+      ],
+      "penalties": [],
+      "rank": 1,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Belgium",
+      "away": "France",
+      "market": "less than 4.5 cards",
+      "score": 95.44,
+      "confidence": 82.58,
+      "prediction": 78.81,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+13.4)"
+      ],
+      "penalties": [],
+      "rank": 2,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Belgium",
+      "away": "France",
+      "market": "France first to score",
+      "score": 91.99,
+      "confidence": 73.32,
+      "prediction": 67.45,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "8/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "opponent no clean sheet supports scoring first (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 3,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Leganes",
+      "away": "Castellón",
+      "market": "Castellón no losses",
+      "score": 90.94,
+      "confidence": 80.1,
+      "prediction": 72.84,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "No losses",
+          "value": "6",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "No losses",
+          "value": "4",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Wins",
+          "value": "4",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+15.9)",
+        "no losses + wins (+5.3)"
+      ],
+      "penalties": [],
+      "rank": 4,
+      "league": {
+        "id": 141,
+        "name": "Segunda División"
+      }
+    },
+    {
+      "home": "Romania",
+      "away": "Bosnia & Herzegovina",
+      "market": "Romania no clean sheet",
+      "score": 88.28,
+      "confidence": 81.28,
+      "prediction": 71.75,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+15.9)"
+      ],
+      "penalties": [],
+      "rank": 5,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    }
+  ]
+}
