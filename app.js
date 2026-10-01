@@ -388,6 +388,69 @@ const evidenceTranslations = {
   both: 'head-to-head',
 };
 
+const nationalTeamTranslations = {
+  Azerbaijan: 'Azerbaidjan',
+  Belgium: 'Belgia',
+  'Bosnia and Herzegovina': 'Bosnia și Herțegovina',
+  Croatia: 'Croația',
+  Cyprus: 'Cipru',
+  'Czech Republic': 'Cehia',
+  Czechia: 'Cehia',
+  Denmark: 'Danemarca',
+  England: 'Anglia',
+  Finland: 'Finlanda',
+  France: 'Franța',
+  Germany: 'Germania',
+  Greece: 'Grecia',
+  Hungary: 'Ungaria',
+  Iceland: 'Islanda',
+  Ireland: 'Irlanda',
+  'Rep. Of Ireland': 'Irlanda',
+  Italy: 'Italia',
+  Kazakhstan: 'Kazahstan',
+  Latvia: 'Letonia',
+  Lithuania: 'Lituania',
+  Montenegro: 'Muntenegru',
+  Netherlands: 'Olanda',
+  'North Macedonia': 'Macedonia de Nord',
+  'Northern Ireland': 'Irlanda de Nord',
+  Norway: 'Norvegia',
+  Poland: 'Polonia',
+  Portugal: 'Portugalia',
+  Romania: 'România',
+  Russia: 'Rusia',
+  Scotland: 'Scoția',
+  Slovakia: 'Slovacia',
+  Spain: 'Spania',
+  Sweden: 'Suedia',
+  Switzerland: 'Elveția',
+  Turkey: 'Turcia',
+  Türkiye: 'Turcia',
+  Ukraine: 'Ucraina',
+  Wales: 'Țara Galilor',
+  Brazil: 'Brazilia',
+  Colombia: 'Columbia',
+  Mexico: 'Mexic',
+  'United States': 'Statele Unite',
+  'United States of America':
+    'Statele Unite ale Americii',
+  Egypt: 'Egipt',
+  Iraq: 'Irak',
+  Japan: 'Japonia',
+  'New Zealand': 'Noua Zeelandă',
+  'Saudi Arabia': 'Arabia Saudită',
+  'South Africa': 'Africa de Sud',
+  'South Korea': 'Coreea de Sud',
+  'United Arab Emirates':
+    'Emiratele Arabe Unite',
+};
+
+const translateTeamName = (name) =>
+  state.lang === 'ro'
+    ? nationalTeamTranslations[name] ||
+      name
+    : name;
+
 /* =========================================================
    HELPERS
    ========================================================= */
@@ -533,21 +596,28 @@ const translateEvidenceText = (
   value,
   prediction
 ) => {
+  const homeName = translateTeamName(
+    prediction?.home
+  );
+  const awayName = translateTeamName(
+    prediction?.away
+  );
+
   let result = String(value)
     .replace(
       /\(home\)/gi,
-      `(${prediction?.home || 'home'})`
+      `(${homeName || 'home'})`
     )
     .replace(
       /\(away\)/gi,
-      `(${prediction?.away || 'away'})`
+      `(${awayName || 'away'})`
     );
 
   if (state.lang === 'en') {
     return result.replace(
       /home \+ away agreement/gi,
-      `${prediction?.home || 'home'} + ${
-        prediction?.away || 'away'
+      `${homeName || 'home'} + ${
+        awayName || 'away'
       } agreement`
     );
   }
@@ -560,9 +630,9 @@ const translateEvidenceText = (
     .replace(
       /home \+ away agreement/gi,
       `acord între ${
-        prediction?.home || 'gazde'
+        homeName || 'gazde'
       } și ${
-        prediction?.away || 'oaspeți'
+        awayName || 'oaspeți'
       }`
     )
     .replace(
@@ -655,9 +725,13 @@ function renderEvidenceItems(
     .map((item) => {
       const team =
         item.team === 'home'
-          ? prediction?.home
+          ? translateTeamName(
+              prediction?.home
+            )
           : item.team === 'away'
-          ? prediction?.away
+          ? translateTeamName(
+              prediction?.away
+            )
           : null;
 
       const label =
@@ -1061,8 +1135,14 @@ function reportLeagues(data) {
 
 function gameName(prediction) {
   return (
-    prediction._game ||
-    `${prediction.home} - ${prediction.away}`
+    prediction.home &&
+    prediction.away
+      ? `${translateTeamName(
+          prediction.home
+        )} - ${translateTeamName(
+          prediction.away
+        )}`
+      : prediction._game
   );
 }
 
@@ -1322,7 +1402,11 @@ function topCountOptions(total) {
   ) {
     options.push({
       value,
-      label: String(value),
+      // the last step doubles as "All" when total is an exact multiple of 5
+      label:
+        value === total
+          ? t('topCountAll')
+          : String(value),
     });
   }
 
@@ -1403,6 +1487,12 @@ function renderTop(
   predictions,
   count
 ) {
+  // Resolve/clamp state.topCount for this day's total before using it to slice.
+  const selectMarkup =
+    topCountSelectMarkup(
+      predictions.length
+    );
+
   const games =
     new Map();
 
@@ -1428,9 +1518,7 @@ function renderTop(
         ${t('ranked')}
       </span>
 
-      ${topCountSelectMarkup(
-        predictions.length
-      )}
+      ${selectMarkup}
     </p>
 
     ${Array.from(
@@ -2502,6 +2590,10 @@ async function openReport(
 
   state.reportView =
     'top';
+
+  // refresh the top-count filter per day instead of carrying over the previous day's value
+  state.topCount =
+    20;
 
   state.report =
     null;
