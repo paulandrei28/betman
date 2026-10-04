@@ -1,0 +1,486 @@
+{
+  "date": "20261005",
+  "predictions": [
+    {
+      "home": "Romania",
+      "away": "Sweden",
+      "market": "less than 10.5 corners",
+      "score": 132.6,
+      "confidence": 77.71,
+      "prediction": 103.04,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "9/9",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "home + away agreement (+10.4)"
+      ],
+      "penalties": [],
+      "rank": 1,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Italy",
+      "away": "Türkiye",
+      "market": "less than 4.5 cards",
+      "score": 122.98,
+      "confidence": 73.87,
+      "prediction": 90.84,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "6/8",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "5/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+15.5)",
+        "home + away agreement (+9.4)"
+      ],
+      "penalties": [],
+      "rank": 2,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Montenegro",
+      "away": "Armenia",
+      "market": "both teams scoring",
+      "score": 114.58,
+      "confidence": 70.99,
+      "prediction": 81.34,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "5/7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Both teams scoring",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "home + away agreement (+9.4)"
+      ],
+      "penalties": [],
+      "rank": 3,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Romania",
+      "away": "Sweden",
+      "market": "both teams scoring",
+      "score": 111.28,
+      "confidence": 77.75,
+      "prediction": 86.51,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "9/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "18",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+9.8)",
+        "both teams no clean sheet → BTTS (+30.0)"
+      ],
+      "penalties": [],
+      "rank": 4,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Northern Ireland",
+      "away": "Georgia",
+      "market": "less than 2.5 goals",
+      "score": 107.61,
+      "confidence": 80.97,
+      "prediction": 87.13,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 2.5 goals",
+          "value": "8/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 2.5 goals",
+          "value": "6/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "No goals conceded",
+          "value": "3",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "No goals scored",
+          "value": "3",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+11.9)",
+        "home clean-sheet + away no-scoring tendencies → under goals (+18.5)"
+      ],
+      "penalties": [],
+      "rank": 5,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Cordoba",
+      "away": "Tenerife",
+      "market": "less than 10.5 corners",
+      "score": 96.96,
+      "confidence": 87.95,
+      "prediction": 85.27,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "8/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+12.9)"
+      ],
+      "penalties": [],
+      "rank": 6,
+      "league": {
+        "id": 141,
+        "name": "Segunda División"
+      }
+    },
+    {
+      "home": "France",
+      "away": "Belgium",
+      "market": "France first to score",
+      "score": 96.92,
+      "confidence": 75.0,
+      "prediction": 72.69,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "8/10",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "5/6",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+16.4)",
+        "opponent no clean sheet supports scoring first (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 7,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Romania",
+      "away": "Sweden",
+      "market": "Romania no clean sheet",
+      "score": 96.57,
+      "confidence": 81.47,
+      "prediction": 78.67,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "9",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+13.9)",
+        "opponent first to score supports no clean sheet (+9.8)"
+      ],
+      "penalties": [],
+      "rank": 8,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Cordoba",
+      "away": "Tenerife",
+      "market": "more than 4.5 cards",
+      "score": 87.87,
+      "confidence": 80.27,
+      "prediction": 70.53,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 4.5 cards",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 4.5 cards",
+          "value": "5/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+16.4)"
+      ],
+      "penalties": [],
+      "rank": 9,
+      "league": {
+        "id": 141,
+        "name": "Segunda División"
+      }
+    },
+    {
+      "home": "Bosnia & Herzegovina",
+      "away": "Poland",
+      "market": "less than 10.5 corners",
+      "score": 84.95,
+      "confidence": 81.25,
+      "prediction": 69.02,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)"
+      ],
+      "penalties": [],
+      "rank": 10,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "France",
+      "away": "Belgium",
+      "market": "less than 10.5 corners",
+      "score": 84.95,
+      "confidence": 81.25,
+      "prediction": 69.02,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)"
+      ],
+      "penalties": [],
+      "rank": 11,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Montenegro",
+      "away": "Armenia",
+      "market": "less than 4.5 cards",
+      "score": 82.94,
+      "confidence": 78.57,
+      "prediction": 65.17,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/5",
+          "team": "both"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)"
+      ],
+      "penalties": [],
+      "rank": 12,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Montenegro",
+      "away": "Armenia",
+      "market": "Montenegro no clean sheet",
+      "score": 82.67,
+      "confidence": 78.69,
+      "prediction": 65.05,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+15.9)"
+      ],
+      "penalties": [],
+      "rank": 13,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    }
+  ]
+}
