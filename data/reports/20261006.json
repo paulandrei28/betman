@@ -1,0 +1,987 @@
+{
+  "date": "20261006",
+  "predictions": [
+    {
+      "home": "Croatia",
+      "away": "Spain",
+      "market": "less than 10.5 corners",
+      "score": 160.99,
+      "confidence": 86.23,
+      "prediction": 138.82,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "10/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "7/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+21.7)",
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 1,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Halesowen Town",
+      "away": "Stafford Rangers",
+      "market": "less than 4.5 cards",
+      "score": 158.45,
+      "confidence": 87.8,
+      "prediction": 139.12,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "6/6",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "5/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+19.4)",
+        "home + away agreement (+13.8)"
+      ],
+      "penalties": [],
+      "rank": 2,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "England",
+      "away": "Czechia",
+      "market": "less than 4.5 cards",
+      "score": 155.12,
+      "confidence": 85.45,
+      "prediction": 132.54,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "6/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "5/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+19.4)",
+        "home + away agreement (+13.8)"
+      ],
+      "penalties": [],
+      "rank": 3,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Atherton Collieries",
+      "away": "Trafford",
+      "market": "less than 4.5 cards",
+      "score": 136.85,
+      "confidence": 79.83,
+      "prediction": 109.24,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "5/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+16.4)",
+        "home + away agreement (+9.8)"
+      ],
+      "penalties": [],
+      "rank": 4,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "England",
+      "away": "Czechia",
+      "market": "Czechia no clean sheet",
+      "score": 109.28,
+      "confidence": 85.22,
+      "prediction": 93.13,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+17.6)",
+        "opponent first to score supports no clean sheet (+9.8)"
+      ],
+      "penalties": [],
+      "rank": 5,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Croatia",
+      "away": "Spain",
+      "market": "Spain wins",
+      "score": 102.14,
+      "confidence": 83.82,
+      "prediction": 85.61,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Wins",
+          "value": "10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Wins",
+          "value": "4",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "No losses",
+          "value": "21",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+15.9)",
+        "win + no losses (+7.8)"
+      ],
+      "penalties": [],
+      "rank": 6,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Estonia",
+      "away": "Iceland",
+      "market": "less than 2.5 goals",
+      "score": 101.54,
+      "confidence": 87.35,
+      "prediction": 88.7,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 2.5 goals",
+          "value": "7/7",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 2.5 goals",
+          "value": "5/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+19.4)"
+      ],
+      "penalties": [],
+      "rank": 7,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Atherton Collieries",
+      "away": "Trafford",
+      "market": "both teams scoring",
+      "score": 100.96,
+      "confidence": 80.27,
+      "prediction": 81.04,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "5/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+10.9)",
+        "both teams no clean sheet → BTTS (+18.5)"
+      ],
+      "penalties": [],
+      "rank": 8,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Atherton Collieries",
+      "away": "Trafford",
+      "market": "Trafford no clean sheet",
+      "score": 100.6,
+      "confidence": 81.64,
+      "prediction": 82.13,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+17.6)",
+        "opponent first to score supports no clean sheet (+9.8)"
+      ],
+      "penalties": [],
+      "rank": 9,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Croatia",
+      "away": "Spain",
+      "market": "more than 2.5 goals",
+      "score": 98.56,
+      "confidence": 81.63,
+      "prediction": 80.45,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "5/5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 2.5 goals",
+          "value": "6/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+17.8)",
+        "both teams no-clean-sheet tendencies → over goals (+6.5)"
+      ],
+      "penalties": [],
+      "rank": 10,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "England",
+      "away": "Czechia",
+      "market": "less than 10.5 corners",
+      "score": 98.48,
+      "confidence": 88.2,
+      "prediction": 86.86,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "7/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+13.8)"
+      ],
+      "penalties": [],
+      "rank": 11,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Croatia",
+      "away": "Spain",
+      "market": "less than 4.5 cards",
+      "score": 95.31,
+      "confidence": 80.64,
+      "prediction": 76.86,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/10",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "6/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+17.8)"
+      ],
+      "penalties": [],
+      "rank": 12,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "England",
+      "away": "Czechia",
+      "market": "England first to score",
+      "score": 94.79,
+      "confidence": 71.43,
+      "prediction": 67.71,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to concede",
+          "value": "4/5",
+          "team": "away"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "10",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "first to score + opponent first to concede (+14.7)",
+        "opponent no clean sheet supports scoring first (+6.4)"
+      ],
+      "penalties": [],
+      "rank": 13,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Estonia",
+      "away": "Iceland",
+      "market": "less than 10.5 corners",
+      "score": 92.72,
+      "confidence": 83.96,
+      "prediction": 77.85,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "8/8",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 14,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Scarborough Athletic",
+      "away": "Macclesfield",
+      "market": "less than 4.5 cards",
+      "score": 92.61,
+      "confidence": 81.7,
+      "prediction": 75.66,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/8",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+12.7)"
+      ],
+      "penalties": [],
+      "rank": 15,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Switzerland",
+      "away": "FYR Macedonia",
+      "market": "less than 4.5 cards",
+      "score": 90.73,
+      "confidence": 80.92,
+      "prediction": 73.42,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/8",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+12.7)"
+      ],
+      "penalties": [],
+      "rank": 16,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Switzerland",
+      "away": "FYR Macedonia",
+      "market": "less than 10.5 corners",
+      "score": 88.99,
+      "confidence": 82.69,
+      "prediction": 73.59,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "8/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)"
+      ],
+      "penalties": [],
+      "rank": 17,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Wingate & Finchley",
+      "away": "Bedford Town",
+      "market": "less than 4.5 cards",
+      "score": 88.99,
+      "confidence": 82.69,
+      "prediction": 73.59,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)"
+      ],
+      "penalties": [],
+      "rank": 18,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Spalding United",
+      "away": "Bury Town",
+      "market": "less than 4.5 cards",
+      "score": 86.25,
+      "confidence": 81.68,
+      "prediction": 70.45,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/9",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+9.8)"
+      ],
+      "penalties": [],
+      "rank": 19,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Halesowen Town",
+      "away": "Stafford Rangers",
+      "market": "Halesowen Town no losses",
+      "score": 85.66,
+      "confidence": 80.1,
+      "prediction": 68.61,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "No losses",
+          "value": "6",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "No losses",
+          "value": "4",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+15.9)"
+      ],
+      "penalties": [],
+      "rank": 20,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Atherton Collieries",
+      "away": "Trafford",
+      "market": "more than 2.5 goals",
+      "score": 84.52,
+      "confidence": 78.57,
+      "prediction": 66.41,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "5/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+9.8)",
+        "both teams no-clean-sheet tendencies → over goals (+6.5)"
+      ],
+      "penalties": [],
+      "rank": 21,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Albania",
+      "away": "San Marino",
+      "market": "San Marino no clean sheet",
+      "score": 82.67,
+      "confidence": 78.69,
+      "prediction": 65.05,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+15.9)"
+      ],
+      "penalties": [],
+      "rank": 22,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Estonia",
+      "away": "Iceland",
+      "market": "Estonia no losses",
+      "score": 82.67,
+      "confidence": 78.69,
+      "prediction": 65.05,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "No losses",
+          "value": "5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "No losses",
+          "value": "4",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+15.9)"
+      ],
+      "penalties": [],
+      "rank": 23,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Kazakhstan",
+      "away": "Faroe Islands",
+      "market": "Kazakhstan no clean sheet",
+      "score": 82.67,
+      "confidence": 78.69,
+      "prediction": 65.05,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+15.9)"
+      ],
+      "penalties": [],
+      "rank": 24,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Kazakhstan",
+      "away": "Faroe Islands",
+      "market": "less than 4.5 cards",
+      "score": 82.41,
+      "confidence": 80.27,
+      "prediction": 66.15,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)"
+      ],
+      "penalties": [],
+      "rank": 25,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Moldova",
+      "away": "Slovakia",
+      "market": "Slovakia first to score",
+      "score": 73.84,
+      "confidence": 88.89,
+      "prediction": 65.63,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "7/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to concede",
+          "value": "9/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "18",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "first to score + opponent first to concede (+21.0)",
+        "opponent no clean sheet supports scoring first (+9.4)"
+      ],
+      "penalties": [],
+      "rank": 26,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    },
+    {
+      "home": "Moldova",
+      "away": "Slovakia",
+      "market": "Moldova no clean sheet",
+      "score": 69.91,
+      "confidence": 93.91,
+      "prediction": 65.65,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "18",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "7/7",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "opponent first to score supports no clean sheet (+14.5)"
+      ],
+      "penalties": [],
+      "rank": 27,
+      "league": {
+        "id": 5,
+        "name": "UEFA Nations League"
+      }
+    }
+  ]
+}

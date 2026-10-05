@@ -1,11 +1,16 @@
 {
   "reports": [
     {
-      "date": "20261004",
-      "report": "data/reports/20261004.json"
-    },{
+      "date": "20261006",
+      "report": "data/reports/20261006.json"
+    },
+    {
       "date": "20261005",
       "report": "data/reports/20261005.json"
+    },
+    {
+      "date": "20261004",
+      "report": "data/reports/20261004.json"
     },
     {
       "date": "20261002",
@@ -14,10 +19,6 @@
     {
       "date": "20261001",
       "report": "data/reports/20261001.json"
-    },
-    {
-      "date": "20260929",
-      "report": "data/reports/20260929.json"
     }
   ]
 }
