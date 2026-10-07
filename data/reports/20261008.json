@@ -1,0 +1,52 @@
+{
+  "date": "20261008",
+  "predictions": [
+    {
+      "home": "CFR 1907 Cluj",
+      "away": "Universitatea Cluj",
+      "market": "CFR 1907 Cluj first to score",
+      "score": 105.96,
+      "confidence": 80.27,
+      "prediction": 85.05,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "5/5",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "away"
+        },
+        {
+          "section": "general",
+          "name": "First half winner",
+          "value": "4/5",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+16.4)",
+        "opponent no clean sheet supports scoring first (+11.7)",
+        "first to score + first-half winner (+6.4)"
+      ],
+      "penalties": [],
+      "rank": 1,
+      "league": {
+        "id": 283,
+        "name": "Liga I"
+      }
+    }
+  ]
+}
