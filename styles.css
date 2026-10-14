@@ -453,6 +453,95 @@ body.report-focus {
   color: var(--ink);
 }
 
+.special-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 310px), 1fr));
+  gap: 16px;
+}
+
+.special-card {
+  min-width: 0;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: 0 4px 14px rgba(16, 42, 67, 0.05);
+}
+
+.special-league, .special-section-label {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font: 500 11px 'DM Mono', monospace;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+}
+
+.special-card .special-teams {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 5px 9px;
+  margin: 0 0 14px;
+  padding: 0;
+  border: 0;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.special-separator { color: var(--muted); }
+
+.special-odds {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.special-odd {
+  display: grid;
+  gap: 3px;
+  padding: 8px 10px;
+  background: rgba(16, 42, 67, .025);
+}
+
+.special-odd + .special-odd { border-left: 1px solid var(--line); }
+.special-odd span { color: var(--muted); font: 11px 'DM Mono', monospace; }
+.special-odd strong { font: 600 14px 'DM Mono', monospace; }
+
+.special-derby {
+  display: inline-flex;
+  margin: 11px 0 16px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #eef2f5;
+  color: #475569;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.special-derby.is-derby { background: #fff0d6; color: #804600; }
+.special-discipline { display: grid; gap: 7px; }
+.special-section-label { margin-bottom: 0; }
+
+.special-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 7px 9px;
+  border-radius: 5px;
+  background: #f1f4f6;
+  color: #475569;
+  font-size: 12px;
+}
+
+.special-indicator strong { color: inherit; font-size: 11px; white-space: nowrap; }
+.special-indicator.risk-high { background: #fff0ed; color: #8c2418; outline: 1px solid #e7a49c; }
+.special-indicator.risk-medium { background: #fff7df; color: #765400; outline: 1px solid #e7d18a; }
+.special-indicator.risk-low { background: #eff4f1; color: #536b5d; }
+.special-empty { margin: 0; padding: 30px 12px; color: var(--muted); text-align: center; }
+
 /* =========================================================
    REPORT BODY
    ========================================================= */

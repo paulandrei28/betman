@@ -181,6 +181,23 @@ const translations = {
     top20: 'Top picks',
     byGame: 'By league',
     byPrediction: 'By market',
+    special: 'Special',
+    odds: 'Odds',
+    noSpecialMatches: 'No special matches',
+    home: 'Home',
+    draw: 'Draw',
+    away: 'Away',
+    derby: 'Derby',
+    notDerby: 'Not a derby',
+    discipline: 'Discipline',
+    penaltyRisk: 'Penalty risk',
+    redCardRisk: 'Red card risk',
+    yellowCardTendency: 'High yellow-card tendency',
+    high: 'High',
+    medium: 'Medium',
+    low: 'Low',
+    yes: 'Yes',
+    no: 'No',
 
     league: 'League',
     allLeagues: 'All leagues',
@@ -263,6 +280,23 @@ const translations = {
     top20: 'Top ponturi',
     byGame: 'Pe ligă',
     byPrediction: 'Pe pronostic',
+    special: 'Special',
+    odds: 'Cote',
+    noSpecialMatches: 'Nu există meciuri speciale',
+    home: 'Gazde',
+    draw: 'Egal',
+    away: 'Oaspeți',
+    derby: 'Derby',
+    notDerby: 'Nu este derby',
+    discipline: 'Disciplină',
+    penaltyRisk: 'Risc de penalty',
+    redCardRisk: 'Risc de cartonaș roșu',
+    yellowCardTendency: 'Tendință ridicată de cartonașe galbene',
+    high: 'Ridicat',
+    medium: 'Mediu',
+    low: 'Scăzut',
+    yes: 'Da',
+    no: 'Nu',
 
     league: 'Ligă',
     allLeagues: 'Toate ligile',
@@ -1545,6 +1579,10 @@ function renderTop(
    ========================================================= */
 
 function renderReport(data) {
+  if (state.reportView === 'special') {
+    return renderSpecialMatches(data);
+  }
+
   const predictions =
     filteredPredictions(data);
 
@@ -1580,6 +1618,43 @@ function renderReport(data) {
     predictions,
     Math.min(predictions.length, state.topCount)
   );
+}
+
+function renderRisk(label, value) {
+  const risk = ['high', 'medium', 'low'].includes(value) ? value : 'low';
+  return `<div class="special-indicator risk-${risk}"><span>${escapeHtml(label)}</span><strong>${escapeHtml(t(risk))}</strong></div>`;
+}
+
+function renderSpecialMatches(data) {
+  const matches = data?.worth_watching;
+  const entries = matches && typeof matches === 'object' && !Array.isArray(matches)
+    ? Object.entries(matches)
+    : [];
+
+  if (!entries.length) {
+    return `<p class="special-empty">${escapeHtml(t('noSpecialMatches'))}</p>`;
+  }
+
+  return `<div class="special-grid">${entries.map(([match, details]) => {
+    const [homeTeam = match, awayTeam = ''] = match.split(' - ');
+    const odds = details?.odds ?? {};
+    const stats = details?.stats ?? {};
+    const league = details?.league?.name || '';
+    const yellowHigh = stats.high_yellow_card_tendency === true;
+    return `<article class="special-card">
+      <p class="special-league">${escapeHtml(league)}</p>
+      <h3 class="special-teams"><span>${escapeHtml(homeTeam)}</span><span class="special-separator" aria-hidden="true">—</span><span>${escapeHtml(awayTeam)}</span></h3>
+      <div class="special-odds" aria-label="${escapeHtml(t('odds'))}">${[
+        ['home', odds.home_win], ['draw', odds.draw], ['away', odds.away_win],
+      ].map(([key, value]) => `<div class="special-odd"><span>${escapeHtml(t(key))}</span><strong>${value == null ? '—' : escapeHtml(value)}</strong></div>`).join('')}</div>
+      <p class="special-derby ${details?.derby === true ? 'is-derby' : ''}">${escapeHtml(details?.derby === true ? t('derby') : t('notDerby'))}</p>
+      <div class="special-discipline"><p class="special-section-label">${escapeHtml(t('discipline'))}</p>
+        ${renderRisk(t('penaltyRisk'), stats.penalty_probability)}
+        ${renderRisk(t('redCardRisk'), stats.red_card_probability)}
+        <div class="special-indicator ${yellowHigh ? 'risk-high' : 'risk-low'}"><span>${escapeHtml(t('yellowCardTendency'))}</span><strong>${escapeHtml(yellowHigh ? t('yes') : t('no'))}</strong></div>
+      </div>
+    </article>`;
+  }).join('')}</div>`;
 }
 
 /* =========================================================
