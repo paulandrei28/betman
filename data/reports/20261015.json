@@ -144,41 +144,6 @@
       }
     },
     {
-      "home": "Lyon",
-      "away": "Crystal Palace",
-      "market": "less than 4.5 cards",
-      "score": 89.76,
-      "confidence": 79.17,
-      "prediction": 71.06,
-      "evidence": [
-        {
-          "section": "general",
-          "name": "Less than 4.5 cards",
-          "value": "9/10",
-          "team": "home"
-        },
-        {
-          "section": "general",
-          "name": "Less than 4.5 cards",
-          "value": "8/10",
-          "team": "away"
-        }
-      ],
-      "supporting_evidence": [],
-      "bonuses": [
-        "home + away agreement (+11.9)"
-      ],
-      "penalties": [],
-      "explanations": [
-        "Referee data unavailable; no adjustment applied."
-      ],
-      "rank": 5,
-      "league": {
-        "id": 3,
-        "name": "UEFA Europa League"
-      }
-    },
-    {
       "home": "Riga",
       "away": "Kairat Almaty",
       "market": "less than 10.5 corners",
@@ -204,7 +169,7 @@
         "home + away agreement (+12.7)"
       ],
       "penalties": [],
-      "rank": 6,
+      "rank": 5,
       "league": {
         "id": 848,
         "name": "UEFA Europa Conference League"
@@ -236,10 +201,47 @@
         "home + away agreement (+11.9)"
       ],
       "penalties": [],
-      "rank": 7,
+      "rank": 6,
       "league": {
         "id": 848,
         "name": "UEFA Europa Conference League"
+      }
+    },
+    {
+      "home": "Lyon",
+      "away": "Crystal Palace",
+      "market": "less than 4.5 cards",
+      "score": 87.26,
+      "confidence": 79.17,
+      "prediction": 69.08,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [
+        "Referee averages conflict with Under 4.5 (2.5 penalty; averages 4.80)."
+      ],
+      "explanations": [
+        "Referee averages conflict with Under 4.5; applied 2.5 penalty."
+      ],
+      "rank": 7,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
       }
     },
     {
@@ -410,23 +412,6 @@
     }
   ],
   "worth_watching": {
-    "Fluminense - Palmeiras": {
-      "league": {
-        "id": 13,
-        "name": "CONMEBOL Libertadores"
-      },
-      "odds": {
-        "home_win": 2.88,
-        "draw": 3.1,
-        "away_win": 2.63
-      },
-      "derby": false,
-      "stats": {
-        "penalty_probability": "medium",
-        "red_card_probability": "medium",
-        "high_yellow_card_tendency": false
-      }
-    },
     "Celje - Omonia Nicosia": {
       "league": {
         "id": 3,
@@ -439,25 +424,8 @@
       },
       "derby": false,
       "stats": {
-        "penalty_probability": "medium",
-        "red_card_probability": "medium",
-        "high_yellow_card_tendency": false
-      }
-    },
-    "Lech Poznan - Bayer Leverkusen": {
-      "league": {
-        "id": 3,
-        "name": "UEFA Europa League"
-      },
-      "odds": {
-        "home_win": 4.75,
-        "draw": 4.2,
-        "away_win": 1.65
-      },
-      "derby": false,
-      "stats": {
-        "penalty_probability": "medium",
-        "red_card_probability": "medium",
+        "penalty_probability": "low",
+        "red_card_probability": "low",
         "high_yellow_card_tendency": false
       }
     },
@@ -490,41 +458,7 @@
       },
       "derby": false,
       "stats": {
-        "penalty_probability": "medium",
-        "red_card_probability": "medium",
-        "high_yellow_card_tendency": false
-      }
-    },
-    "Red Bull Salzburg - AC Milan": {
-      "league": {
-        "id": 3,
-        "name": "UEFA Europa League"
-      },
-      "odds": {
-        "home_win": 3.3,
-        "draw": 3.75,
-        "away_win": 2.05
-      },
-      "derby": false,
-      "stats": {
-        "penalty_probability": "medium",
-        "red_card_probability": "medium",
-        "high_yellow_card_tendency": false
-      }
-    },
-    "HNK Hajduk Split - Ajax": {
-      "league": {
-        "id": 848,
-        "name": "UEFA Europa Conference League"
-      },
-      "odds": {
-        "home_win": 4.5,
-        "draw": 4.5,
-        "away_win": 1.62
-      },
-      "derby": false,
-      "stats": {
-        "penalty_probability": "medium",
+        "penalty_probability": "low",
         "red_card_probability": "medium",
         "high_yellow_card_tendency": false
       }
@@ -541,60 +475,9 @@
       },
       "derby": false,
       "stats": {
-        "penalty_probability": "medium",
-        "red_card_probability": "medium",
-        "high_yellow_card_tendency": false
-      }
-    },
-    "Riga - Kairat Almaty": {
-      "league": {
-        "id": 848,
-        "name": "UEFA Europa Conference League"
-      },
-      "odds": {
-        "home_win": 1.9,
-        "draw": 3.5,
-        "away_win": 4.0
-      },
-      "derby": false,
-      "stats": {
-        "penalty_probability": "medium",
-        "red_card_probability": "medium",
-        "high_yellow_card_tendency": false
-      }
-    },
-    "Universitatea Craiova - Getafe": {
-      "league": {
-        "id": 848,
-        "name": "UEFA Europa Conference League"
-      },
-      "odds": {
-        "home_win": 3.1,
-        "draw": 3.3,
-        "away_win": 2.3
-      },
-      "derby": false,
-      "stats": {
-        "penalty_probability": "medium",
-        "red_card_probability": "medium",
-        "high_yellow_card_tendency": false
-      }
-    },
-    "Celta Vigo - Juventus": {
-      "league": {
-        "id": 3,
-        "name": "UEFA Europa League"
-      },
-      "odds": {
-        "home_win": 3.6,
-        "draw": 3.2,
-        "away_win": 2.15
-      },
-      "derby": false,
-      "stats": {
-        "penalty_probability": "medium",
-        "red_card_probability": "medium",
-        "high_yellow_card_tendency": false
+        "penalty_probability": "insufficient_data",
+        "red_card_probability": "insufficient_data",
+        "high_yellow_card_tendency": null
       }
     },
     "Dinamo Zagreb - Anderlecht": {
@@ -609,7 +492,7 @@
       },
       "derby": false,
       "stats": {
-        "penalty_probability": "medium",
+        "penalty_probability": "low",
         "red_card_probability": "medium",
         "high_yellow_card_tendency": false
       }
@@ -626,24 +509,7 @@
       },
       "derby": false,
       "stats": {
-        "penalty_probability": "medium",
-        "red_card_probability": "medium",
-        "high_yellow_card_tendency": false
-      }
-    },
-    "1899 Hoffenheim - Beşiktaş": {
-      "league": {
-        "id": 3,
-        "name": "UEFA Europa League"
-      },
-      "odds": {
-        "home_win": 1.95,
-        "draw": 4.0,
-        "away_win": 3.4
-      },
-      "derby": false,
-      "stats": {
-        "penalty_probability": "medium",
+        "penalty_probability": "low",
         "red_card_probability": "medium",
         "high_yellow_card_tendency": false
       }
@@ -660,25 +526,8 @@
       },
       "derby": false,
       "stats": {
-        "penalty_probability": "medium",
-        "red_card_probability": "medium",
-        "high_yellow_card_tendency": false
-      }
-    },
-    "NEC Nijmegen - Levski Sofia": {
-      "league": {
-        "id": 3,
-        "name": "UEFA Europa League"
-      },
-      "odds": {
-        "home_win": 1.9,
-        "draw": 3.7,
-        "away_win": 4.0
-      },
-      "derby": false,
-      "stats": {
-        "penalty_probability": "medium",
-        "red_card_probability": "medium",
+        "penalty_probability": "low",
+        "red_card_probability": "low",
         "high_yellow_card_tendency": false
       }
     },
@@ -694,26 +543,9 @@
       },
       "derby": false,
       "stats": {
-        "penalty_probability": "medium",
-        "red_card_probability": "medium",
-        "high_yellow_card_tendency": false
-      }
-    },
-    "Heart Of Midlothian - FC Nordsjaelland": {
-      "league": {
-        "id": 848,
-        "name": "UEFA Europa Conference League"
-      },
-      "odds": {
-        "home_win": 3.1,
-        "draw": 3.75,
-        "away_win": 2.1
-      },
-      "derby": false,
-      "stats": {
-        "penalty_probability": "medium",
-        "red_card_probability": "medium",
-        "high_yellow_card_tendency": false
+        "penalty_probability": "insufficient_data",
+        "red_card_probability": "insufficient_data",
+        "high_yellow_card_tendency": null
       }
     }
   }

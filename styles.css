@@ -505,6 +505,14 @@ body.report-focus {
   background: rgba(16, 42, 67, .025);
 }
 
+.special-odd.is-lowest-odd {
+  background: #e5f5e8;
+}
+
+.special-odd.is-lowest-odd strong {
+  color: #26733a;
+}
+
 .special-odd + .special-odd { border-left: 1px solid var(--line); }
 .special-odd span { color: var(--muted); font: 11px 'DM Mono', monospace; }
 .special-odd strong { font: 600 14px 'DM Mono', monospace; }
@@ -1177,14 +1185,14 @@ body.report-focus {
 
   .report-tabs {
     margin-top: 20px;
-    overflow-x: auto;
-    scrollbar-width: thin;
+    overflow-x: hidden;
   }
 
   .report-tab {
-    flex: 0 0 auto;
-    margin-right: 15px;
+    flex: 1 1 0;
+    margin-right: 0;
     padding: 12px 2px;
+    text-align: center;
     white-space: nowrap;
   }
 }

@@ -178,12 +178,13 @@ const translations = {
       'That report is not available right now.',
     selectedReport: 'Selected report',
 
-    top20: 'Top picks',
-    byGame: 'By league',
-    byPrediction: 'By market',
+    top20: 'Top',
+    byGame: 'League',
+    byPrediction: 'Market',
     special: 'Special',
     odds: 'Odds',
     noSpecialMatches: 'No special matches',
+    noAvailableData: 'No available data',
     home: 'Home',
     draw: 'Draw',
     away: 'Away',
@@ -277,12 +278,13 @@ const translations = {
       'Raportul nu este disponibil momentan.',
     selectedReport: 'Raport selectat',
 
-    top20: 'Top ponturi',
-    byGame: 'Pe ligă',
-    byPrediction: 'Pe pronostic',
+    top20: 'Top',
+    byGame: 'Ligă',
+    byPrediction: 'Piață',
     special: 'Special',
     odds: 'Cote',
     noSpecialMatches: 'Nu există meciuri speciale',
+    noAvailableData: 'Nu există date disponibile',
     home: 'Gazde',
     draw: 'Egal',
     away: 'Oaspeți',
@@ -1620,9 +1622,19 @@ function renderReport(data) {
   );
 }
 
+function renderCurrentReport() {
+  if (!state.report) {
+    return;
+  }
+
+  $('#report-body').innerHTML = renderReport(state.report);
+}
+
 function renderRisk(label, value) {
-  const risk = ['high', 'medium', 'low'].includes(value) ? value : 'low';
-  return `<div class="special-indicator risk-${risk}"><span>${escapeHtml(label)}</span><strong>${escapeHtml(t(risk))}</strong></div>`;
+  const risk = ['high', 'medium', 'low'].includes(value) ? value : null;
+  return risk
+    ? `<div class="special-indicator risk-${risk}"><span>${escapeHtml(label)}</span><strong>${escapeHtml(t(risk))}</strong></div>`
+    : '';
 }
 
 function renderSpecialMatches(data) {
@@ -1630,28 +1642,44 @@ function renderSpecialMatches(data) {
   const entries = matches && typeof matches === 'object' && !Array.isArray(matches)
     ? Object.entries(matches)
     : [];
+  const visibleEntries = entries.filter(([, details]) => {
+    const leagueId = String(details?.league?.id ?? 'unknown');
+    return !state.selectedLeagueIds || state.selectedLeagueIds.has(leagueId);
+  });
 
-  if (!entries.length) {
+  if (!visibleEntries.length) {
     return `<p class="special-empty">${escapeHtml(t('noSpecialMatches'))}</p>`;
   }
 
-  return `<div class="special-grid">${entries.map(([match, details]) => {
+  return `<div class="special-grid">${visibleEntries.map(([match, details]) => {
     const [homeTeam = match, awayTeam = ''] = match.split(' - ');
     const odds = details?.odds ?? {};
+    const oddsEntries = [
+      ['home', odds.home_win], ['draw', odds.draw], ['away', odds.away_win],
+    ];
+    const validOdds = oddsEntries
+      .map(([, value]) => Number(value))
+      .filter((value) => Number.isFinite(value) && value > 0);
+    const lowestOdd = validOdds.length ? Math.min(...validOdds) : null;
     const stats = details?.stats ?? {};
     const league = details?.league?.name || '';
-    const yellowHigh = stats.high_yellow_card_tendency === true;
+    const yellowTendency = typeof stats.high_yellow_card_tendency === 'boolean'
+      ? stats.high_yellow_card_tendency
+      : null;
+    const disciplineIndicators = [
+      renderRisk(t('penaltyRisk'), stats.penalty_probability),
+      renderRisk(t('redCardRisk'), stats.red_card_probability),
+      yellowTendency === null
+        ? ''
+        : `<div class="special-indicator ${yellowTendency ? 'risk-high' : 'risk-low'}"><span>${escapeHtml(t('yellowCardTendency'))}</span><strong>${escapeHtml(t(yellowTendency ? 'yes' : 'no'))}</strong></div>`,
+    ].filter(Boolean);
     return `<article class="special-card">
       <p class="special-league">${escapeHtml(league)}</p>
       <h3 class="special-teams"><span>${escapeHtml(homeTeam)}</span><span class="special-separator" aria-hidden="true">—</span><span>${escapeHtml(awayTeam)}</span></h3>
-      <div class="special-odds" aria-label="${escapeHtml(t('odds'))}">${[
-        ['home', odds.home_win], ['draw', odds.draw], ['away', odds.away_win],
-      ].map(([key, value]) => `<div class="special-odd"><span>${escapeHtml(t(key))}</span><strong>${value == null ? '—' : escapeHtml(value)}</strong></div>`).join('')}</div>
+      <div class="special-odds" aria-label="${escapeHtml(t('odds'))}">${oddsEntries.map(([key, value]) => `<div class="special-odd${lowestOdd !== null && Number(value) === lowestOdd ? ' is-lowest-odd' : ''}"><span>${escapeHtml(t(key))}</span><strong>${value == null ? '—' : escapeHtml(value)}</strong></div>`).join('')}</div>
       <p class="special-derby ${details?.derby === true ? 'is-derby' : ''}">${escapeHtml(details?.derby === true ? t('derby') : t('notDerby'))}</p>
       <div class="special-discipline"><p class="special-section-label">${escapeHtml(t('discipline'))}</p>
-        ${renderRisk(t('penaltyRisk'), stats.penalty_probability)}
-        ${renderRisk(t('redCardRisk'), stats.red_card_probability)}
-        <div class="special-indicator ${yellowHigh ? 'risk-high' : 'risk-low'}"><span>${escapeHtml(t('yellowCardTendency'))}</span><strong>${escapeHtml(yellowHigh ? t('yes') : t('no'))}</strong></div>
+        ${disciplineIndicators.length ? disciplineIndicators.join('') : `<p class="special-empty">${escapeHtml(t('noAvailableData'))}</p>`}
       </div>
     </article>`;
   }).join('')}</div>`;
@@ -2255,14 +2283,7 @@ function applyCurrentFilterSelection() {
     )
   );
 
-  if (
-    state.report
-  ) {
-    $('#report-body').innerHTML =
-      renderReport(
-        state.report
-      );
-  }
+  renderCurrentReport();
 }
 
 /* =========================================================
@@ -2270,10 +2291,6 @@ function applyCurrentFilterSelection() {
    ========================================================= */
 
 function resetFilters() {
-  /*
-   * Reset leagues to the default selection:
-   * priorities 1 through 13.
-   */
   state.selectedLeagueIds =
     new Set(
       SUPPORTED_LEAGUES
@@ -2288,40 +2305,17 @@ function resetFilters() {
         )
     );
 
-  /*
-   * All market categories enabled.
-   */
   state.selectedCategories =
     null;
 
-  /*
-   * Default minimum score.
-   */
   state.threshold = 65;
 
-  /*
-   * Save the default state.
-   */
   persistFilters();
 
-  /*
-   * Refresh the filter UI.
-   */
   updateFilters();
 
-  /*
-   * Refresh the current report.
-   */
-  if (state.report) {
-    $('#report-body').innerHTML =
-      renderReport(
-        state.report
-      );
-  }
+  renderCurrentReport();
 
-  /*
-   * Update the filter badge.
-   */
   updateFilterBadge();
 }
    
@@ -2485,17 +2479,10 @@ function applyLanguage() {
   updateFilters();
 
   if (state.report) {
-    $('#report-heading').textContent =
-      displayDate(
-        reportDate(
-          state.selected
-        )
-      );
-
-    $('#report-body').innerHTML =
-      renderReport(
-        state.report
-      );
+    $('#report-heading').textContent = displayDate(
+      reportDate(state.selected)
+    );
+    renderCurrentReport();
   }
 
   renderCalendar();
@@ -2647,6 +2634,16 @@ function renderCalendar() {
    OPEN REPORT
    ========================================================= */
 
+async function fetchJson(url) {
+  const response = await fetch(url, { cache: 'no-store' });
+
+  if (!response.ok) {
+    throw Error();
+  }
+
+  return response.json();
+}
+
 async function openReport(
   date,
   updateHistory = true
@@ -2713,21 +2710,8 @@ async function openReport(
         document.baseURI
       );
 
-    const response =
-      await fetch(
-        reportUrl,
-        {
-          cache:
-            'no-store',
-        }
-      );
-
-    if (!response.ok) {
-      throw Error();
-    }
-
     state.report =
-      await response.json();
+      await fetchJson(reportUrl);
 
     registerReportLeagues(
       state.report
@@ -2740,14 +2724,11 @@ async function openReport(
 
     updateFilters();
 
-    $('#report-body').innerHTML =
-      renderReport(
-        state.report
-      );
+    renderCurrentReport();
 
     $('#report-content').hidden =
       false;
-  } catch (error) {
+  } catch {
     $('#report-error').hidden =
       false;
   } finally {
@@ -2793,24 +2774,13 @@ function showCalendar() {
 
 async function loadReports() {
   try {
-    const response =
-      await fetch(
+    const payload =
+      await fetchJson(
         new URL(
           'data/reports.json',
           document.baseURI
-        ),
-        {
-          cache:
-            'no-store',
-        }
+        )
       );
-
-    if (!response.ok) {
-      throw Error();
-    }
-
-    const payload =
-      await response.json();
 
     const reports =
       Array.isArray(
@@ -2860,7 +2830,7 @@ async function loadReports() {
         false
       );
     }
-  } catch (error) {
+  } catch {
     state.reports.clear();
 
     renderCalendar();
@@ -3027,15 +2997,7 @@ document
               .reportView;
 
           updateReportTabs();
-
-          if (
-            state.report
-          ) {
-            $('#report-body').innerHTML =
-              renderReport(
-                state.report
-              );
-          }
+          renderCurrentReport();
         }
       )
   );
@@ -3078,84 +3040,44 @@ $('#reset-filters').addEventListener(
    LIVE FILTERING
    ========================================================= */
 
-/*
- * League checkboxes:
- * apply immediately.
- */
+const selectAllOptionSelectors = new Map([
+  ['select-all-leagues', '#league-options input[type="checkbox"]'],
+  ['select-all-markets', '#prediction-options input[type="checkbox"]'],
+]);
+
+function handleFilterChange(target) {
+  if (
+    target.matches('#league-options input[type="checkbox"]') ||
+    target.matches('#prediction-options input[type="checkbox"]')
+  ) {
+    applyCurrentFilterSelection();
+    return;
+  }
+
+  const optionSelector = selectAllOptionSelectors.get(target.id);
+
+  if (optionSelector) {
+    document.querySelectorAll(optionSelector).forEach((option) => {
+      option.checked = target.checked;
+    });
+
+    applyCurrentFilterSelection();
+    return;
+  }
+
+  if (target.id !== 'top-count-select') {
+    return;
+  }
+
+  state.topCount = Number(target.value) || 20;
+  renderCurrentReport();
+}
+
 document.addEventListener(
   'change',
-  (event) => {
-    if (
-      event.target.matches(
-        '#league-options input[type="checkbox"]'
-      )
-    ) {
-      applyCurrentFilterSelection();
-    }
-
-    if (
-      event.target.matches(
-        '#prediction-options input[type="checkbox"]'
-      )
-    ) {
-      applyCurrentFilterSelection();
-    }
-
-    if (
-      event.target.id ===
-      'select-all-leagues'
-    ) {
-      document
-        .querySelectorAll(
-          '#league-options input[type="checkbox"]'
-        )
-        .forEach((option) => {
-          option.checked =
-            event.target.checked;
-        });
-
-      applyCurrentFilterSelection();
-    }
-
-    if (
-      event.target.id ===
-      'select-all-markets'
-    ) {
-      document
-        .querySelectorAll(
-          '#prediction-options input[type="checkbox"]'
-        )
-        .forEach((option) => {
-          option.checked =
-            event.target.checked;
-        });
-
-      applyCurrentFilterSelection();
-    }
-
-    if (
-      event.target.id ===
-      'top-count-select'
-    ) {
-      state.topCount =
-        Number(
-          event.target.value
-        ) || 20;
-
-      if (state.report) {
-        $('#report-body').innerHTML =
-          renderReport(
-            state.report
-          );
-      }
-    }
-  }
+  (event) => handleFilterChange(event.target)
 );
 
-/*
- * Score:
- * apply while typing/changing.
- */
 $('#prediction-threshold').addEventListener(
   'input',
   () => {
@@ -3194,9 +3116,6 @@ document.addEventListener(
   }
 );
 
-/*
- * Escape closes the menu.
- */
 document.addEventListener(
   'keydown',
   (event) => {
