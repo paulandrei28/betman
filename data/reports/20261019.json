@@ -1,0 +1,347 @@
+{
+  "date": "20261019",
+  "predictions": [
+    {
+      "home": "Trabzonspor",
+      "away": "Beşiktaş",
+      "market": "more than 2.5 goals",
+      "score": 144.92,
+      "confidence": 77.73,
+      "prediction": 112.64,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "7/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "7/7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 2.5 goals",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "away"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "5/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "home + away agreement (+11.2)",
+        "both teams no-clean-sheet tendencies → over goals (+8.2)",
+        "both teams first-score tendencies → over goals (+4.3)"
+      ],
+      "penalties": [],
+      "rank": 1,
+      "league": {
+        "id": 203,
+        "name": "Süper Lig"
+      }
+    },
+    {
+      "home": "Parma",
+      "away": "Torino",
+      "market": "less than 4.5 cards",
+      "score": 138.53,
+      "confidence": 78.01,
+      "prediction": 108.07,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "5/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.1)",
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "explanations": [
+        "Referee data unavailable; no adjustment applied."
+      ],
+      "rank": 2,
+      "league": {
+        "id": 135,
+        "name": "Serie A"
+      }
+    },
+    {
+      "home": "Trabzonspor",
+      "away": "Beşiktaş",
+      "market": "both teams scoring",
+      "score": 121.59,
+      "confidence": 81.63,
+      "prediction": 99.25,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "6/7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Both teams scoring",
+          "value": "5/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "away"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "5/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+17.8)",
+        "both teams no clean sheet → BTTS (+23.4)",
+        "both teams first to score patterns → BTTS (+6.1)"
+      ],
+      "penalties": [],
+      "rank": 3,
+      "league": {
+        "id": 203,
+        "name": "Süper Lig"
+      }
+    },
+    {
+      "home": "Getafe",
+      "away": "Rayo Vallecano",
+      "market": "more than 4.5 cards",
+      "score": 98.94,
+      "confidence": 81.7,
+      "prediction": 80.83,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 4.5 cards",
+          "value": "7/8",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 4.5 cards",
+          "value": "9/10",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+19.0)"
+      ],
+      "penalties": [],
+      "explanations": [
+        "Referee data unavailable; no adjustment applied."
+      ],
+      "rank": 4,
+      "league": {
+        "id": 140,
+        "name": "La Liga"
+      }
+    },
+    {
+      "home": "Trabzonspor",
+      "away": "Beşiktaş",
+      "market": "Beşiktaş no clean sheet",
+      "score": 92.08,
+      "confidence": 78.69,
+      "prediction": 72.45,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "5/7",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+15.9)",
+        "opponent first to score supports no clean sheet (+9.4)"
+      ],
+      "penalties": [],
+      "rank": 5,
+      "league": {
+        "id": 203,
+        "name": "Süper Lig"
+      }
+    },
+    {
+      "home": "SC Braga",
+      "away": "GIL Vicente",
+      "market": "less than 10.5 corners",
+      "score": 87.5,
+      "confidence": 79.84,
+      "prediction": 69.86,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "8/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 6,
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga"
+      }
+    },
+    {
+      "home": "Celta de Vigo II",
+      "away": "Tenerife",
+      "market": "Celta de Vigo II no clean sheet",
+      "score": 82.67,
+      "confidence": 78.69,
+      "prediction": 65.05,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+15.9)"
+      ],
+      "penalties": [],
+      "rank": 7,
+      "league": {
+        "id": 141,
+        "name": "Segunda División"
+      }
+    }
+  ],
+  "worth_watching": {
+    "Monza - Cagliari": {
+      "league": {
+        "id": 135,
+        "name": "Serie A"
+      },
+      "odds": {
+        "home_win": 2.38,
+        "draw": 3.1,
+        "away_win": 3.1
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "medium",
+        "red_card_probability": "high",
+        "high_yellow_card_tendency": true
+      }
+    },
+    "Celta de Vigo II - Tenerife": {
+      "league": {
+        "id": 141,
+        "name": "Segunda División"
+      },
+      "odds": {
+        "home_win": 2.57,
+        "draw": 3.1,
+        "away_win": 2.65
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "insufficient_data",
+        "red_card_probability": "insufficient_data",
+        "high_yellow_card_tendency": null
+      }
+    }
+  }
+}
