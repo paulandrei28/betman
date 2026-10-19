@@ -1,0 +1,929 @@
+{
+  "date": "20261020",
+  "predictions": [
+    {
+      "home": "Paris Saint Germain",
+      "away": "Barcelona",
+      "market": "both teams scoring",
+      "score": 181.33,
+      "confidence": 82.31,
+      "prediction": 149.25,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "8/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "6/7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Both teams scoring",
+          "value": "6/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "away"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "6/7",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+20.0)",
+        "home + away agreement (+11.9)",
+        "both teams no clean sheet → BTTS (+25.4)",
+        "both teams first to score patterns → BTTS (+7.1)"
+      ],
+      "penalties": [],
+      "rank": 1,
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      }
+    },
+    {
+      "home": "Paris Saint Germain",
+      "away": "Barcelona",
+      "market": "more than 2.5 goals",
+      "score": 167.61,
+      "confidence": 83.59,
+      "prediction": 140.1,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "8/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "9/9",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 2.5 goals",
+          "value": "6/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "away"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "6/7",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+17.8)",
+        "home + away agreement (+13.4)",
+        "both teams no-clean-sheet tendencies → over goals (+8.9)",
+        "both teams first-score tendencies → over goals (+5.0)"
+      ],
+      "penalties": [],
+      "rank": 2,
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      }
+    },
+    {
+      "home": "Alvechurch",
+      "away": "Spalding United",
+      "market": "less than 4.5 cards",
+      "score": 166.8,
+      "confidence": 89.14,
+      "prediction": 148.68,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "6/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+20.6)",
+        "home + away agreement (+14.5)"
+      ],
+      "penalties": [],
+      "explanations": [
+        "Referee data unavailable; no adjustment applied."
+      ],
+      "rank": 3,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Anstey Nomads",
+      "away": "Macclesfield",
+      "market": "both teams scoring",
+      "score": 115.5,
+      "confidence": 84.49,
+      "prediction": 97.59,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "9/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "6/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+11.9)",
+        "both teams no clean sheet → BTTS (+21.1)"
+      ],
+      "penalties": [],
+      "rank": 4,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Worcester City",
+      "away": "Chorley",
+      "market": "less than 4.5 cards",
+      "score": 108.6,
+      "confidence": 88.89,
+      "prediction": 96.53,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/7",
+          "team": "both"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "7/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+21.7)"
+      ],
+      "penalties": [],
+      "explanations": [
+        "Referee data unavailable; no adjustment applied."
+      ],
+      "rank": 5,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "United of Manchester",
+      "away": "Altrincham",
+      "market": "less than 4.5 cards",
+      "score": 107.23,
+      "confidence": 88.78,
+      "prediction": 95.2,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/8",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "6/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+20.6)"
+      ],
+      "penalties": [],
+      "explanations": [
+        "Referee data unavailable; no adjustment applied."
+      ],
+      "rank": 6,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Worcester City",
+      "away": "Chorley",
+      "market": "Worcester City no clean sheet",
+      "score": 106.17,
+      "confidence": 82.95,
+      "prediction": 88.07,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+19.1)",
+        "opponent first to score supports no clean sheet (+10.9)"
+      ],
+      "penalties": [],
+      "rank": 7,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Napoli",
+      "away": "Bodo/Glimt",
+      "market": "less than 4.5 cards",
+      "score": 104.39,
+      "confidence": 87.5,
+      "prediction": 91.34,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+14.0)"
+      ],
+      "penalties": [],
+      "explanations": [
+        "Referee data unavailable; no adjustment applied."
+      ],
+      "rank": 8,
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      }
+    },
+    {
+      "home": "Worcester City",
+      "away": "Chorley",
+      "market": "both teams scoring",
+      "score": 101.44,
+      "confidence": 78.57,
+      "prediction": 79.7,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "5/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+9.8)",
+        "both teams no clean sheet → BTTS (+23.4)"
+      ],
+      "penalties": [],
+      "rank": 9,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Stafford Rangers",
+      "away": "Gateshead",
+      "market": "less than 4.5 cards",
+      "score": 98.48,
+      "confidence": 88.2,
+      "prediction": 86.86,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "6/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+13.8)"
+      ],
+      "penalties": [],
+      "explanations": [
+        "Referee data unavailable; no adjustment applied."
+      ],
+      "rank": 10,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Paris Saint Germain",
+      "away": "Barcelona",
+      "market": "Paris Saint Germain no clean sheet",
+      "score": 96.58,
+      "confidence": 80.1,
+      "prediction": 77.36,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+15.9)",
+        "opponent first to score supports no clean sheet (+10.9)"
+      ],
+      "penalties": [],
+      "rank": 11,
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      }
+    },
+    {
+      "home": "Yeovil Town",
+      "away": "Leatherhead",
+      "market": "less than 4.5 cards",
+      "score": 92.72,
+      "confidence": 83.96,
+      "prediction": 77.85,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "6/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/8",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "explanations": [
+        "Referee data unavailable; no adjustment applied."
+      ],
+      "rank": 12,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Anstey Nomads",
+      "away": "Macclesfield",
+      "market": "less than 4.5 cards",
+      "score": 92.1,
+      "confidence": 83.71,
+      "prediction": 77.1,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)"
+      ],
+      "penalties": [],
+      "explanations": [
+        "Referee data unavailable; no adjustment applied."
+      ],
+      "rank": 13,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Tadley Calleva",
+      "away": "Aldershot Town",
+      "market": "less than 4.5 cards",
+      "score": 92.1,
+      "confidence": 83.71,
+      "prediction": 77.1,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)"
+      ],
+      "penalties": [],
+      "explanations": [
+        "Referee data unavailable; no adjustment applied."
+      ],
+      "rank": 14,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Tadley Calleva",
+      "away": "Aldershot Town",
+      "market": "both teams scoring",
+      "score": 89.06,
+      "confidence": 80.97,
+      "prediction": 72.11,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "8/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "6/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 15,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Cray Wanderers",
+      "away": "Bedford Town",
+      "market": "less than 4.5 cards",
+      "score": 88.24,
+      "confidence": 80.63,
+      "prediction": 71.15,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/9",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.2)"
+      ],
+      "penalties": [],
+      "explanations": [
+        "Referee data unavailable; no adjustment applied."
+      ],
+      "rank": 16,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Harrogate Town",
+      "away": "Bury",
+      "market": "less than 4.5 cards",
+      "score": 87.72,
+      "confidence": 82.17,
+      "prediction": 72.07,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+9.8)"
+      ],
+      "penalties": [],
+      "explanations": [
+        "Referee data unavailable; no adjustment applied."
+      ],
+      "rank": 17,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "Manchester City",
+      "away": "AEK Athens FC",
+      "market": "more than 2.5 goals",
+      "score": 87.38,
+      "confidence": 78.57,
+      "prediction": 68.66,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "5/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "4/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "8/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "9/9",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+9.8)",
+        "both teams first-score tendencies → over goals (+9.4)"
+      ],
+      "penalties": [],
+      "rank": 18,
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      }
+    },
+    {
+      "home": "AS Roma",
+      "away": "Slovan Bratislava",
+      "market": "less than 10.5 corners",
+      "score": 87.12,
+      "confidence": 82.04,
+      "prediction": 71.47,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "7/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)"
+      ],
+      "penalties": [],
+      "rank": 19,
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      }
+    },
+    {
+      "home": "FC Porto",
+      "away": "PSV Eindhoven",
+      "market": "both teams scoring",
+      "score": 86.52,
+      "confidence": 80.03,
+      "prediction": 69.24,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "5/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "8/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 20,
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      }
+    },
+    {
+      "home": "Worcester City",
+      "away": "Chorley",
+      "market": "Chorley no losses",
+      "score": 85.66,
+      "confidence": 80.1,
+      "prediction": 68.61,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "No losses",
+          "value": "4",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "No losses",
+          "value": "6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+15.9)"
+      ],
+      "penalties": [],
+      "rank": 21,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    },
+    {
+      "home": "VfB Stuttgart",
+      "away": "Atletico Madrid",
+      "market": "less than 4.5 cards",
+      "score": 83.54,
+      "confidence": 78.88,
+      "prediction": 65.9,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/9",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.2)"
+      ],
+      "penalties": [],
+      "explanations": [
+        "Referee data unavailable; no adjustment applied."
+      ],
+      "rank": 22,
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      }
+    },
+    {
+      "home": "FC Porto",
+      "away": "PSV Eindhoven",
+      "market": "less than 4.5 cards",
+      "score": 82.94,
+      "confidence": 78.57,
+      "prediction": 65.17,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "4/5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "5/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)"
+      ],
+      "penalties": [],
+      "explanations": [
+        "Referee data unavailable; no adjustment applied."
+      ],
+      "rank": 23,
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      }
+    }
+  ],
+  "worth_watching": {
+    "Paris Saint Germain - Barcelona": {
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      },
+      "odds": {
+        "home_win": 2.45,
+        "draw": 4.2,
+        "away_win": 2.45
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "medium",
+        "red_card_probability": "low",
+        "high_yellow_card_tendency": false
+      }
+    }
+  }
+}
