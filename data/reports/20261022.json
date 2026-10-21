@@ -1,0 +1,647 @@
+{
+  "date": "20261022",
+  "predictions": [
+    {
+      "home": "Ajax",
+      "away": "Atalanta",
+      "market": "both teams scoring",
+      "score": 112.52,
+      "confidence": 82.04,
+      "prediction": 92.31,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "7/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+10.9)",
+        "both teams no clean sheet → BTTS (+25.4)"
+      ],
+      "penalties": [],
+      "rank": 1,
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      }
+    },
+    {
+      "home": "Monaco",
+      "away": "SC Freiburg",
+      "market": "both teams scoring",
+      "score": 101.29,
+      "confidence": 75.9,
+      "prediction": 76.88,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "5/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "5/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "away"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "9/10",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+9.4)",
+        "both teams no clean sheet → BTTS (+18.5)",
+        "both teams first to score patterns → BTTS (+6.4)"
+      ],
+      "penalties": [],
+      "rank": 2,
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      }
+    },
+    {
+      "home": "1899 Hoffenheim",
+      "away": "Lyon",
+      "market": "more than 2.5 goals",
+      "score": 100.11,
+      "confidence": 84.45,
+      "prediction": 84.55,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "9/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "5/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+12.9)",
+        "both teams no-clean-sheet tendencies → over goals (+6.5)"
+      ],
+      "penalties": [],
+      "rank": 3,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "1899 Hoffenheim",
+      "away": "Lyon",
+      "market": "both teams scoring",
+      "score": 95.81,
+      "confidence": 75.89,
+      "prediction": 72.71,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "7/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "4/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+9.8)",
+        "both teams no clean sheet → BTTS (+18.5)"
+      ],
+      "penalties": [],
+      "rank": 4,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "Ajax",
+      "away": "Atalanta",
+      "market": "more than 2.5 goals",
+      "score": 94.54,
+      "confidence": 79.35,
+      "prediction": 75.02,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "9/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+10.9)",
+        "both teams no-clean-sheet tendencies → over goals (+8.9)"
+      ],
+      "penalties": [],
+      "rank": 5,
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      }
+    },
+    {
+      "home": "Beşiktaş",
+      "away": "Crystal Palace",
+      "market": "more than 2.5 goals",
+      "score": 93.16,
+      "confidence": 77.45,
+      "prediction": 72.15,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "7/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "8/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+11.9)",
+        "both teams no-clean-sheet tendencies → over goals (+7.4)"
+      ],
+      "penalties": [],
+      "rank": 6,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "Bournemouth",
+      "away": "AC Milan",
+      "market": "less than 10.5 corners",
+      "score": 92.61,
+      "confidence": 81.7,
+      "prediction": 75.66,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "7/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "9/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+12.7)"
+      ],
+      "penalties": [],
+      "rank": 7,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "Monaco",
+      "away": "SC Freiburg",
+      "market": "less than 4.5 cards",
+      "score": 91.74,
+      "confidence": 83.66,
+      "prediction": 76.76,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+12.9)"
+      ],
+      "penalties": [],
+      "explanations": [
+        "Career and competition referee averages disagree; no adjustment applied."
+      ],
+      "rank": 8,
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      }
+    },
+    {
+      "home": "Kairat Almaty",
+      "away": "Panathinaikos",
+      "market": "less than 4.5 cards",
+      "score": 87.12,
+      "confidence": 82.04,
+      "prediction": 71.47,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)"
+      ],
+      "penalties": [],
+      "explanations": [
+        "Referee data unavailable; no adjustment applied."
+      ],
+      "rank": 9,
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      }
+    },
+    {
+      "home": "FC Midtjylland",
+      "away": "St. Truiden",
+      "market": "less than 10.5 corners",
+      "score": 86.14,
+      "confidence": 81.63,
+      "prediction": 70.32,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 10,
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      }
+    },
+    {
+      "home": "Jagiellonia",
+      "away": "Anderlecht",
+      "market": "more than 2.5 goals",
+      "score": 85.72,
+      "confidence": 76.41,
+      "prediction": 65.5,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "6/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+10.9)",
+        "both teams no-clean-sheet tendencies → over goals (+6.5)"
+      ],
+      "penalties": [],
+      "rank": 11,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "Ajax",
+      "away": "Atalanta",
+      "market": "less than 4.5 cards",
+      "score": 85.09,
+      "confidence": 87.35,
+      "prediction": 74.32,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+12.9)"
+      ],
+      "penalties": [
+        "Referee averages conflict with Under 4.5 (10.0 penalty; averages 5.58 and 6.29)."
+      ],
+      "explanations": [
+        "Referee averages conflict with Under 4.5; applied 10.0 penalty."
+      ],
+      "rank": 12,
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      }
+    },
+    {
+      "home": "Monaco",
+      "away": "SC Freiburg",
+      "market": "less than 10.5 corners",
+      "score": 84.95,
+      "confidence": 81.25,
+      "prediction": 69.02,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)"
+      ],
+      "penalties": [],
+      "rank": 13,
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      }
+    }
+  ],
+  "worth_watching": {
+    "FK Crvena Zvezda - FC Copenhagen": {
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      },
+      "odds": {
+        "home_win": 2.2,
+        "draw": 3.6,
+        "away_win": 3.0
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "medium",
+        "red_card_probability": "medium",
+        "high_yellow_card_tendency": true
+      }
+    },
+    "Beşiktaş - Crystal Palace": {
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      },
+      "odds": {
+        "home_win": 2.1,
+        "draw": 3.7,
+        "away_win": 3.3
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "medium",
+        "red_card_probability": "medium",
+        "high_yellow_card_tendency": false
+      }
+    },
+    "Bournemouth - AC Milan": {
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      },
+      "odds": {
+        "home_win": 2.0,
+        "draw": 3.7,
+        "away_win": 3.5
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "medium",
+        "red_card_probability": "high",
+        "high_yellow_card_tendency": false
+      }
+    },
+    "1899 Hoffenheim - Lyon": {
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      },
+      "odds": {
+        "home_win": 2.0,
+        "draw": 4.0,
+        "away_win": 3.25
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "low",
+        "red_card_probability": "medium",
+        "high_yellow_card_tendency": false
+      }
+    },
+    "Ajax - Atalanta": {
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      },
+      "odds": {
+        "home_win": 2.1,
+        "draw": 3.6,
+        "away_win": 3.2
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "medium",
+        "red_card_probability": "medium",
+        "high_yellow_card_tendency": false
+      }
+    },
+    "Monaco - SC Freiburg": {
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      },
+      "odds": {
+        "home_win": 2.2,
+        "draw": 3.6,
+        "away_win": 3.0
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "low",
+        "red_card_probability": "low",
+        "high_yellow_card_tendency": false
+      }
+    }
+  }
+}
