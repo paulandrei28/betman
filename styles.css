@@ -559,6 +559,22 @@ body.report-focus {
   line-height: 1.55;
 }
 
+.ai-pick {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  box-shadow: 0 4px 14px rgba(16, 42, 67, 0.05);
+}
+
+.ai-pick-text {
+  margin: 0;
+  padding: 20px;
+  color: var(--ink);
+  font: inherit;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
 .report-body h1 {
   font-size: 32px;
   line-height: 1.1;

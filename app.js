@@ -1581,6 +1581,13 @@ function renderTop(
    ========================================================= */
 
 function renderReport(data) {
+  if (state.reportView === 'ai') {
+    const aiPick = data?.ai_pick;
+    return typeof aiPick === 'string' && aiPick.trim()
+      ? `<section class="ai-pick"><pre class="ai-pick-text">${escapeHtml(aiPick)}</pre></section>`
+      : '';
+  }
+
   if (state.reportView === 'special') {
     return renderSpecialMatches(data);
   }
@@ -1627,6 +1634,17 @@ function renderCurrentReport() {
     return;
   }
 
+  const hasAiPick =
+    typeof state.report.ai_pick === 'string' &&
+    state.report.ai_pick.trim().length > 0;
+  const aiTab = $('[data-report-view="ai"]');
+  aiTab.hidden = !hasAiPick;
+
+  if (!hasAiPick && state.reportView === 'ai') {
+    state.reportView = 'top';
+  }
+
+  updateReportTabs();
   $('#report-body').innerHTML = renderReport(state.report);
 }
 
@@ -2669,6 +2687,8 @@ async function openReport(
 
   state.report =
     null;
+
+  $('[data-report-view="ai"]').hidden = true;
 
   updateReportTabs();
 
