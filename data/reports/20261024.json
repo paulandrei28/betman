@@ -2847,5 +2847,6 @@
         "high_yellow_card_tendency": false
       }
     }
-  }
+  },
+  "ai_pick": "### ADO Den Haag - Heerenveen\n1. Less than 4.5 cards\n\n### Utrecht - PEC Zwolle\n2. Less than 4.5 cards\n\n### 1. FC Köln - FC Schalke 04\n3. Less than 4.5 cards\n\n### Aston Villa - Manchester City\n4. More than 2.5 goals\n\n5. Both teams scoring\n\n### Cordoba - Eibar\n6. More than 4.5 cards\n\n### Modena - Cesena\n7. Less than 4.5 cards\n\n### Preston - West Brom\n8. Preston no clean sheet\n\n### Lazio - Parma\n9. Parma no clean sheet\n\n### Atletico Madrid - Deportivo La Coruna\n10. Deportivo La Coruna no clean sheet"
 }

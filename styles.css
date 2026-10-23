@@ -560,19 +560,54 @@ body.report-focus {
 }
 
 .ai-pick {
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: var(--panel);
-  box-shadow: 0 4px 14px rgba(16, 42, 67, 0.05);
+  display: grid;
+  gap: 12px;
 }
 
-.ai-pick-text {
+.ai-pick-group {
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--panel);
+}
+
+.report-body .ai-pick-match {
+  margin: 0 0 10px;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.report-body .ai-pick-items {
+  display: grid;
+  gap: 7px;
   margin: 0;
-  padding: 20px;
-  color: var(--ink);
-  font: inherit;
-  white-space: pre-wrap;
-  overflow-wrap: anywhere;
+  padding: 0;
+  list-style: none;
+}
+
+.ai-pick-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 34px;
+  color: var(--muted);
+}
+
+.ai-pick-rank {
+  display: grid;
+  flex: 0 0 26px;
+  width: 26px;
+  height: 26px;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(36, 123, 160, .1);
+  color: var(--blue);
+  font: 500 11px 'DM Mono', monospace;
+}
+
+.ai-pick-note {
+  margin: 8px 0 0;
+  color: var(--muted);
 }
 
 .report-body h1 {

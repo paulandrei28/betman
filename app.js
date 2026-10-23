@@ -1580,11 +1580,68 @@ function renderTop(
    REPORT
    ========================================================= */
 
+function renderAiPick(markdown) {
+  const groups = [];
+
+  String(markdown)
+    .split(/\r?\n/)
+    .forEach((rawLine) => {
+      const line = rawLine.trim();
+      if (!line) return;
+
+      const heading = line.match(/^#{1,6}\s+(.+)$/);
+      if (heading) {
+        groups.push({ title: heading[1], picks: [] });
+        return;
+      }
+
+      const pick = line.match(/^(\d+)[.)]\s+(.+)$/);
+      if (pick) {
+        if (!groups.length) groups.push({ title: '', picks: [] });
+        groups[groups.length - 1].picks.push({
+          rank: pick[1],
+          text: pick[2],
+        });
+        return;
+      }
+
+      if (!groups.length) groups.push({ title: '', picks: [], notes: [] });
+      const group = groups[groups.length - 1];
+      group.notes ||= [];
+      group.notes.push(line);
+    });
+
+  return `<section class="ai-pick">${groups
+    .map(
+      ({ title, picks, notes = [] }) => `
+        <article class="ai-pick-group">
+          ${title ? `<h3 class="ai-pick-match">${escapeHtml(title)}</h3>` : ''}
+          ${picks.length ? `<ul class="ai-pick-items">${picks
+            .map(
+              ({ rank, text }) => `
+                <li class="ai-pick-item">
+                  <span class="ai-pick-rank">${escapeHtml(rank)}</span>
+                  <span>${escapeHtml(
+                    state.lang === 'ro'
+                      ? translateMarket(text)
+                      : text
+                  )}</span>
+                </li>
+              `
+            )
+            .join('')}</ul>` : ''}
+          ${notes.map((note) => `<p class="ai-pick-note">${escapeHtml(note)}</p>`).join('')}
+        </article>
+      `
+    )
+    .join('')}</section>`;
+}
+
 function renderReport(data) {
   if (state.reportView === 'ai') {
     const aiPick = data?.ai_pick;
     return typeof aiPick === 'string' && aiPick.trim()
-      ? `<section class="ai-pick"><pre class="ai-pick-text">${escapeHtml(aiPick)}</pre></section>`
+      ? renderAiPick(aiPick)
       : '';
   }
 
