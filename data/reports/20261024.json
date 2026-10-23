@@ -674,6 +674,51 @@
       }
     },
     {
+      "home": "Borussia Dortmund",
+      "away": "Eintracht Frankfurt",
+      "market": "less than 4.5 cards",
+      "score": 127.11,
+      "confidence": 76.3,
+      "prediction": 96.99,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "6/6",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "5/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+16.4)",
+        "home + away agreement (+9.4)"
+      ],
+      "penalties": [
+        "Team season rates estimate 5.00 total; conflicts with Under 4.5 (-0.9)."
+      ],
+      "explanations": [
+        "Team season rates estimate 5.00 total; conflicts with Under 4.5.",
+        "Referee data unavailable; no adjustment applied."
+      ],
+      "rank": 16,
+      "league": {
+        "id": 78,
+        "name": "Bundesliga"
+      }
+    },
+    {
       "home": "Lens",
       "away": "Paris FC",
       "market": "less than 10.5 corners",
@@ -710,7 +755,7 @@
       "explanations": [
         "Team season rates estimate 10.43 total; supports Under 10.5."
       ],
-      "rank": 16,
+      "rank": 17,
       "league": {
         "id": 61,
         "name": "Ligue 1"
@@ -754,7 +799,7 @@
       "explanations": [
         "Team season rates estimate 11.27 total; conflicts with Under 10.5."
       ],
-      "rank": 17,
+      "rank": 18,
       "league": {
         "id": 40,
         "name": "Championship"
@@ -794,7 +839,7 @@
         "opponent first to score supports no clean sheet (+12.9)"
       ],
       "penalties": [],
-      "rank": 18,
+      "rank": 19,
       "league": {
         "id": 88,
         "name": "Eredivisie"
@@ -838,7 +883,7 @@
         "Team season rates estimate 3.62 total; supports Under 4.5.",
         "Referee data unavailable; no adjustment applied."
       ],
-      "rank": 19,
+      "rank": 20,
       "league": {
         "id": 144,
         "name": "Jupiler Pro League"
@@ -877,7 +922,7 @@
         "home + away agreement (+10.4)"
       ],
       "penalties": [],
-      "rank": 20,
+      "rank": 21,
       "league": {
         "id": 88,
         "name": "Eredivisie"
@@ -924,7 +969,7 @@
         "opponent no clean sheet supports scoring first (+8.2)"
       ],
       "penalties": [],
-      "rank": 21,
+      "rank": 22,
       "league": {
         "id": 140,
         "name": "La Liga"
@@ -968,7 +1013,7 @@
         "Team season rates estimate 5.18 total; supports Over 4.5.",
         "Referee data unavailable; no adjustment applied."
       ],
-      "rank": 22,
+      "rank": 23,
       "league": {
         "id": 140,
         "name": "La Liga"
@@ -1008,7 +1053,7 @@
         "no losses + wins (+4.6)"
       ],
       "penalties": [],
-      "rank": 23,
+      "rank": 24,
       "league": {
         "id": 140,
         "name": "La Liga"
@@ -1055,7 +1100,7 @@
         "opponent no clean sheet supports scoring first (+8.4)"
       ],
       "penalties": [],
-      "rank": 24,
+      "rank": 25,
       "league": {
         "id": 88,
         "name": "Eredivisie"
@@ -1087,7 +1132,7 @@
         "general + H2H agreement (+22.5)"
       ],
       "penalties": [],
-      "rank": 25,
+      "rank": 26,
       "league": {
         "id": 88,
         "name": "Eredivisie"
@@ -1133,7 +1178,7 @@
         "both teams no clean sheet → BTTS (+18.5)"
       ],
       "penalties": [],
-      "rank": 26,
+      "rank": 27,
       "league": {
         "id": 135,
         "name": "Serie A"
@@ -1179,7 +1224,7 @@
         "both teams no clean sheet → BTTS (+18.5)"
       ],
       "penalties": [],
-      "rank": 27,
+      "rank": 28,
       "league": {
         "id": 79,
         "name": "2. Bundesliga"
@@ -1238,7 +1283,7 @@
         "both teams first to score patterns → BTTS (+7.1)"
       ],
       "penalties": [],
-      "rank": 28,
+      "rank": 29,
       "league": {
         "id": 141,
         "name": "Segunda División"
@@ -1270,7 +1315,7 @@
         "general + H2H agreement (+17.6)"
       ],
       "penalties": [],
-      "rank": 29,
+      "rank": 30,
       "league": {
         "id": 79,
         "name": "2. Bundesliga"
@@ -1307,7 +1352,7 @@
         "Team season rates estimate 2.89 total; supports Under 4.5.",
         "Career and competition referee averages disagree; no adjustment applied."
       ],
-      "rank": 30,
+      "rank": 31,
       "league": {
         "id": 62,
         "name": "Ligue 2"
@@ -1347,7 +1392,7 @@
         "opponent first to score supports no clean sheet (+9.8)"
       ],
       "penalties": [],
-      "rank": 31,
+      "rank": 32,
       "league": {
         "id": 88,
         "name": "Eredivisie"
@@ -1397,7 +1442,7 @@
       "explanations": [
         "Team season rates estimate 4.11 total; supports Over 2.5."
       ],
-      "rank": 32,
+      "rank": 33,
       "league": {
         "id": 88,
         "name": "Eredivisie"
@@ -1434,7 +1479,7 @@
         "Team season rates estimate 5.89 total; supports Over 4.5.",
         "Referee data unavailable; no adjustment applied."
       ],
-      "rank": 33,
+      "rank": 34,
       "league": {
         "id": 140,
         "name": "La Liga"
@@ -1474,7 +1519,7 @@
         "opponent no clean sheet supports scoring first (+12.7)"
       ],
       "penalties": [],
-      "rank": 34,
+      "rank": 35,
       "league": {
         "id": 144,
         "name": "Jupiler Pro League"
@@ -1514,7 +1559,7 @@
         "opponent first to score supports no clean sheet (+11.9)"
       ],
       "penalties": [],
-      "rank": 35,
+      "rank": 36,
       "league": {
         "id": 39,
         "name": "Premier League"
@@ -1554,7 +1599,7 @@
         "opponent first to score supports no clean sheet (+9.4)"
       ],
       "penalties": [],
-      "rank": 36,
+      "rank": 37,
       "league": {
         "id": 39,
         "name": "Premier League"
@@ -1600,7 +1645,7 @@
         "both teams no clean sheet → BTTS (+18.5)"
       ],
       "penalties": [],
-      "rank": 37,
+      "rank": 38,
       "league": {
         "id": 40,
         "name": "Championship"
@@ -1637,7 +1682,7 @@
         "Team season rates estimate 4.27 total; supports Under 4.5.",
         "Referee data unavailable; no adjustment applied."
       ],
-      "rank": 38,
+      "rank": 39,
       "league": {
         "id": 40,
         "name": "Championship"
@@ -1674,7 +1719,7 @@
         "Team season rates estimate 3.14 total; supports Under 4.5.",
         "Referee data unavailable; no adjustment applied."
       ],
-      "rank": 39,
+      "rank": 40,
       "league": {
         "id": 135,
         "name": "Serie A"
@@ -1710,7 +1755,7 @@
       "explanations": [
         "Team season rates estimate 7.57 total; supports Under 10.5."
       ],
-      "rank": 40,
+      "rank": 41,
       "league": {
         "id": 136,
         "name": "Serie B"
@@ -1746,7 +1791,7 @@
       "explanations": [
         "Team season rates estimate 8.57 total; supports Under 10.5."
       ],
-      "rank": 41,
+      "rank": 42,
       "league": {
         "id": 136,
         "name": "Serie B"
@@ -1786,56 +1831,10 @@
         "opponent first to score supports no clean sheet (+9.4)"
       ],
       "penalties": [],
-      "rank": 42,
+      "rank": 43,
       "league": {
         "id": 135,
         "name": "Serie A"
-      }
-    },
-    {
-      "home": "Las Palmas",
-      "away": "Real Sociedad II",
-      "market": "both teams scoring",
-      "score": 93.67,
-      "confidence": 73.32,
-      "prediction": 68.69,
-      "evidence": [
-        {
-          "section": "general",
-          "name": "Both teams scoring",
-          "value": "4/5",
-          "team": "home"
-        },
-        {
-          "section": "general",
-          "name": "Both teams scoring",
-          "value": "8/10",
-          "team": "away"
-        }
-      ],
-      "supporting_evidence": [
-        {
-          "section": "general",
-          "name": "Without clean sheet",
-          "value": "5",
-          "team": "home"
-        },
-        {
-          "section": "general",
-          "name": "Without clean sheet",
-          "value": "3",
-          "team": "away"
-        }
-      ],
-      "bonuses": [
-        "home + away agreement (+9.8)",
-        "both teams no clean sheet → BTTS (+18.5)"
-      ],
-      "penalties": [],
-      "rank": 43,
-      "league": {
-        "id": 141,
-        "name": "Segunda División"
       }
     },
     {
@@ -1940,6 +1939,44 @@
       }
     },
     {
+      "home": "Valencia",
+      "away": "Villarreal",
+      "market": "more than 4.5 cards",
+      "score": 90.18,
+      "confidence": 82.17,
+      "prediction": 74.1,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 4.5 cards",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 4.5 cards",
+          "value": "10/10",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)"
+      ],
+      "penalties": [
+        "Team season rates estimate 4.00 total; conflicts with Over 4.5 (-2.4)."
+      ],
+      "explanations": [
+        "Team season rates estimate 4.00 total; conflicts with Over 4.5.",
+        "Referee data unavailable; no adjustment applied."
+      ],
+      "rank": 47,
+      "league": {
+        "id": 140,
+        "name": "La Liga"
+      }
+    },
+    {
       "home": "Cremonese",
       "away": "Juve Stabia",
       "market": "less than 4.5 cards",
@@ -1970,7 +2007,7 @@
         "Team season rates estimate 3.29 total; supports Under 4.5.",
         "Referee data unavailable; no adjustment applied."
       ],
-      "rank": 47,
+      "rank": 48,
       "league": {
         "id": 136,
         "name": "Serie B"
@@ -2020,7 +2057,7 @@
       "explanations": [
         "Team season rates estimate 3.21 total; supports Over 2.5."
       ],
-      "rank": 48,
+      "rank": 49,
       "league": {
         "id": 135,
         "name": "Serie A"
@@ -2057,7 +2094,7 @@
         "Team season rates estimate 3.38 total; supports Under 4.5.",
         "Referee data unavailable; no adjustment applied."
       ],
-      "rank": 49,
+      "rank": 50,
       "league": {
         "id": 144,
         "name": "Jupiler Pro League"
@@ -2089,7 +2126,7 @@
         "general + H2H agreement (+15.9)"
       ],
       "penalties": [],
-      "rank": 50,
+      "rank": 51,
       "league": {
         "id": 39,
         "name": "Premier League"
@@ -2121,7 +2158,7 @@
         "general + H2H agreement (+16.4)"
       ],
       "penalties": [],
-      "rank": 51,
+      "rank": 52,
       "league": {
         "id": 88,
         "name": "Eredivisie"
@@ -2153,7 +2190,7 @@
         "general + H2H agreement (+13.9)"
       ],
       "penalties": [],
-      "rank": 52,
+      "rank": 53,
       "league": {
         "id": 135,
         "name": "Serie A"
@@ -2185,7 +2222,7 @@
         "home + away agreement (+11.9)"
       ],
       "penalties": [],
-      "rank": 53,
+      "rank": 54,
       "league": {
         "id": 141,
         "name": "Segunda División"
@@ -2225,7 +2262,7 @@
         "opponent first to score supports no clean sheet (+9.4)"
       ],
       "penalties": [],
-      "rank": 54,
+      "rank": 55,
       "league": {
         "id": 40,
         "name": "Championship"
@@ -2261,7 +2298,7 @@
       "explanations": [
         "Team season rates estimate 3.30 total; supports Over 2.5."
       ],
-      "rank": 55,
+      "rank": 56,
       "league": {
         "id": 141,
         "name": "Segunda División"
@@ -2298,7 +2335,7 @@
         "Team season rates estimate 4.57 total; supports Under 4.5.",
         "Referee data unavailable; no adjustment applied."
       ],
-      "rank": 56,
+      "rank": 57,
       "league": {
         "id": 136,
         "name": "Serie B"
@@ -2334,7 +2371,7 @@
       "explanations": [
         "Team season rates estimate 12.38 total; supports Over 10.5."
       ],
-      "rank": 57,
+      "rank": 58,
       "league": {
         "id": 79,
         "name": "2. Bundesliga"
@@ -2366,7 +2403,7 @@
         "home + away agreement (+9.4)"
       ],
       "penalties": [],
-      "rank": 58,
+      "rank": 59,
       "league": {
         "id": 140,
         "name": "La Liga"
@@ -2398,7 +2435,7 @@
         "general + H2H agreement (+15.9)"
       ],
       "penalties": [],
-      "rank": 59,
+      "rank": 60,
       "league": {
         "id": 40,
         "name": "Championship"
@@ -2445,7 +2482,7 @@
         "opponent no clean sheet supports scoring first (+5.8)"
       ],
       "penalties": [],
-      "rank": 60,
+      "rank": 61,
       "league": {
         "id": 40,
         "name": "Championship"
@@ -2691,20 +2728,20 @@
         "high_yellow_card_tendency": false
       }
     },
-    "Las Palmas - Real Sociedad II": {
+    "Valencia - Villarreal": {
       "league": {
-        "id": 141,
-        "name": "Segunda División"
+        "id": 140,
+        "name": "La Liga"
       },
       "odds": {
-        "home_win": 1.96,
-        "draw": 3.4,
-        "away_win": 3.75
+        "home_win": 3.3,
+        "draw": 3.5,
+        "away_win": 2.15
       },
-      "derby": false,
+      "derby": true,
       "stats": {
         "penalty_probability": "medium",
-        "red_card_probability": "medium",
+        "red_card_probability": "low",
         "high_yellow_card_tendency": false
       }
     },
