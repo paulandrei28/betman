@@ -418,10 +418,10 @@ const marketTranslations = {
 
 const evidenceTranslations = {
   general: 'general',
-  head2head: 'head-to-head',
-  home: 'home',
-  away: 'away',
-  both: 'head-to-head',
+  head2head: 'meciuri directe',
+  home: 'gazde',
+  away: 'oaspeți',
+  both: 'ambele echipe',
 };
 
 const nationalTeamTranslations = {
@@ -659,6 +659,39 @@ const translateEvidenceText = (
   }
 
   return result
+    .replace(
+      /Team season rates estimate\s+([\d.]+)\s+total(?:\s+\(rounded\s+(down|up)\s+to\s+([\d.]+)\s+for\s+(Over|Under)\s+assessment\))?;\s*(supports|conflicts with)\s*(Over|Under)\s+([\d.]+)(?:\s+\(([+-]?[\d.]+)\))?/gi,
+      (
+        match,
+        estimate,
+        roundingDirection,
+        roundedEstimate,
+        assessmentMarket,
+        outcome,
+        market,
+        line,
+        difference
+      ) => {
+        const formatNumber = (number) =>
+          number.replace('.', ',');
+        const rounding = roundingDirection
+          ? ` (rotunjit ${roundingDirection === 'down' ? 'în jos' : 'în sus'} la ${formatNumber(roundedEstimate)} pentru evaluarea pragului ${assessmentMarket === 'Over' ? 'Peste' : 'Sub'})`
+          : '';
+        const verdict =
+          outcome.toLowerCase() === 'supports'
+            ? 'susține'
+            : 'contrazice';
+        const localizedMarket =
+          market.toLowerCase() === 'over'
+            ? 'Peste'
+            : 'Sub';
+        const result = `Ratele echipelor din sezon indică un total estimat de ${formatNumber(estimate)}${rounding}; ${verdict} pragul ${localizedMarket} ${formatNumber(line)}`;
+
+        return difference
+          ? `${result} (${formatNumber(difference)})`
+          : result;
+      }
+    )
     .replace(
       /general \+ H2H agreement/gi,
       'acord între statisticile generale și meciurile directe'
