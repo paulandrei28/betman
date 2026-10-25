@@ -1,0 +1,675 @@
+{
+  "date": "20261026",
+  "predictions": [
+    {
+      "home": "Paris Saint Germain",
+      "away": "Lyon",
+      "market": "more than 2.5 goals",
+      "score": 167.52,
+      "confidence": 87.4,
+      "prediction": 146.41,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "5/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "6/6",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 2.5 goals",
+          "value": "7/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "8",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+20.6)",
+        "home + away agreement (+12.9)",
+        "both teams no-clean-sheet tendencies → over goals (+9.5)",
+        "Team season rates estimate 2.93 total; supports Over 2.5 (+1.0)."
+      ],
+      "penalties": [],
+      "explanations": [
+        "Team season rates estimate 2.93 total; supports Over 2.5."
+      ],
+      "rank": 1,
+      "league": {
+        "id": 61,
+        "name": "Ligue 1"
+      }
+    },
+    {
+      "home": "Sevilla",
+      "away": "Osasuna",
+      "market": "less than 10.5 corners",
+      "score": 139.12,
+      "confidence": 77.3,
+      "prediction": 107.54,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "8/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/8",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "home + away agreement (+10.4)",
+        "Team season rates estimate 6.56 total; supports Under 10.5 (+8.2)."
+      ],
+      "penalties": [],
+      "explanations": [
+        "Team season rates estimate 6.56 total; supports Under 10.5."
+      ],
+      "rank": 2,
+      "league": {
+        "id": 140,
+        "name": "La Liga"
+      }
+    },
+    {
+      "home": "Paris Saint Germain",
+      "away": "Lyon",
+      "market": "both teams scoring",
+      "score": 128.69,
+      "confidence": 87.35,
+      "prediction": 112.41,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "5/5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Both teams scoring",
+          "value": "7/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "8",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+19.4)",
+        "both teams no clean sheet → BTTS (+27.1)"
+      ],
+      "penalties": [],
+      "rank": 3,
+      "league": {
+        "id": 61,
+        "name": "Ligue 1"
+      }
+    },
+    {
+      "home": "Rizespor",
+      "away": "Trabzonspor",
+      "market": "less than 10.5 corners",
+      "score": 122.13,
+      "confidence": 73.06,
+      "prediction": 89.23,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "7/9",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "home + away agreement (+10.9)",
+        "Team season rates estimate 10.38 total; supports Under 10.5 (+0.6)."
+      ],
+      "penalties": [],
+      "explanations": [
+        "Team season rates estimate 10.38 total; supports Under 10.5."
+      ],
+      "rank": 4,
+      "league": {
+        "id": 203,
+        "name": "Süper Lig"
+      }
+    },
+    {
+      "home": "Sepsi OSK Sfantu Gheorghe",
+      "away": "Universitatea Craiova",
+      "market": "Sepsi OSK Sfantu Gheorghe no clean sheet",
+      "score": 111.44,
+      "confidence": 84.06,
+      "prediction": 93.68,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "10/10",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+19.1)",
+        "opponent first to score supports no clean sheet (+13.6)"
+      ],
+      "penalties": [],
+      "rank": 5,
+      "league": {
+        "id": 283,
+        "name": "Liga I"
+      }
+    },
+    {
+      "home": "Paris Saint Germain",
+      "away": "Lyon",
+      "market": "Paris Saint Germain first to score",
+      "score": 110.7,
+      "confidence": 78.9,
+      "prediction": 87.34,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "7/8",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "6/7",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "away"
+        },
+        {
+          "section": "general",
+          "name": "First half winner",
+          "value": "6/8",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+17.8)",
+        "opponent no clean sheet supports scoring first (+12.7)",
+        "first to score + first-half winner (+6.7)"
+      ],
+      "penalties": [],
+      "rank": 6,
+      "league": {
+        "id": 61,
+        "name": "Ligue 1"
+      }
+    },
+    {
+      "home": "Boulogne",
+      "away": "Reims",
+      "market": "less than 4.5 cards",
+      "score": 109.29,
+      "confidence": 89.27,
+      "prediction": 97.56,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "6/6",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "9/9",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+20.6)",
+        "Team season rates estimate 4.56 total; supports Under 4.5 (+0.4)."
+      ],
+      "penalties": [],
+      "explanations": [
+        "Team season rates estimate 4.56 total; supports Under 4.5.",
+        "Referee data unavailable; no adjustment applied."
+      ],
+      "rank": 7,
+      "league": {
+        "id": 62,
+        "name": "Ligue 2"
+      }
+    },
+    {
+      "home": "Rizespor",
+      "away": "Trabzonspor",
+      "market": "Trabzonspor first to score",
+      "score": 106.67,
+      "confidence": 80.27,
+      "prediction": 85.63,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "5/6",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "5/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "First half winner",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+16.4)",
+        "opponent no clean sheet supports scoring first (+11.7)",
+        "first to score + first-half winner (+7.1)"
+      ],
+      "penalties": [],
+      "rank": 8,
+      "league": {
+        "id": 203,
+        "name": "Süper Lig"
+      }
+    },
+    {
+      "home": "Paris Saint Germain",
+      "away": "Lyon",
+      "market": "less than 4.5 cards",
+      "score": 101.45,
+      "confidence": 82.88,
+      "prediction": 84.08,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)",
+        "Team season rates estimate 2.43 total; supports Under 4.5 (+6.7)."
+      ],
+      "penalties": [],
+      "explanations": [
+        "Team season rates estimate 2.43 total; supports Under 4.5.",
+        "Referee data unavailable; no adjustment applied."
+      ],
+      "rank": 9,
+      "league": {
+        "id": 61,
+        "name": "Ligue 1"
+      }
+    },
+    {
+      "home": "Paris Saint Germain",
+      "away": "Lyon",
+      "market": "Lyon no clean sheet",
+      "score": 100.93,
+      "confidence": 81.28,
+      "prediction": 82.04,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "7/8",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+15.9)",
+        "opponent first to score supports no clean sheet (+12.7)"
+      ],
+      "penalties": [],
+      "rank": 10,
+      "league": {
+        "id": 61,
+        "name": "Ligue 1"
+      }
+    },
+    {
+      "home": "Santa Clara",
+      "away": "Benfica",
+      "market": "more than 2.5 goals",
+      "score": 97.59,
+      "confidence": 75.0,
+      "prediction": 73.2,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "8/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 2.5 goals",
+          "value": "8/10",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "8/10",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+17.9)",
+        "both teams first-score tendencies → over goals (+6.9)",
+        "Team season rates estimate 2.94 total; supports Over 2.5 (+1.1)."
+      ],
+      "penalties": [],
+      "explanations": [
+        "Team season rates estimate 2.94 total; supports Over 2.5."
+      ],
+      "rank": 11,
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga"
+      }
+    },
+    {
+      "home": "Santa Clara",
+      "away": "Benfica",
+      "market": "less than 10.5 corners",
+      "score": 95.74,
+      "confidence": 83.65,
+      "prediction": 80.09,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "7/8",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "6/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+19.0)"
+      ],
+      "penalties": [
+        "Team season rates estimate 11.88 total; conflicts with Under 10.5 (-2.5)."
+      ],
+      "explanations": [
+        "Team season rates estimate 11.88 total; conflicts with Under 10.5."
+      ],
+      "rank": 12,
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga"
+      }
+    },
+    {
+      "home": "Paris Saint Germain",
+      "away": "Lyon",
+      "market": "Paris Saint Germain no clean sheet",
+      "score": 95.68,
+      "confidence": 83.74,
+      "prediction": 80.13,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "8",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+17.6)"
+      ],
+      "penalties": [],
+      "rank": 13,
+      "league": {
+        "id": 61,
+        "name": "Ligue 1"
+      }
+    },
+    {
+      "home": "Sepsi OSK Sfantu Gheorghe",
+      "away": "Universitatea Craiova",
+      "market": "less than 4.5 cards",
+      "score": 90.73,
+      "confidence": 79.84,
+      "prediction": 72.44,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "6/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/9",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)",
+        "Team season rates estimate 3.83 total; supports Under 4.5 (+3.2)."
+      ],
+      "penalties": [],
+      "explanations": [
+        "Team season rates estimate 3.83 total; supports Under 4.5.",
+        "Referee data unavailable; no adjustment applied."
+      ],
+      "rank": 14,
+      "league": {
+        "id": 283,
+        "name": "Liga I"
+      }
+    },
+    {
+      "home": "Sepsi OSK Sfantu Gheorghe",
+      "away": "Universitatea Craiova",
+      "market": "Universitatea Craiova first to score",
+      "score": 78.97,
+      "confidence": 91.67,
+      "prediction": 72.39,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "10/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to concede",
+          "value": "7/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "first to score + opponent first to concede (+21.7)",
+        "opponent no clean sheet supports scoring first (+8.8)"
+      ],
+      "penalties": [],
+      "rank": 15,
+      "league": {
+        "id": 283,
+        "name": "Liga I"
+      }
+    }
+  ],
+  "worth_watching": {
+    "Galatasaray - Fenerbahçe": {
+      "league": {
+        "id": 203,
+        "name": "Süper Lig"
+      },
+      "odds": {
+        "home_win": 2.15,
+        "draw": 3.8,
+        "away_win": 2.75
+      },
+      "derby": true,
+      "stats": {
+        "penalty_probability": "medium",
+        "red_card_probability": "medium",
+        "high_yellow_card_tendency": false
+      }
+    },
+    "FC Andorra - Burgos": {
+      "league": {
+        "id": 141,
+        "name": "Segunda División"
+      },
+      "odds": {
+        "home_win": 2.01,
+        "draw": 3.4,
+        "away_win": 3.4
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "insufficient_data",
+        "red_card_probability": "insufficient_data",
+        "high_yellow_card_tendency": null
+      }
+    }
+  },
+  "ai_pick": "### Paris Saint Germain - Lyon\n\n1. More than 2.5 goals\n\n2. Both teams scoring\n\n3. Paris Saint Germain first to score\n\n### Sevilla - Osasuna\n\n4. Less than 10.5 corners\n\n### Rizespor - Trabzonspor\n\n5. Trabzonspor first to score\n\n6. Less than 10.5 corners\n\n### Sepsi OSK Sfantu Gheorghe - Universitatea Craiova\n\n7. Sepsi OSK Sfantu Gheorghe no clean sheet\n\n8. Universitatea Craiova first to score\n\n### Boulogne - Reims\n\n9. Less than 4.5 cards\n\n### Santa Clara - Benfica\n\n10. More than 2.5 goals"
+}
