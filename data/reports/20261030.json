@@ -1,0 +1,1087 @@
+{
+  "date": "20261030",
+  "predictions": [
+    {
+      "home": "Le Havre",
+      "away": "Paris Saint Germain",
+      "market": "less than 4.5 cards",
+      "score": 199.91,
+      "confidence": 87.88,
+      "prediction": 175.67,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+24.2)",
+        "home + away agreement (+12.7)",
+        "Team season rates estimate 3.12 total; supports Under 4.5 (+28.2)."
+      ],
+      "penalties": [],
+      "rank": 1,
+      "league": {
+        "id": 61,
+        "name": "Ligue 1"
+      }
+    },
+    {
+      "home": "Lille",
+      "away": "Lens",
+      "market": "less than 10.5 corners",
+      "score": 148.79,
+      "confidence": 79.48,
+      "prediction": 118.26,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "9/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/6",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "home + away agreement (+10.9)",
+        "Team season rates estimate 9.50 total; supports Under 10.5 (+14.0)."
+      ],
+      "penalties": [],
+      "rank": 2,
+      "league": {
+        "id": 61,
+        "name": "Ligue 1"
+      }
+    },
+    {
+      "home": "Le Havre",
+      "away": "Paris Saint Germain",
+      "market": "Paris Saint Germain first to score",
+      "score": 130.31,
+      "confidence": 82.58,
+      "prediction": 107.62,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "8/9",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "9/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to concede",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "16",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "First half winner",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+20.0)",
+        "first to score + opponent first to concede (+14.7)",
+        "opponent no clean sheet supports scoring first (+9.1)",
+        "first to score + first-half winner (+4.4)"
+      ],
+      "penalties": [],
+      "rank": 3,
+      "league": {
+        "id": 61,
+        "name": "Ligue 1"
+      }
+    },
+    {
+      "home": "Rapid",
+      "away": "Csikszereda",
+      "market": "less than 10.5 corners",
+      "score": 123.92,
+      "confidence": 78.38,
+      "prediction": 97.13,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "8/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "8/9",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)",
+        "Team season rates estimate 8.15 total; supports Under 10.5 (+36.0)."
+      ],
+      "penalties": [],
+      "rank": 4,
+      "league": {
+        "id": 283,
+        "name": "Liga I"
+      }
+    },
+    {
+      "home": "Le Havre",
+      "away": "Paris Saint Germain",
+      "market": "more than 2.5 goals",
+      "score": 123.62,
+      "confidence": 72.65,
+      "prediction": 89.81,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "5/6",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 2.5 goals",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "home + away agreement (+9.8)",
+        "Team season rates estimate 3.00 total; supports Over 2.5 (+7.4)."
+      ],
+      "penalties": [],
+      "rank": 5,
+      "league": {
+        "id": 61,
+        "name": "Ligue 1"
+      }
+    },
+    {
+      "home": "Le Havre",
+      "away": "Paris Saint Germain",
+      "market": "Le Havre no clean sheet",
+      "score": 120.57,
+      "confidence": 87.49,
+      "prediction": 105.48,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "16",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "9/10",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+17.6)",
+        "opponent first to score supports no clean sheet (+14.0)"
+      ],
+      "penalties": [],
+      "rank": 6,
+      "league": {
+        "id": 61,
+        "name": "Ligue 1"
+      }
+    },
+    {
+      "home": "Rapid",
+      "away": "Csikszereda",
+      "market": "less than 4.5 cards",
+      "score": 117.35,
+      "confidence": 74.6,
+      "prediction": 87.54,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/9",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "5/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.1)",
+        "home + away agreement (+10.9)"
+      ],
+      "penalties": [
+        "Team season rates estimate 5.08 total; conflicts with Under 4.5 (-8.7)."
+      ],
+      "rank": 7,
+      "league": {
+        "id": 283,
+        "name": "Liga I"
+      }
+    },
+    {
+      "home": "Metz",
+      "away": "PAU",
+      "market": "less than 10.5 corners",
+      "score": 116.52,
+      "confidence": 81.68,
+      "prediction": 95.17,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "9/9",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+9.8)",
+        "Team season rates estimate 8.60 total; supports Under 10.5 (+30.3)."
+      ],
+      "penalties": [],
+      "rank": 8,
+      "league": {
+        "id": 62,
+        "name": "Ligue 2"
+      }
+    },
+    {
+      "home": "Grenoble",
+      "away": "Dijon",
+      "market": "less than 4.5 cards",
+      "score": 116.17,
+      "confidence": 85.95,
+      "prediction": 99.84,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "7/8",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+19.0)",
+        "Team season rates estimate 4.20 total; supports Under 4.5 (+10.8)."
+      ],
+      "penalties": [],
+      "rank": 9,
+      "league": {
+        "id": 62,
+        "name": "Ligue 2"
+      }
+    },
+    {
+      "home": "Le Havre",
+      "away": "Paris Saint Germain",
+      "market": "less than 10.5 corners",
+      "score": 110.98,
+      "confidence": 71.11,
+      "prediction": 78.92,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "8/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "home + away agreement (+9.4)"
+      ],
+      "penalties": [
+        "Team season rates estimate 11.25 total; conflicts with Under 10.5 (-6.7)."
+      ],
+      "rank": 10,
+      "league": {
+        "id": 61,
+        "name": "Ligue 1"
+      }
+    },
+    {
+      "home": "Zulte Waregem",
+      "away": "Club Brugge KV",
+      "market": "Club Brugge KV first to score",
+      "score": 109.67,
+      "confidence": 84.39,
+      "prediction": 92.56,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "7/7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "7/8",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+19.0)",
+        "opponent no clean sheet supports scoring first (+9.3)"
+      ],
+      "penalties": [],
+      "rank": 11,
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League"
+      }
+    },
+    {
+      "home": "Casa Pia",
+      "away": "Sporting CP",
+      "market": "Sporting CP first to score",
+      "score": 109.19,
+      "confidence": 77.78,
+      "prediction": 84.92,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "5/7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "7/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "9",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "First half winner",
+          "value": "6/6",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+14.1)",
+        "opponent no clean sheet supports scoring first (+14.5)",
+        "first to score + first-half winner (+8.9)"
+      ],
+      "penalties": [],
+      "rank": 12,
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga"
+      }
+    },
+    {
+      "home": "Villarreal",
+      "away": "Espanyol",
+      "market": "Espanyol no clean sheet",
+      "score": 107.28,
+      "confidence": 84.06,
+      "prediction": 90.18,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "5/7",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+19.1)",
+        "opponent first to score supports no clean sheet (+9.4)"
+      ],
+      "penalties": [],
+      "rank": 13,
+      "league": {
+        "id": 140,
+        "name": "La Liga"
+      }
+    },
+    {
+      "home": "Le Havre",
+      "away": "Paris Saint Germain",
+      "market": "Paris Saint Germain wins",
+      "score": 104.5,
+      "confidence": 82.28,
+      "prediction": 85.98,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Wins",
+          "value": "8",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Wins",
+          "value": "4",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Losses",
+          "value": "3",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "No losses",
+          "value": "13",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+15.9)",
+        "win + opponent loss (+9.3)",
+        "win + no losses (+4.7)"
+      ],
+      "penalties": [],
+      "rank": 14,
+      "league": {
+        "id": 61,
+        "name": "Ligue 1"
+      }
+    },
+    {
+      "home": "Rapid",
+      "away": "Csikszereda",
+      "market": "Csikszereda no clean sheet",
+      "score": 103.21,
+      "confidence": 82.78,
+      "prediction": 85.44,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+17.6)",
+        "opponent first to score supports no clean sheet (+9.8)"
+      ],
+      "penalties": [],
+      "rank": 15,
+      "league": {
+        "id": 283,
+        "name": "Liga I"
+      }
+    },
+    {
+      "home": "Metz",
+      "away": "PAU",
+      "market": "both teams scoring",
+      "score": 98.4,
+      "confidence": 75.89,
+      "prediction": 74.68,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "7/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "4/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+9.8)",
+        "both teams no clean sheet → BTTS (+21.1)"
+      ],
+      "penalties": [],
+      "rank": 16,
+      "league": {
+        "id": 62,
+        "name": "Ligue 2"
+      }
+    },
+    {
+      "home": "Energie Cottbus",
+      "away": "VfL Bochum",
+      "market": "less than 4.5 cards",
+      "score": 93.9,
+      "confidence": 83.66,
+      "prediction": 78.56,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "8/9",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+19.4)"
+      ],
+      "penalties": [
+        "Team season rates estimate 4.89 total; conflicts with Under 4.5 (-4.3)."
+      ],
+      "rank": 17,
+      "league": {
+        "id": 79,
+        "name": "2. Bundesliga"
+      }
+    },
+    {
+      "home": "Nice",
+      "away": "Rennes",
+      "market": "Nice no clean sheet",
+      "score": 93.39,
+      "confidence": 82.78,
+      "prediction": 77.31,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+17.6)"
+      ],
+      "penalties": [],
+      "rank": 18,
+      "league": {
+        "id": 61,
+        "name": "Ligue 1"
+      }
+    },
+    {
+      "home": "Konyaspor",
+      "away": "Galatasaray",
+      "market": "Galatasaray first to score",
+      "score": 92.5,
+      "confidence": 80.03,
+      "prediction": 74.02,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "5/5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "8/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+17.9)"
+      ],
+      "penalties": [],
+      "rank": 19,
+      "league": {
+        "id": 203,
+        "name": "Süper Lig"
+      }
+    },
+    {
+      "home": "Rodez",
+      "away": "Dunkerque",
+      "market": "less than 4.5 cards",
+      "score": 91.9,
+      "confidence": 77.78,
+      "prediction": 71.48,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/7",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "5/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.1)",
+        "Team season rates estimate 4.40 total; supports Under 4.5 (+6.1)."
+      ],
+      "penalties": [],
+      "rank": 20,
+      "league": {
+        "id": 62,
+        "name": "Ligue 2"
+      }
+    },
+    {
+      "home": "Rodez",
+      "away": "Dunkerque",
+      "market": "Dunkerque no clean sheet",
+      "score": 90.07,
+      "confidence": 82.81,
+      "prediction": 74.59,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "11",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+13.9)"
+      ],
+      "penalties": [],
+      "rank": 21,
+      "league": {
+        "id": 62,
+        "name": "Ligue 2"
+      }
+    },
+    {
+      "home": "Nice",
+      "away": "Rennes",
+      "market": "less than 4.5 cards",
+      "score": 89.32,
+      "confidence": 73.87,
+      "prediction": 65.99,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/10",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "7/9",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+16.8)",
+        "Team season rates estimate 4.50 total; supports Under 4.5 (+3.1)."
+      ],
+      "penalties": [],
+      "rank": 22,
+      "league": {
+        "id": 61,
+        "name": "Ligue 1"
+      }
+    },
+    {
+      "home": "Arminia Bielefeld",
+      "away": "Eintracht Braunschweig",
+      "market": "both teams scoring",
+      "score": 89.14,
+      "confidence": 78.88,
+      "prediction": 70.32,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "7/9",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Both teams scoring",
+          "value": "5/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+16.8)"
+      ],
+      "penalties": [],
+      "rank": 23,
+      "league": {
+        "id": 79,
+        "name": "2. Bundesliga"
+      }
+    },
+    {
+      "home": "SV Elversberg",
+      "away": "FSV Mainz 05",
+      "market": "less than 4.5 cards",
+      "score": 88.56,
+      "confidence": 80.27,
+      "prediction": 71.09,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)",
+        "Team season rates estimate 4.29 total; supports Under 4.5 (+6.1)."
+      ],
+      "penalties": [],
+      "rank": 24,
+      "league": {
+        "id": 78,
+        "name": "Bundesliga"
+      }
+    },
+    {
+      "home": "Nice",
+      "away": "Rennes",
+      "market": "more than 2.5 goals",
+      "score": 88.03,
+      "confidence": 78.57,
+      "prediction": 69.17,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "5/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+9.8)",
+        "Team season rates estimate 3.12 total; supports Over 2.5 (+10.0)."
+      ],
+      "penalties": [],
+      "rank": 25,
+      "league": {
+        "id": 61,
+        "name": "Ligue 1"
+      }
+    },
+    {
+      "home": "Energie Cottbus",
+      "away": "VfL Bochum",
+      "market": "Energie Cottbus no clean sheet",
+      "score": 87.79,
+      "confidence": 80.28,
+      "prediction": 70.48,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+17.6)"
+      ],
+      "penalties": [],
+      "rank": 26,
+      "league": {
+        "id": 79,
+        "name": "2. Bundesliga"
+      }
+    },
+    {
+      "home": "Sheffield Utd",
+      "away": "Wrexham",
+      "market": "both teams scoring",
+      "score": 82.94,
+      "confidence": 78.57,
+      "prediction": 65.17,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "4/5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Both teams scoring",
+          "value": "5/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)"
+      ],
+      "penalties": [],
+      "rank": 27,
+      "league": {
+        "id": 40,
+        "name": "Championship"
+      }
+    },
+    {
+      "home": "Zulte Waregem",
+      "away": "Club Brugge KV",
+      "market": "Club Brugge KV wins",
+      "score": 82.44,
+      "confidence": 79.55,
+      "prediction": 65.58,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Wins",
+          "value": "7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Wins",
+          "value": "3",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+13.9)"
+      ],
+      "penalties": [],
+      "rank": 28,
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League"
+      }
+    }
+  ],
+  "worth_watching": {
+    "Villarreal - Espanyol": {
+      "league": {
+        "id": 140,
+        "name": "La Liga"
+      },
+      "odds": {
+        "home_win": 1.42,
+        "draw": 4.75,
+        "away_win": 6.25
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "insufficient_data",
+        "red_card_probability": "insufficient_data",
+        "high_yellow_card_tendency": null
+      }
+    },
+    "Lille - Lens": {
+      "league": {
+        "id": 61,
+        "name": "Ligue 1"
+      },
+      "odds": {
+        "home_win": 2.55,
+        "draw": 3.6,
+        "away_win": 2.63
+      },
+      "derby": true,
+      "stats": {
+        "penalty_probability": "medium",
+        "red_card_probability": "high",
+        "high_yellow_card_tendency": false
+      }
+    }
+  },
+  "ai_pick": "### Le Havre - Paris Saint Germain\n\n1. Less than 4.5 cards\n2. Paris Saint Germain first to score\n3. More than 2.5 goals\n\n### Lille - Lens\n\n4. Less than 10.5 corners\n\n### Rapid - Csikszereda\n\n5. Less than 10.5 corners\n\n### Metz - PAU\n\n6. Less than 10.5 corners\n7. Both teams scoring\n\n### Grenoble - Dijon\n\n8. Less than 4.5 cards\n\n### Zulte Waregem - Club Brugge KV\n\n9. Club Brugge KV first to score\n\n### Casa Pia - Sporting CP\n\n10. Sporting CP first to score"
+}
