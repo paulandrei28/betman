@@ -1,6 +1,10 @@
 {
   "reports": [
     {
+      "date": "20261102",
+      "report": "data/reports/20261102.json"
+    },
+    {
       "date": "20261101",
       "report": "data/reports/20261101.json"
     },
@@ -11,10 +15,6 @@
     {
       "date": "20261030",
       "report": "data/reports/20261030.json"
-    },
-    {
-      "date": "20261029",
-      "report": "data/reports/20261029.json"
     }
   ]
 }
