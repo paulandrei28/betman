@@ -1,0 +1,632 @@
+{
+  "date": "20261103",
+  "predictions": [
+    {
+      "home": "Preston",
+      "away": "Sheffield Utd",
+      "market": "Preston no clean sheet",
+      "score": 149.37,
+      "confidence": 92.98,
+      "prediction": 138.88,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "36",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "11",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "9/10",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+24.2)",
+        "opponent first to score supports no clean sheet (+14.0)"
+      ],
+      "penalties": [],
+      "rank": 1,
+      "league": {
+        "id": 40,
+        "name": "Championship"
+      }
+    },
+    {
+      "home": "Charlton",
+      "away": "Bolton",
+      "market": "both teams scoring",
+      "score": 141.14,
+      "confidence": 72.26,
+      "prediction": 101.98,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "5/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "5/6",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Both teams scoring",
+          "value": "8/10",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+16.4)",
+        "home + away agreement (+9.4)",
+        "both teams no clean sheet → BTTS (+18.5)"
+      ],
+      "penalties": [],
+      "rank": 2,
+      "league": {
+        "id": 40,
+        "name": "Championship"
+      }
+    },
+    {
+      "home": "Charlton",
+      "away": "Bolton",
+      "market": "more than 2.5 goals",
+      "score": 135.64,
+      "confidence": 73.06,
+      "prediction": 99.1,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "5/6",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 2.5 goals",
+          "value": "7/9",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+16.4)",
+        "home + away agreement (+9.8)",
+        "both teams no-clean-sheet tendencies → over goals (+6.5)",
+        "Team season rates estimate 2.92 total; supports Over 2.5 (+7.1)."
+      ],
+      "penalties": [],
+      "rank": 3,
+      "league": {
+        "id": 40,
+        "name": "Championship"
+      }
+    },
+    {
+      "home": "Barcelona",
+      "away": "Aston Villa",
+      "market": "more than 2.5 goals",
+      "score": 118.04,
+      "confidence": 83.33,
+      "prediction": 98.36,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "10/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "8/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+11.9)",
+        "both teams no-clean-sheet tendencies → over goals (+7.4)",
+        "Team season rates estimate 5.33 total; supports Over 2.5 (+14.4)."
+      ],
+      "penalties": [],
+      "rank": 4,
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      }
+    },
+    {
+      "home": "Portsmouth",
+      "away": "Swansea",
+      "market": "less than 4.5 cards",
+      "score": 114.42,
+      "confidence": 70.96,
+      "prediction": 81.2,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "5/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.1)",
+        "Team season rates estimate 3.08 total; supports Under 4.5 (+36.3)."
+      ],
+      "penalties": [],
+      "rank": 5,
+      "league": {
+        "id": 40,
+        "name": "Championship"
+      }
+    },
+    {
+      "home": "Manchester United",
+      "away": "AS Roma",
+      "market": "AS Roma no clean sheet",
+      "score": 101.75,
+      "confidence": 81.47,
+      "prediction": 82.89,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "9",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "8/8",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+13.9)",
+        "opponent first to score supports no clean sheet (+15.0)"
+      ],
+      "penalties": [],
+      "rank": 6,
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      }
+    },
+    {
+      "home": "Derby",
+      "away": "Norwich",
+      "market": "Norwich no clean sheet",
+      "score": 101.46,
+      "confidence": 86.18,
+      "prediction": 87.44,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "16",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+15.9)"
+      ],
+      "penalties": [],
+      "rank": 7,
+      "league": {
+        "id": 40,
+        "name": "Championship"
+      }
+    },
+    {
+      "home": "Lask Linz",
+      "away": "Slovan Bratislava",
+      "market": "more than 2.5 goals",
+      "score": 97.93,
+      "confidence": 81.25,
+      "prediction": 79.57,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "6/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)",
+        "Team season rates estimate 4.83 total; supports Over 2.5 (+13.0)."
+      ],
+      "penalties": [],
+      "rank": 8,
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      }
+    },
+    {
+      "home": "Atletico Madrid",
+      "away": "Bayern München",
+      "market": "Bayern München no losses",
+      "score": 97.83,
+      "confidence": 85.25,
+      "prediction": 83.4,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "No losses",
+          "value": "19",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "No losses",
+          "value": "3",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+13.9)"
+      ],
+      "penalties": [],
+      "rank": 9,
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      }
+    },
+    {
+      "home": "Blackburn",
+      "away": "Stoke City",
+      "market": "less than 4.5 cards",
+      "score": 96.8,
+      "confidence": 81.63,
+      "prediction": 79.01,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "6/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+17.8)",
+        "Team season rates estimate 4.46 total; supports Under 4.5 (+4.7)."
+      ],
+      "penalties": [],
+      "rank": 10,
+      "league": {
+        "id": 40,
+        "name": "Championship"
+      }
+    },
+    {
+      "home": "Birmingham",
+      "away": "Millwall",
+      "market": "less than 4.5 cards",
+      "score": 93.66,
+      "confidence": 76.94,
+      "prediction": 72.06,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/7",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "6/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.1)",
+        "Team season rates estimate 4.23 total; supports Under 4.5 (+10.1)."
+      ],
+      "penalties": [],
+      "rank": 11,
+      "league": {
+        "id": 40,
+        "name": "Championship"
+      }
+    },
+    {
+      "home": "Bodo/Glimt",
+      "away": "Lille",
+      "market": "less than 10.5 corners",
+      "score": 92.96,
+      "confidence": 74.41,
+      "prediction": 69.17,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "8/9",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+9.4)",
+        "Team season rates estimate 6.67 total; supports Under 10.5 (+15.2)."
+      ],
+      "penalties": [],
+      "rank": 12,
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      }
+    },
+    {
+      "home": "Birmingham",
+      "away": "Millwall",
+      "market": "more than 2.5 goals",
+      "score": 92.89,
+      "confidence": 71.38,
+      "prediction": 66.3,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "7/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "6/8",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "5/7",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+10.4)",
+        "both teams first-score tendencies → over goals (+6.6)",
+        "Team season rates estimate 3.08 total; supports Over 2.5 (+11.3)."
+      ],
+      "penalties": [],
+      "rank": 13,
+      "league": {
+        "id": 40,
+        "name": "Championship"
+      }
+    },
+    {
+      "home": "Anaitasuna",
+      "away": "Alaves",
+      "market": "less than 4.5 cards",
+      "score": 87.72,
+      "confidence": 82.17,
+      "prediction": 72.07,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "4/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+9.8)"
+      ],
+      "penalties": [],
+      "rank": 14,
+      "league": {
+        "id": 143,
+        "name": "Copa del Rey"
+      }
+    },
+    {
+      "home": "Manchester United",
+      "away": "AS Roma",
+      "market": "Manchester United no clean sheet",
+      "score": 86.75,
+      "confidence": 81.47,
+      "prediction": 70.67,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "9",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+13.9)"
+      ],
+      "penalties": [],
+      "rank": 15,
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      }
+    },
+    {
+      "home": "Derby",
+      "away": "Norwich",
+      "market": "less than 10.5 corners",
+      "score": 85.85,
+      "confidence": 77.56,
+      "prediction": 66.59,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "7/8",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)",
+        "Team season rates estimate 10.38 total; supports Under 10.5 (+4.2)."
+      ],
+      "penalties": [],
+      "rank": 16,
+      "league": {
+        "id": 40,
+        "name": "Championship"
+      }
+    }
+  ],
+  "worth_watching": {
+    "Lask Linz - Slovan Bratislava": {
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      },
+      "odds": {
+        "home_win": 1.42,
+        "draw": 4.75,
+        "away_win": 7.0
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "medium",
+        "red_card_probability": "low",
+        "high_yellow_card_tendency": false
+      }
+    }
+  },
+  "ai_pick": "### Preston - Sheffield Utd\n\n1. Preston no clean sheet\n\n### Charlton - Bolton\n\n2. Both teams scoring  \n3. More than 2.5 goals\n\n### Barcelona - Aston Villa\n\n4. More than 2.5 goals\n\n### Portsmouth - Swansea\n\n5. Less than 4.5 cards\n\n### Manchester United - AS Roma\n\n6. AS Roma no clean sheet\n\n### Derby - Norwich\n\n7. Norwich no clean sheet\n\n### Lask Linz - Slovan Bratislava\n\n8. More than 2.5 goals\n\n### Atletico Madrid - Bayern München\n\n9. Bayern München no losses\n\n### Blackburn - Stoke City\n\n10. Less than 4.5 cards"
+}
