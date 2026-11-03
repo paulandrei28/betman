@@ -1,0 +1,442 @@
+{
+  "date": "20261104",
+  "predictions": [
+    {
+      "home": "RB Leipzig",
+      "away": "Manchester City",
+      "market": "more than 2.5 goals",
+      "score": 147.68,
+      "confidence": 76.27,
+      "prediction": 112.64,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "8/9",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 2.5 goals",
+          "value": "5/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+16.4)",
+        "home + away agreement (+9.8)",
+        "both teams no-clean-sheet tendencies → over goals (+8.9)",
+        "Team season rates estimate 4.17 total; supports Over 2.5 (+10.3)."
+      ],
+      "penalties": [],
+      "rank": 1,
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      }
+    },
+    {
+      "home": "RB Leipzig",
+      "away": "Manchester City",
+      "market": "less than 4.5 cards",
+      "score": 132.67,
+      "confidence": 74.8,
+      "prediction": 99.23,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "6/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/6",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "home + away agreement (+10.9)",
+        "Team season rates estimate 3.33 total; supports Under 4.5 (+9.2)."
+      ],
+      "penalties": [],
+      "rank": 2,
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      }
+    },
+    {
+      "home": "Amorebieta",
+      "away": "UD Logroñés",
+      "market": "UD Logroñés no clean sheet",
+      "score": 111.2,
+      "confidence": 85.14,
+      "prediction": 94.67,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "5/7",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+20.4)",
+        "opponent first to score supports no clean sheet (+9.4)"
+      ],
+      "penalties": [],
+      "rank": 3,
+      "league": {
+        "id": 143,
+        "name": "Copa del Rey"
+      }
+    },
+    {
+      "home": "Cardiff",
+      "away": "West Ham",
+      "market": "less than 4.5 cards",
+      "score": 109.39,
+      "confidence": 79.17,
+      "prediction": 86.6,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "9/10",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+17.9)",
+        "Team season rates estimate 4.08 total; supports Under 4.5 (+13.7)."
+      ],
+      "penalties": [],
+      "rank": 4,
+      "league": {
+        "id": 40,
+        "name": "Championship"
+      }
+    },
+    {
+      "home": "RB Leipzig",
+      "away": "Manchester City",
+      "market": "both teams scoring",
+      "score": 107.29,
+      "confidence": 75.0,
+      "prediction": 80.47,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "5/6",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Both teams scoring",
+          "value": "5/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+16.4)",
+        "both teams no clean sheet → BTTS (+25.4)"
+      ],
+      "penalties": [],
+      "rank": 5,
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      }
+    },
+    {
+      "home": "Kortrijk",
+      "away": "KV Mechelen",
+      "market": "Kortrijk no clean sheet",
+      "score": 104.15,
+      "confidence": 84.43,
+      "prediction": 87.94,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "15",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "5/7",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+13.9)",
+        "opponent first to score supports no clean sheet (+9.4)"
+      ],
+      "penalties": [],
+      "rank": 6,
+      "league": {
+        "id": 144,
+        "name": "Jupiler Pro League"
+      }
+    },
+    {
+      "home": "AEK Athens FC",
+      "away": "Real Madrid",
+      "market": "more than 2.5 goals",
+      "score": 100.41,
+      "confidence": 82.74,
+      "prediction": 83.08,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "7/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "5/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+12.7)",
+        "Team season rates estimate 4.33 total; supports Over 2.5 (+11.0)."
+      ],
+      "penalties": [],
+      "rank": 7,
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      }
+    },
+    {
+      "home": "Cardiff",
+      "away": "West Ham",
+      "market": "more than 2.5 goals",
+      "score": 100.15,
+      "confidence": 75.0,
+      "prediction": 75.11,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "8/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)",
+        "Team season rates estimate 3.46 total; supports Over 2.5 (+20.6)."
+      ],
+      "penalties": [],
+      "rank": 8,
+      "league": {
+        "id": 40,
+        "name": "Championship"
+      }
+    },
+    {
+      "home": "Wrexham",
+      "away": "Middlesbrough",
+      "market": "Wrexham no clean sheet",
+      "score": 95.65,
+      "confidence": 80.59,
+      "prediction": 77.09,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "8",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+13.9)",
+        "opponent first to score supports no clean sheet (+10.9)"
+      ],
+      "penalties": [],
+      "rank": 9,
+      "league": {
+        "id": 40,
+        "name": "Championship"
+      }
+    },
+    {
+      "home": "Wrexham",
+      "away": "Middlesbrough",
+      "market": "less than 4.5 cards",
+      "score": 90.7,
+      "confidence": 83.33,
+      "prediction": 75.58,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "Team season rates estimate 2.38 total; supports Under 4.5 (+48.7)."
+      ],
+      "penalties": [],
+      "rank": 10,
+      "league": {
+        "id": 40,
+        "name": "Championship"
+      }
+    },
+    {
+      "home": "Wrexham",
+      "away": "Middlesbrough",
+      "market": "Middlesbrough no losses",
+      "score": 84.74,
+      "confidence": 80.59,
+      "prediction": 68.29,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "No losses",
+          "value": "8",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "No losses",
+          "value": "3",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+13.9)"
+      ],
+      "penalties": [],
+      "rank": 11,
+      "league": {
+        "id": 40,
+        "name": "Championship"
+      }
+    }
+  ],
+  "worth_watching": {
+    "Viking - Sabah FA": {
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      },
+      "odds": {
+        "home_win": 1.44,
+        "draw": 4.75,
+        "away_win": 6.5
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "medium",
+        "red_card_probability": "medium",
+        "high_yellow_card_tendency": false
+      }
+    }
+  },
+  "ai_pick": "### RB Leipzig - Manchester City\n\n1. More than 2.5 goals  \n2. Less than 4.5 cards  \n3. Both teams scoring  \n\n### Amorebieta - UD Logroñés\n\n4. UD Logroñés no clean sheet  \n\n### Cardiff - West Ham\n\n5. Less than 4.5 cards  \n6. More than 2.5 goals  \n\n### Kortrijk - KV Mechelen\n\n7. Kortrijk no clean sheet  \n\n### AEK Athens FC - Real Madrid\n\n8. More than 2.5 goals  \n\n### Wrexham - Middlesbrough\n\n9. Wrexham no clean sheet  \n10. Less than 4.5 cards"
+}
