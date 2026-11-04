@@ -1,0 +1,635 @@
+{
+  "date": "20261105",
+  "predictions": [
+    {
+      "home": "FC Copenhagen",
+      "away": "FC Iberia 1999",
+      "market": "less than 10.5 corners",
+      "score": 108.29,
+      "confidence": 85.28,
+      "prediction": 92.35,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "8/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "7/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+13.4)",
+        "Team season rates estimate 5.50 total; supports Under 10.5 (+11.4)."
+      ],
+      "penalties": [],
+      "rank": 1,
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      }
+    },
+    {
+      "home": "Anderlecht",
+      "away": "Red Bull Salzburg",
+      "market": "less than 10.5 corners",
+      "score": 106.26,
+      "confidence": 83.96,
+      "prediction": 89.22,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "8/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)",
+        "Team season rates estimate 7.33 total; supports Under 10.5 (+13.5)."
+      ],
+      "penalties": [],
+      "rank": 2,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "Sturm Graz",
+      "away": "Celje",
+      "market": "less than 10.5 corners",
+      "score": 96.42,
+      "confidence": 75.0,
+      "prediction": 72.32,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "8/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)",
+        "Team season rates estimate 5.67 total; supports Under 10.5 (+16.9)."
+      ],
+      "penalties": [],
+      "rank": 3,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "Atalanta",
+      "away": "Kairat Almaty",
+      "market": "less than 4.5 cards",
+      "score": 95.17,
+      "confidence": 79.17,
+      "prediction": 75.34,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)",
+        "Team season rates estimate 3.50 total; supports Under 4.5 (+5.4)."
+      ],
+      "penalties": [],
+      "rank": 4,
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      }
+    },
+    {
+      "home": "Universitatea Craiova",
+      "away": "Egnatia Rrogozhinë",
+      "market": "less than 10.5 corners",
+      "score": 95.08,
+      "confidence": 79.84,
+      "prediction": 75.92,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "8/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)",
+        "Team season rates estimate 8.00 total; supports Under 10.5 (+7.6)."
+      ],
+      "penalties": [],
+      "rank": 5,
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      }
+    },
+    {
+      "home": "Twente",
+      "away": "Pafos",
+      "market": "less than 4.5 cards",
+      "score": 95.04,
+      "confidence": 79.35,
+      "prediction": 75.42,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)",
+        "Team season rates estimate 2.50 total; supports Under 4.5 (+9.4)."
+      ],
+      "penalties": [],
+      "rank": 6,
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      }
+    },
+    {
+      "home": "Anderlecht",
+      "away": "Red Bull Salzburg",
+      "market": "more than 2.5 goals",
+      "score": 94.74,
+      "confidence": 84.56,
+      "prediction": 80.11,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "8/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "6/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+13.4)"
+      ],
+      "penalties": [],
+      "rank": 7,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "Lillestrom",
+      "away": "Plzen",
+      "market": "less than 4.5 cards",
+      "score": 91.27,
+      "confidence": 78.57,
+      "prediction": 71.71,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "4/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+9.8)",
+        "Team season rates estimate 2.67 total; supports Under 4.5 (+13.2)."
+      ],
+      "penalties": [],
+      "rank": 8,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "Celtic",
+      "away": "Beşiktaş",
+      "market": "more than 2.5 goals",
+      "score": 90.56,
+      "confidence": 75.0,
+      "prediction": 67.92,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "8/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)",
+        "Team season rates estimate 4.33 total; supports Over 2.5 (+11.0)."
+      ],
+      "penalties": [],
+      "rank": 9,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "Lincoln Red Imps FC",
+      "away": "HNK Hajduk Split",
+      "market": "more than 2.5 goals",
+      "score": 89.67,
+      "confidence": 77.53,
+      "prediction": 69.52,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "5/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "6/8",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "5/5",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+10.4)",
+        "both teams first-score tendencies → over goals (+7.6)",
+        "Team season rates estimate 3.00 total; supports Over 2.5 (+1.8)."
+      ],
+      "penalties": [],
+      "rank": 10,
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      }
+    },
+    {
+      "home": "Real Sociedad",
+      "away": "Lyon",
+      "market": "less than 4.5 cards",
+      "score": 88.46,
+      "confidence": 76.41,
+      "prediction": 67.59,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "6/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)",
+        "Team season rates estimate 3.33 total; supports Under 4.5 (+9.2)."
+      ],
+      "penalties": [],
+      "rank": 11,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "FC Midtjylland",
+      "away": "Ajax",
+      "market": "both teams scoring",
+      "score": 87.88,
+      "confidence": 78.38,
+      "prediction": 68.88,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "8/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "8/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [],
+      "rank": 12,
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      }
+    },
+    {
+      "home": "Levski Sofia",
+      "away": "Jagiellonia",
+      "market": "less than 4.5 cards",
+      "score": 87.54,
+      "confidence": 79.6,
+      "prediction": 69.68,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "6/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "4/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+9.8)",
+        "Team season rates estimate 3.67 total; supports Under 4.5 (+7.0)."
+      ],
+      "penalties": [],
+      "rank": 13,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "Hapoel Beer Sheva",
+      "away": "OFI",
+      "market": "more than 4.5 cards",
+      "score": 87.11,
+      "confidence": 83.66,
+      "prediction": 72.88,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 4.5 cards",
+          "value": "5/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 4.5 cards",
+          "value": "8/9",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+12.9)"
+      ],
+      "penalties": [
+        "Team season rates estimate 4.00 total; conflicts with Over 4.5 (-4.6)."
+      ],
+      "rank": 14,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "Sparta Praha",
+      "away": "Bournemouth",
+      "market": "more than 4.5 cards",
+      "score": 87.1,
+      "confidence": 81.25,
+      "prediction": 70.77,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 4.5 cards",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 4.5 cards",
+          "value": "6/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)",
+        "Team season rates estimate 5.00 total; supports Over 4.5 (+2.1)."
+      ],
+      "penalties": [],
+      "rank": 15,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "Mjallby AIF",
+      "away": "Borac Banja Luka",
+      "market": "less than 4.5 cards",
+      "score": 84.98,
+      "confidence": 80.56,
+      "prediction": 68.46,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "6/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "9/9",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.4)"
+      ],
+      "penalties": [
+        "Team season rates estimate 5.50 total; conflicts with Under 4.5 (-3.4)."
+      ],
+      "rank": 16,
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      }
+    }
+  ],
+  "worth_watching": {
+    "Sturm Graz - Celje": {
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      },
+      "odds": {
+        "home_win": 1.53,
+        "draw": 4.33,
+        "away_win": 5.75
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "medium",
+        "red_card_probability": "low",
+        "high_yellow_card_tendency": false
+      }
+    },
+    "Sunderland - Dinamo Zagreb": {
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      },
+      "odds": {
+        "home_win": 1.48,
+        "draw": 4.75,
+        "away_win": 6.25
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "medium",
+        "red_card_probability": "medium",
+        "high_yellow_card_tendency": false
+      }
+    },
+    "Monaco - FC Nordsjaelland": {
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      },
+      "odds": {
+        "home_win": 1.42,
+        "draw": 5.0,
+        "away_win": 6.5
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "low",
+        "red_card_probability": "medium",
+        "high_yellow_card_tendency": true
+      }
+    },
+    "Panathinaikos - CSKA Sofia": {
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      },
+      "odds": {
+        "home_win": 1.45,
+        "draw": 4.5,
+        "away_win": 6.5
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "medium",
+        "red_card_probability": "medium",
+        "high_yellow_card_tendency": false
+      }
+    },
+    "Universitatea Craiova - Egnatia Rrogozhinë": {
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      },
+      "odds": {
+        "home_win": 1.45,
+        "draw": 4.5,
+        "away_win": 6.5
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "low",
+        "red_card_probability": "medium",
+        "high_yellow_card_tendency": false
+      }
+    }
+  },
+  "ai_pick": "### FC Copenhagen - FC Iberia 1999\n\n1. Less than 10.5 corners\n\n### Anderlecht - Red Bull Salzburg\n\n2. More than 2.5 goals  \n3. Less than 10.5 corners\n\n### Atalanta - Kairat Almaty\n\n4. Less than 4.5 cards\n\n### Twente - Pafos\n\n5. Less than 4.5 cards\n\n### Sturm Graz - Celje\n\n6. Less than 10.5 corners\n\n### Celtic - Beşiktaş\n\n7. More than 2.5 goals\n\n### Lincoln Red Imps FC - HNK Hajduk Split\n\n8. More than 2.5 goals\n\n### Lillestrom - Plzen\n\n9. Less than 4.5 cards\n\n### FC Midtjylland - Ajax\n\n10. Both teams scoring"
+}
