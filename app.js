@@ -3047,9 +3047,10 @@ updateFilters();
 $('#previous-month').addEventListener(
   'click',
   () => {
-    state.month.setMonth(
-      state.month.getMonth() -
-        1
+    state.month = new Date(
+      state.month.getFullYear(),
+      state.month.getMonth() - 1,
+      1
     );
 
     renderCalendar();
@@ -3059,9 +3060,10 @@ $('#previous-month').addEventListener(
 $('#next-month').addEventListener(
   'click',
   () => {
-    state.month.setMonth(
-      state.month.getMonth() +
-        1
+    state.month = new Date(
+      state.month.getFullYear(),
+      state.month.getMonth() + 1,
+      1
     );
 
     renderCalendar();
