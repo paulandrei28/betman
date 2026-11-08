@@ -1,0 +1,72 @@
+{
+  "date": "20261109",
+  "predictions": [
+    {
+      "home": "Sabadell",
+      "away": "Real Sociedad II",
+      "market": "more than 4.5 cards",
+      "score": 101.69,
+      "confidence": 73.24,
+      "prediction": 74.48,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 4.5 cards",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 4.5 cards",
+          "value": "4/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+9.8)",
+        "Team season rates estimate 6.25 total; supports Over 4.5 (+29.6)."
+      ],
+      "penalties": [],
+      "rank": 1,
+      "league": {
+        "id": 141,
+        "name": "Segunda División"
+      }
+    },
+    {
+      "home": "Plymouth Parkway",
+      "away": "Berkhamsted",
+      "market": "less than 4.5 cards",
+      "score": 98.48,
+      "confidence": 88.2,
+      "prediction": 86.86,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "6/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+13.8)"
+      ],
+      "penalties": [],
+      "rank": 2,
+      "league": {
+        "id": 45,
+        "name": "FA Cup"
+      }
+    }
+  ],
+  "worth_watching": {},
+  "ai_pick": "### Plymouth Parkway - Berkhamsted\n\n1. Less than 4.5 cards\n\n### Sabadell - Real Sociedad II\n\n2. More than 4.5 cards"
+}
