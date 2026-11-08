@@ -551,6 +551,61 @@ const translateMarket = (value) => {
   return result;
 };
 
+function predictionMarketLabel(prediction) {
+  const market = String(
+    prediction?.market || ''
+  );
+  const match = market.match(
+    /^(.*?)\s+(?:no|without) clean sheet$/i
+  );
+
+  if (!match) return market;
+
+  const selectedTeam = match[1]
+    .trim()
+    .toLowerCase();
+  const game = String(
+    prediction?._game || ''
+  );
+  const separator = game.indexOf(' - ');
+  const home = String(
+    prediction?.home ||
+      (separator >= 0
+        ? game.slice(0, separator)
+        : '')
+  ).trim();
+  const away = String(
+    prediction?.away ||
+      (separator >= 0
+        ? game.slice(separator + 3)
+        : '')
+  ).trim();
+
+  const opponent =
+    selectedTeam === home.toLowerCase()
+      ? away
+      : selectedTeam === away.toLowerCase()
+      ? home
+      : '';
+
+  return opponent
+    ? `${opponent} to score`
+    : market;
+}
+
+function displayPredictionMarket(prediction) {
+  const market = predictionMarketLabel(
+    prediction
+  );
+
+  return state.lang === 'ro'
+    ? translateMarket(market).replace(
+        /\bto score\b/gi,
+        'marcheaz\u0103'
+      )
+    : market;
+}
+
 /* =========================================================
    PREDICTION CATEGORY
    ========================================================= */
@@ -930,7 +985,7 @@ function renderPrediction(
   summary = `#${escapeHtml(
     prediction.rank ?? '-'
   )} - ${escapeHtml(
-    prediction.market
+    displayPredictionMarket(prediction)
   )}`
 ) {
   const bonuses =
@@ -943,12 +998,9 @@ function renderPrediction(
       (value) => ({ value })
     ) || [];
 
-  const market =
-    state.lang === 'ro'
-      ? translateMarket(
-          prediction.market
-        )
-      : prediction.market;
+  const market = displayPredictionMarket(
+    prediction
+  );
 
   const translatedSummary =
     summary.replace(
@@ -1225,9 +1277,7 @@ function bestRank(items) {
 
 function predictionSummary(prediction) {
   return escapeHtml(
-    state.lang === 'ro'
-      ? translateMarket(prediction.market)
-      : prediction.market
+    displayPredictionMarket(prediction)
   );
 }
 
@@ -1613,6 +1663,23 @@ function renderTop(
    REPORT
    ========================================================= */
 
+function displayAiPickMarket(text, game) {
+  const gameText = String(game || '');
+  const separator = gameText.indexOf(' - ');
+
+  if (separator < 0) {
+    return state.lang === 'ro'
+      ? translateMarket(text)
+      : text;
+  }
+
+  return displayPredictionMarket({
+    market: text,
+    home: gameText.slice(0, separator),
+    away: gameText.slice(separator + 3),
+  });
+}
+
 function renderAiPick(markdown) {
   const groups = [];
 
@@ -1655,9 +1722,10 @@ function renderAiPick(markdown) {
                 <li class="ai-pick-item">
                   <span class="ai-pick-rank">${escapeHtml(rank)}</span>
                   <span>${escapeHtml(
-                    state.lang === 'ro'
-                      ? translateMarket(text)
-                      : text
+                    displayAiPickMarket(
+                      text,
+                      title
+                    )
                   )}</span>
                 </li>
               `
