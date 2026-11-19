@@ -854,5 +854,6 @@
         "high_yellow_card_tendency": null
       }
     }
-  }
+  },
+  "ai_pick": "### Nancy - Dijon\n\n1. Less than 4.5 cards\n\n2. Less than 10.5 corners\n\n3. More than 2.5 goals\n\n### Bayern München - 1. FC Köln\n\n4. Bayern München no losses\n\n5. Both teams scoring\n\n### SV Darmstadt 98 - 1. FC Heidenheim\n\n6. More than 10.5 corners\n\n7. Both teams scoring\n\n### Cercle Brugge - KVC Westerlo\n\n8. More than 2.5 goals\n\n### FC Andorra - Leganes\n\n9. Less than 10.5 corners\n\n### FC Botosani - FC Voluntari\n\n10. Both teams scoring"
 }
