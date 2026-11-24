@@ -1,0 +1,500 @@
+{
+  "date": "20261125",
+  "predictions": [
+    {
+      "home": "Burnley",
+      "away": "Birmingham",
+      "market": "more than 2.5 goals",
+      "score": 150.2,
+      "confidence": 73.52,
+      "prediction": 110.42,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "6/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "5/7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 2.5 goals",
+          "value": "9/10",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "8/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "6/8",
+          "team": "away"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "15",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+15.5)",
+        "home + away agreement (+9.4)",
+        "both teams first-score tendencies → over goals (+7.3)",
+        "both teams no-clean-sheet tendencies → over goals (+4.2)",
+        "Team season rates estimate 3.12 total; supports Over 2.5 (+12.5)."
+      ],
+      "penalties": [],
+      "rank": 1,
+      "league": {
+        "id": 40,
+        "name": "Championship"
+      }
+    },
+    {
+      "home": "Bolton",
+      "away": "West Brom",
+      "market": "both teams scoring",
+      "score": 119.05,
+      "confidence": 73.63,
+      "prediction": 87.65,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "6/7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Both teams scoring",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "home + away agreement (+9.8)"
+      ],
+      "penalties": [],
+      "rank": 2,
+      "league": {
+        "id": 40,
+        "name": "Championship"
+      }
+    },
+    {
+      "home": "Watford",
+      "away": "Blackburn",
+      "market": "more than 4.5 cards",
+      "score": 118.62,
+      "confidence": 69.39,
+      "prediction": 82.31,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 4.5 cards",
+          "value": "5/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 4.5 cards",
+          "value": "5/6",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 4.5 cards",
+          "value": "5/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.1)",
+        "home + away agreement (+9.4)",
+        "Team season rates estimate 5.44 total; supports Over 4.5 (+15.9)."
+      ],
+      "penalties": [
+        "Referee averages conflict with Over 4.5 (10.0 penalty; averages 3.00 and 3.37)."
+      ],
+      "rank": 3,
+      "league": {
+        "id": 40,
+        "name": "Championship"
+      }
+    },
+    {
+      "home": "Burnley",
+      "away": "Birmingham",
+      "market": "both teams scoring",
+      "score": 114.45,
+      "confidence": 76.35,
+      "prediction": 87.38,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "6/7",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Both teams scoring",
+          "value": "8/10",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "15",
+          "team": "away"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "8/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "6/8",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+17.8)",
+        "both teams no clean sheet → BTTS (+18.5)",
+        "both teams first to score patterns → BTTS (+6.7)"
+      ],
+      "penalties": [],
+      "rank": 4,
+      "league": {
+        "id": 40,
+        "name": "Championship"
+      }
+    },
+    {
+      "home": "Paris Saint Germain",
+      "away": "AS Roma",
+      "market": "less than 4.5 cards",
+      "score": 112.97,
+      "confidence": 82.17,
+      "prediction": 92.83,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "4/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+9.8)",
+        "Team season rates estimate 2.25 total; supports Under 4.5 (+20.3).",
+        "Referee averages below 4 cards/game; supports Under 4.5 (+5.0)."
+      ],
+      "penalties": [],
+      "rank": 5,
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      }
+    },
+    {
+      "home": "Paris Saint Germain",
+      "away": "AS Roma",
+      "market": "more than 2.5 goals",
+      "score": 110.6,
+      "confidence": 81.73,
+      "prediction": 90.39,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "8/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "7/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)",
+        "Team season rates estimate 5.38 total; supports Over 2.5 (+19.4)."
+      ],
+      "penalties": [],
+      "rank": 6,
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      }
+    },
+    {
+      "home": "Sabah FA",
+      "away": "Barcelona",
+      "market": "more than 2.5 goals",
+      "score": 110.05,
+      "confidence": 84.94,
+      "prediction": 93.48,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "6/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "10/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)",
+        "Team season rates estimate 4.25 total; supports Over 2.5 (+14.2)."
+      ],
+      "penalties": [],
+      "rank": 7,
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      }
+    },
+    {
+      "home": "Mantova",
+      "away": "Arezzo",
+      "market": "less than 10.5 corners",
+      "score": 104.75,
+      "confidence": 73.24,
+      "prediction": 76.72,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "4/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+9.8)",
+        "Team season rates estimate 8.42 total; supports Under 10.5 (+32.7)."
+      ],
+      "penalties": [],
+      "rank": 8,
+      "league": {
+        "id": 136,
+        "name": "Serie B"
+      }
+    },
+    {
+      "home": "Bolton",
+      "away": "West Brom",
+      "market": "less than 4.5 cards",
+      "score": 91.85,
+      "confidence": 78.57,
+      "prediction": 72.17,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "4/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+9.8)",
+        "Team season rates estimate 3.69 total; supports Under 4.5 (+22.8)."
+      ],
+      "penalties": [
+        "Referee averages conflict with Under 4.5 (8.9 penalty; averages 4.39 and 4.74)."
+      ],
+      "rank": 9,
+      "league": {
+        "id": 40,
+        "name": "Championship"
+      }
+    },
+    {
+      "home": "Pisa",
+      "away": "Modena",
+      "market": "Modena no losses",
+      "score": 87.79,
+      "confidence": 80.28,
+      "prediction": 70.48,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "No losses",
+          "value": "5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "No losses",
+          "value": "5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+17.6)"
+      ],
+      "penalties": [],
+      "rank": 10,
+      "league": {
+        "id": 136,
+        "name": "Serie B"
+      }
+    }
+  ],
+  "worth_watching": {
+    "Slavia Praha - Villarreal": {
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      },
+      "odds": {
+        "home_win": 3.1,
+        "draw": 3.9,
+        "away_win": 2.1
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "low",
+        "red_card_probability": "medium",
+        "high_yellow_card_tendency": true
+      }
+    },
+    "Cremonese - Avellino": {
+      "league": {
+        "id": 136,
+        "name": "Serie B"
+      },
+      "odds": {
+        "home_win": 1.91,
+        "draw": 3.1,
+        "away_win": 4.33
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "high",
+        "red_card_probability": "medium",
+        "high_yellow_card_tendency": false
+      }
+    },
+    "Mantova - Arezzo": {
+      "league": {
+        "id": 136,
+        "name": "Serie B"
+      },
+      "odds": {
+        "home_win": 1.63,
+        "draw": 3.75,
+        "away_win": 5.0
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "high",
+        "red_card_probability": "medium",
+        "high_yellow_card_tendency": false
+      }
+    },
+    "Inter - VfB Stuttgart": {
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      },
+      "odds": {
+        "home_win": 1.4,
+        "draw": 5.5,
+        "away_win": 6.25
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "low",
+        "red_card_probability": "medium",
+        "high_yellow_card_tendency": false
+      }
+    },
+    "Paris Saint Germain - AS Roma": {
+      "league": {
+        "id": 2,
+        "name": "UEFA Champions League"
+      },
+      "odds": {
+        "home_win": 1.42,
+        "draw": 4.75,
+        "away_win": 7.0
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "medium",
+        "red_card_probability": "low",
+        "high_yellow_card_tendency": false
+      }
+    }
+  },
+  "ai_pick": "### Burnley - Birmingham\n\n1. More than 2.5 goals  \n2. Both teams scoring\n\n### Bolton - West Brom\n\n3. Both teams scoring\n\n### Paris Saint Germain - AS Roma\n\n4. Less than 4.5 cards  \n5. More than 2.5 goals\n\n### Sabah FA - Barcelona\n\n6. More than 2.5 goals\n\n### Mantova - Arezzo\n\n7. Less than 10.5 corners\n\n### Pisa - Modena\n\n8. Modena no losses"
+}
