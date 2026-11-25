@@ -1,0 +1,579 @@
+{
+  "date": "20261126",
+  "predictions": [
+    {
+      "home": "Inter Club d'Escaldes",
+      "away": "FC Copenhagen",
+      "market": "less than 10.5 corners",
+      "score": 108.53,
+      "confidence": 84.39,
+      "prediction": 91.59,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "7/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "7/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+12.7)",
+        "Team season rates estimate 7.00 total; supports Under 10.5 (+14.5)."
+      ],
+      "penalties": [],
+      "rank": 1,
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      }
+    },
+    {
+      "home": "Beşiktaş",
+      "away": "Hapoel Beer Sheva",
+      "market": "less than 10.5 corners",
+      "score": 105.46,
+      "confidence": 78.9,
+      "prediction": 83.21,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "7/8",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)",
+        "Team season rates estimate 6.75 total; supports Under 10.5 (+20.1)."
+      ],
+      "penalties": [],
+      "rank": 2,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "Plzen",
+      "away": "Benfica",
+      "market": "more than 2.5 goals",
+      "score": 98.9,
+      "confidence": 77.45,
+      "prediction": 76.6,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "8/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "7/8",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "5/5",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+11.9)",
+        "both teams first-score tendencies → over goals (+6.9)",
+        "Team season rates estimate 3.25 total; supports Over 2.5 (+6.3)."
+      ],
+      "penalties": [],
+      "rank": 3,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "Red Bull Salzburg",
+      "away": "Ararat-Armenia",
+      "market": "less than 10.5 corners",
+      "score": 98.65,
+      "confidence": 77.75,
+      "prediction": 76.7,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "9/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "4/5",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+9.8)",
+        "Team season rates estimate 7.50 total; supports Under 10.5 (+17.4)."
+      ],
+      "penalties": [],
+      "rank": 4,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "FC Iberia 1999",
+      "away": "Getafe",
+      "market": "less than 10.5 corners",
+      "score": 93.08,
+      "confidence": 82.04,
+      "prediction": 76.37,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "7/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)",
+        "Team season rates estimate 9.33 total; supports Under 10.5 (+6.0)."
+      ],
+      "penalties": [],
+      "rank": 5,
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      }
+    },
+    {
+      "home": "Plzen",
+      "away": "Benfica",
+      "market": "both teams scoring",
+      "score": 92.6,
+      "confidence": 76.33,
+      "prediction": 70.68,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "7/9",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "7/8",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "5/5",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+11.2)",
+        "both teams first to score patterns → BTTS (+9.8)"
+      ],
+      "penalties": [],
+      "rank": 6,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "Olympiakos Piraeus",
+      "away": "AC Milan",
+      "market": "AC Milan no clean sheet",
+      "score": 88.55,
+      "confidence": 76.83,
+      "prediction": 68.03,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "8/10",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+13.9)",
+        "opponent first to score supports no clean sheet (+11.7)"
+      ],
+      "penalties": [],
+      "rank": 7,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "NEC Nijmegen",
+      "away": "Rennes",
+      "market": "both teams scoring",
+      "score": 86.78,
+      "confidence": 78.08,
+      "prediction": 67.75,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "9/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Both teams scoring",
+          "value": "7/9",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.2)"
+      ],
+      "penalties": [],
+      "rank": 8,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "Lyon",
+      "away": "Lillestrom",
+      "market": "less than 4.5 cards",
+      "score": 84.69,
+      "confidence": 77.56,
+      "prediction": 65.69,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/8",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)",
+        "Team season rates estimate 3.50 total; supports Under 4.5 (+10.8)."
+      ],
+      "penalties": [
+        "Referee averages conflict with Under 4.5 (7.8 penalty; averages 4.47 and 4.31)."
+      ],
+      "rank": 9,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "Ferencvarosi TC",
+      "away": "Celje",
+      "market": "less than 4.5 cards",
+      "score": 84.04,
+      "confidence": 84.56,
+      "prediction": 71.06,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "6/6",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/9",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+13.4)"
+      ],
+      "penalties": [
+        "Team season rates estimate 4.75 total; conflicts with Under 4.5 (-0.7).",
+        "Referee averages conflict with Under 4.5 (10.0 penalty; averages 4.66 and 5.17)."
+      ],
+      "rank": 10,
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      }
+    },
+    {
+      "home": "Brighton",
+      "away": "Universitatea Craiova",
+      "market": "less than 10.5 corners",
+      "score": 81.29,
+      "confidence": 81.73,
+      "prediction": 66.44,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "7/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "8/10",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+11.9)"
+      ],
+      "penalties": [
+        "Team season rates estimate 13.33 total; conflicts with Under 10.5 (-9.9)."
+      ],
+      "rank": 11,
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      }
+    }
+  ],
+  "worth_watching": {
+    "Kairat Almaty - Mjallby AIF": {
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      },
+      "odds": {
+        "home_win": 2.15,
+        "draw": 3.5,
+        "away_win": 3.1
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "high",
+        "red_card_probability": "low",
+        "high_yellow_card_tendency": false
+      }
+    },
+    "Union St. Gilloise - Lech Poznan": {
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      },
+      "odds": {
+        "home_win": 1.33,
+        "draw": 5.25,
+        "away_win": 8.0
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "high",
+        "red_card_probability": "medium",
+        "high_yellow_card_tendency": false
+      }
+    },
+    "Red Bull Salzburg - Ararat-Armenia": {
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      },
+      "odds": {
+        "home_win": 1.17,
+        "draw": 7.5,
+        "away_win": 17.0
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "low",
+        "red_card_probability": "medium",
+        "high_yellow_card_tendency": true
+      }
+    },
+    "Egnatia Rrogozhinë - Lincoln Red Imps FC": {
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      },
+      "odds": {
+        "home_win": 1.53,
+        "draw": 4.2,
+        "away_win": 5.5
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "low",
+        "red_card_probability": "medium",
+        "high_yellow_card_tendency": false
+      }
+    },
+    "FC Iberia 1999 - Getafe": {
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      },
+      "odds": {
+        "home_win": 7.0,
+        "draw": 4.2,
+        "away_win": 1.44
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "medium",
+        "red_card_probability": "low",
+        "high_yellow_card_tendency": true
+      }
+    },
+    "Ferencvarosi TC - Celje": {
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      },
+      "odds": {
+        "home_win": 1.36,
+        "draw": 5.0,
+        "away_win": 8.0
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "medium",
+        "red_card_probability": "high",
+        "high_yellow_card_tendency": false
+      }
+    },
+    "Sparta Praha - AZ Alkmaar": {
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      },
+      "odds": {
+        "home_win": 2.9,
+        "draw": 3.6,
+        "away_win": 2.3
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "medium",
+        "red_card_probability": "high",
+        "high_yellow_card_tendency": false
+      }
+    },
+    "Sunderland - Jagiellonia": {
+      "league": {
+        "id": 3,
+        "name": "UEFA Europa League"
+      },
+      "odds": {
+        "home_win": 1.22,
+        "draw": 6.0,
+        "away_win": 15.0
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "low",
+        "red_card_probability": "low",
+        "high_yellow_card_tendency": true
+      }
+    },
+    "CSKA Sofia - Trabzonspor": {
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      },
+      "odds": {
+        "home_win": 4.1,
+        "draw": 3.7,
+        "away_win": 1.8
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "high",
+        "red_card_probability": "medium",
+        "high_yellow_card_tendency": false
+      }
+    },
+    "Inter Club d'Escaldes - FC Copenhagen": {
+      "league": {
+        "id": 848,
+        "name": "UEFA Europa Conference League"
+      },
+      "odds": {
+        "home_win": 15.0,
+        "draw": 6.0,
+        "away_win": 1.2
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "medium",
+        "red_card_probability": "high",
+        "high_yellow_card_tendency": false
+      }
+    }
+  },
+  "ai_pick": "### Inter Club d'Escaldes - FC Copenhagen\n\n1. Less than 10.5 corners\n\n### Beşiktaş - Hapoel Beer Sheva\n\n2. Less than 10.5 corners\n\n### Plzen - Benfica\n\n3. More than 2.5 goals  \n4. Both teams scoring\n\n### Red Bull Salzburg - Ararat-Armenia\n\n5. Less than 10.5 corners\n\n### FC Iberia 1999 - Getafe\n\n6. Less than 10.5 corners\n\n### Olympiakos Piraeus - AC Milan\n\n7. AC Milan no clean sheet\n\n### NEC Nijmegen - Rennes\n\n8. Both teams scoring"
+}
