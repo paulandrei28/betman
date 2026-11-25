@@ -27,7 +27,6 @@ python -m http.server 8000
 Then open <http://localhost:8000>.
 
 There is no build step. The deployed files are the app itself.
-
 Reports are stored in `data/reports/`, and `data/reports.json` lists the available reports. Generated files should not be edited by hand.
 
 ## Rebuilding reports
