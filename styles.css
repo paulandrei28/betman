@@ -528,7 +528,11 @@ body.report-focus {
   font-weight: 600;
 }
 
-.special-derby.is-derby { background: #fff0d6; color: #804600; }
+.special-derby.is-derby {
+  border: 1px solid var(--ink);
+  background: #e6f4fa;
+  color: var(--blue);
+}
 .special-discipline { display: grid; gap: 7px; }
 .special-section-label { margin-bottom: 0; }
 
