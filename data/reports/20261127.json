@@ -1,0 +1,833 @@
+{
+  "date": "20261127",
+  "predictions": [
+    {
+      "home": "Alanyaspor",
+      "away": "Konyaspor",
+      "market": "less than 10.5 corners",
+      "score": 187.69,
+      "confidence": 80.51,
+      "prediction": 151.11,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "7/9",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "9/9",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+17.8)",
+        "home + away agreement (+11.2)",
+        "Team season rates estimate 7.58 total; supports Under 10.5 (+42.6)."
+      ],
+      "penalties": [],
+      "rank": 1,
+      "league": {
+        "id": 203,
+        "name": "Süper Lig"
+      }
+    },
+    {
+      "home": "Universitatea Cluj",
+      "away": "Sepsi OSK Sfantu Gheorghe",
+      "market": "less than 4.5 cards",
+      "score": 144.65,
+      "confidence": 78.5,
+      "prediction": 113.55,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/10",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "7/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+17.9)",
+        "home + away agreement (+9.8)",
+        "Team season rates estimate 4.31 total; supports Under 4.5 (+8.2)."
+      ],
+      "penalties": [],
+      "rank": 2,
+      "league": {
+        "id": 283,
+        "name": "Liga I"
+      }
+    },
+    {
+      "home": "Werder Bremen",
+      "away": "Borussia Mönchengladbach",
+      "market": "less than 4.5 cards",
+      "score": 135.18,
+      "confidence": 80.02,
+      "prediction": 108.17,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "5/5",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "8/10",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+17.9)",
+        "home + away agreement (+12.7)"
+      ],
+      "penalties": [
+        "Team season rates estimate 4.70 total; conflicts with Under 4.5 (-0.6).",
+        "Referee averages conflict with Under 4.5 (7.3 penalty; averages 4.68 and 4.23)."
+      ],
+      "rank": 3,
+      "league": {
+        "id": 78,
+        "name": "Bundesliga"
+      }
+    },
+    {
+      "home": "Rizespor",
+      "away": "Kasımpaşa",
+      "market": "less than 10.5 corners",
+      "score": 134.55,
+      "confidence": 67.8,
+      "prediction": 91.22,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "5/7",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.1)",
+        "home + away agreement (+9.4)",
+        "Team season rates estimate 9.08 total; supports Under 10.5 (+23.5)."
+      ],
+      "penalties": [],
+      "rank": 4,
+      "league": {
+        "id": 203,
+        "name": "Süper Lig"
+      }
+    },
+    {
+      "home": "Groningen",
+      "away": "Willem II",
+      "market": "less than 4.5 cards",
+      "score": 134.4,
+      "confidence": 80.97,
+      "prediction": 108.82,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "8/10",
+          "team": "both"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 4.5 cards",
+          "value": "6/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+17.9)",
+        "Team season rates estimate 2.92 total; supports Under 4.5 (+39.4)."
+      ],
+      "penalties": [],
+      "rank": 5,
+      "league": {
+        "id": 88,
+        "name": "Eredivisie"
+      }
+    },
+    {
+      "home": "Groningen",
+      "away": "Willem II",
+      "market": "more than 2.5 goals",
+      "score": 132.99,
+      "confidence": 78.9,
+      "prediction": 104.93,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "7/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "6/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "15",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "home + away agreement (+11.9)",
+        "both teams no-clean-sheet tendencies → over goals (+9.5)",
+        "Team season rates estimate 4.42 total; supports Over 2.5 (+38.1)."
+      ],
+      "penalties": [],
+      "rank": 6,
+      "league": {
+        "id": 88,
+        "name": "Eredivisie"
+      }
+    },
+    {
+      "home": "Groningen",
+      "away": "Willem II",
+      "market": "less than 10.5 corners",
+      "score": 127.41,
+      "confidence": 76.8,
+      "prediction": 97.85,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/8",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "9/10",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+15.5)",
+        "Team season rates estimate 7.92 total; supports Under 10.5 (+38.8)."
+      ],
+      "penalties": [],
+      "rank": 7,
+      "league": {
+        "id": 88,
+        "name": "Eredivisie"
+      }
+    },
+    {
+      "home": "Leganes",
+      "away": "Sabadell",
+      "market": "more than 4.5 cards",
+      "score": 122.59,
+      "confidence": 82.69,
+      "prediction": 101.37,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 4.5 cards",
+          "value": "8/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 4.5 cards",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+10.9)",
+        "Team season rates estimate 6.53 total; supports Over 4.5 (+33.6)."
+      ],
+      "penalties": [],
+      "rank": 8,
+      "league": {
+        "id": 141,
+        "name": "Segunda División"
+      }
+    },
+    {
+      "home": "Maritimo",
+      "away": "Nacional",
+      "market": "less than 10.5 corners",
+      "score": 122.47,
+      "confidence": 74.7,
+      "prediction": 91.48,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "6/7",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "4/5",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "Team season rates estimate 7.57 total; supports Under 10.5 (+42.7)."
+      ],
+      "penalties": [],
+      "rank": 9,
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga"
+      }
+    },
+    {
+      "home": "Levante",
+      "away": "Racing Santander",
+      "market": "less than 10.5 corners",
+      "score": 119.98,
+      "confidence": 80.27,
+      "prediction": 96.31,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "5/5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "5/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+16.4)",
+        "Team season rates estimate 8.46 total; supports Under 10.5 (+32.1)."
+      ],
+      "penalties": [],
+      "rank": 10,
+      "league": {
+        "id": 140,
+        "name": "La Liga"
+      }
+    },
+    {
+      "home": "Rizespor",
+      "away": "Kasımpaşa",
+      "market": "more than 2.5 goals",
+      "score": 119.49,
+      "confidence": 68.91,
+      "prediction": 82.33,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "6/8",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "5/7",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 2.5 goals",
+          "value": "6/8",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "5/6",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+15.5)",
+        "home + away agreement (+9.4)",
+        "both teams first-score tendencies → over goals (+6.9)"
+      ],
+      "penalties": [
+        "Team season rates estimate 2.58 total; conflicts with Over 2.5 (-2.7)."
+      ],
+      "rank": 11,
+      "league": {
+        "id": 203,
+        "name": "Süper Lig"
+      }
+    },
+    {
+      "home": "Universitatea Cluj",
+      "away": "Sepsi OSK Sfantu Gheorghe",
+      "market": "less than 10.5 corners",
+      "score": 110.12,
+      "confidence": 70.68,
+      "prediction": 77.84,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 10.5 corners",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Less than 10.5 corners",
+          "value": "6/8",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "Team season rates estimate 8.25 total; supports Under 10.5 (+34.8)."
+      ],
+      "penalties": [],
+      "rank": 12,
+      "league": {
+        "id": 283,
+        "name": "Liga I"
+      }
+    },
+    {
+      "home": "Nottingham Forest",
+      "away": "Chelsea",
+      "market": "Nottingham Forest no clean sheet",
+      "score": 105.09,
+      "confidence": 83.74,
+      "prediction": 88.0,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "8",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "5/7",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+17.6)",
+        "opponent first to score supports no clean sheet (+9.4)"
+      ],
+      "penalties": [],
+      "rank": 13,
+      "league": {
+        "id": 39,
+        "name": "Premier League"
+      }
+    },
+    {
+      "home": "Groningen",
+      "away": "Willem II",
+      "market": "Willem II no clean sheet",
+      "score": 100.58,
+      "confidence": 85.94,
+      "prediction": 86.44,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "15",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+15.9)"
+      ],
+      "penalties": [],
+      "rank": 14,
+      "league": {
+        "id": 88,
+        "name": "Eredivisie"
+      }
+    },
+    {
+      "home": "1. FC Heidenheim",
+      "away": "1. FC Nürnberg",
+      "market": "more than 2.5 goals",
+      "score": 99.37,
+      "confidence": 73.24,
+      "prediction": 72.78,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 2.5 goals",
+          "value": "5/6",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+14.7)",
+        "Team season rates estimate 3.54 total; supports Over 2.5 (+22.4)."
+      ],
+      "penalties": [],
+      "rank": 15,
+      "league": {
+        "id": 79,
+        "name": "2. Bundesliga"
+      }
+    },
+    {
+      "home": "Saint-Omer",
+      "away": "Caen",
+      "market": "less than 4.5 cards",
+      "score": 99.06,
+      "confidence": 85.95,
+      "prediction": 85.14,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "10/10",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/8",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+12.7)"
+      ],
+      "penalties": [],
+      "rank": 16,
+      "league": {
+        "id": 66,
+        "name": "Coupe de France"
+      }
+    },
+    {
+      "home": "Alanyaspor",
+      "away": "Konyaspor",
+      "market": "Konyaspor no clean sheet",
+      "score": 96.02,
+      "confidence": 79.55,
+      "prediction": 76.38,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "away"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "head2head",
+          "name": "First to score",
+          "value": "6/6",
+          "team": "home"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+13.9)",
+        "opponent first to score supports no clean sheet (+13.6)"
+      ],
+      "penalties": [],
+      "rank": 17,
+      "league": {
+        "id": 203,
+        "name": "Süper Lig"
+      }
+    },
+    {
+      "home": "Alanyaspor",
+      "away": "Konyaspor",
+      "market": "more than 2.5 goals",
+      "score": 89.53,
+      "confidence": 79.35,
+      "prediction": 71.05,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "More than 2.5 goals",
+          "value": "5/6",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "More than 2.5 goals",
+          "value": "9/10",
+          "team": "both"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "7",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+16.4)",
+        "both teams no-clean-sheet tendencies → over goals (+8.9)"
+      ],
+      "penalties": [
+        "Team season rates estimate 2.33 total; conflicts with Over 2.5 (-10.5)."
+      ],
+      "rank": 18,
+      "league": {
+        "id": 203,
+        "name": "Süper Lig"
+      }
+    },
+    {
+      "home": "Venezia",
+      "away": "Bologna",
+      "market": "Venezia no clean sheet",
+      "score": 88.55,
+      "confidence": 76.83,
+      "prediction": 68.03,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "5",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "3",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [
+        {
+          "section": "general",
+          "name": "First to score",
+          "value": "7/8",
+          "team": "away"
+        }
+      ],
+      "bonuses": [
+        "general + H2H agreement (+13.9)",
+        "opponent first to score supports no clean sheet (+11.7)"
+      ],
+      "penalties": [],
+      "rank": 19,
+      "league": {
+        "id": 135,
+        "name": "Serie A"
+      }
+    },
+    {
+      "home": "Alanyaspor",
+      "away": "Konyaspor",
+      "market": "Alanyaspor no clean sheet",
+      "score": 85.66,
+      "confidence": 80.1,
+      "prediction": 68.61,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Without clean sheet",
+          "value": "6",
+          "team": "home"
+        },
+        {
+          "section": "head2head",
+          "name": "Without clean sheet",
+          "value": "4",
+          "team": "home"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "general + H2H agreement (+15.9)"
+      ],
+      "penalties": [],
+      "rank": 20,
+      "league": {
+        "id": 203,
+        "name": "Süper Lig"
+      }
+    },
+    {
+      "home": "Cannes",
+      "away": "Le Puy Foot",
+      "market": "less than 4.5 cards",
+      "score": 82.73,
+      "confidence": 80.42,
+      "prediction": 66.53,
+      "evidence": [
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "4/5",
+          "team": "home"
+        },
+        {
+          "section": "general",
+          "name": "Less than 4.5 cards",
+          "value": "7/7",
+          "team": "away"
+        }
+      ],
+      "supporting_evidence": [],
+      "bonuses": [
+        "home + away agreement (+9.8)"
+      ],
+      "penalties": [],
+      "rank": 21,
+      "league": {
+        "id": 66,
+        "name": "Coupe de France"
+      }
+    }
+  ],
+  "worth_watching": {
+    "Universitatea Cluj - Sepsi OSK Sfantu Gheorghe": {
+      "league": {
+        "id": 283,
+        "name": "Liga I"
+      },
+      "odds": {
+        "home_win": 1.53,
+        "draw": 3.75,
+        "away_win": 5.25
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "low",
+        "red_card_probability": "medium",
+        "high_yellow_card_tendency": false
+      }
+    },
+    "Groningen - Willem II": {
+      "league": {
+        "id": 88,
+        "name": "Eredivisie"
+      },
+      "odds": {
+        "home_win": 1.4,
+        "draw": 4.75,
+        "away_win": 7.5
+      },
+      "derby": false,
+      "stats": {
+        "penalty_probability": "insufficient_data",
+        "red_card_probability": "insufficient_data",
+        "high_yellow_card_tendency": null
+      }
+    }
+  },
+  "ai_pick": "### Alanyaspor - Konyaspor\n\n1. Less than 10.5 corners  \n2. Konyaspor no clean sheet  \n\n### Universitatea Cluj - Sepsi OSK Sfantu Gheorghe\n\n3. Less than 4.5 cards  \n\n### Groningen - Willem II\n\n4. Less than 4.5 cards  \n5. More than 2.5 goals  \n6. Willem II no clean sheet  \n7. Less than 10.5 corners  \n\n### Leganes - Sabadell\n\n8. More than 4.5 cards  \n\n### Maritimo - Nacional\n\n9. Less than 10.5 corners  \n\n### Levante - Racing Santander\n\n10. Less than 10.5 corners"
+}
